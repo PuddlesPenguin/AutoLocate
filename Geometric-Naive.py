@@ -17,6 +17,7 @@ from xyzservices import TileProvider
 from xyzservices import TileProvider
 
 FILENAME = "Map.png" # Change with Map file name
+COORDJSON = "Coord.geojson" # Change with points name
 flag=True # Flag = True means PixelMatch Naive Method (can also be used for Raster2Vec)
           # Flag = False means PixelAvg Naive Method
 pixel_size = 0.02587884152408056 # Latitude / Pixel
@@ -351,7 +352,7 @@ def get_true_points(filename):
 
 def main():
     png_path = FILENAME
-    true_locations = get_true_points()
+    true_locations = get_true_points(COORDJSON)
     img = Image.open(png_path)
     img_width, img_height = img.size
 

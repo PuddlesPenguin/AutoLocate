@@ -1,0 +1,345 @@
+import matplotlib.pyplot as plt
+import cartopy.crs as ccrs
+from PIL import Image
+from collections import Counter, defaultdict, deque
+import cartopy.feature as cfeature
+import random
+import math
+from geopy.distance import geodesic
+import numpy as np
+from scipy.optimize import linear_sum_assignment
+import json
+from itertools import product
+import sys
+from contextlib import redirect_stdout
+import json
+import os
+import random
+
+'''
+For map sources such as QGIS or R, we can not use the same script we used 
+for GeoPandas for map genration. We share a more efficient algorithm that involves
+the user generating maps manually for each iteration
+'''
+
+FILENAME = "____AbalationStudy.png"
+BACKGROUND = "____background.png"
+PREDICTED_IMG = "predicted.png"
+JSON_FILE = "coords.geojson"
+min_lat, max_lat = 16.000406104, 54.956109159
+min_lon, max_lon = -125.736087884, -63.253766411
+DOT_COLOR_RGB = (255, 0, 0)
+DOT_RADIUS_IN = 2
+DPI = 96
+DOT_RADIUS_PX = DOT_RADIUS_IN / 25.4 * DPI
+
+COLOR_THRESHOLD = 10
+
+def create_geojson(latlon_list, output_path):
+    """
+    Creates a GeoJSON file from a list of (latitude, longitude) tuples.
+
+    Parameters:
+        latlon_list (list of (lat, lon)): List of geographic coordinates.
+        output_path (str): Path to save the output .geojson file.
+    """
+    geojson_data = {
+        "type": "FeatureCollection",
+        "features": []
+    }
+
+    for lat, lon in latlon_list:
+        feature = {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Point",
+                "coordinates": [lon, lat]
+            }
+        }
+        geojson_data["features"].append(feature)
+
+    with open(output_path, 'w') as f:
+        json.dump(geojson_data, f, indent=2)
+
+def latlon_to_pixel(lat, lon, img_width, img_height):
+    x = (lon - min_lon) / (max_lon - min_lon) * img_width
+    y = (max_lat - lat) / (max_lat - min_lat) * img_height
+    return (x, y)
+
+def pixel_to_latlon(x, y, img_width, img_height):
+    lon = min_lon + (x / img_width) * (max_lon - min_lon)
+    lat = max_lat - (y / img_height) * (max_lat - min_lat)
+    return (lat, lon)
+
+def color_distance(c1, c2):
+    try:
+        r1 = c1[0]
+        r2 = c2[0]
+        g1 = c1[1]
+        g2 = c2[1]
+        b1 = c1[2]
+        b2 = c2[2]
+        return (abs(r1 - r2) + abs(g1-g2) + abs(b1-b2))
+    except Exception as e:
+        raise Exception("Sad")
+def find_dot_errors(dot_centers, dist):
+    background_image = Image.open(BACKGROUND)
+    background_pixels = background_image.load()
+    predicted_image = Image.open(PREDICTED_IMG).convert("RGB")
+    width, height = predicted_image.size
+    predicted_pixels = predicted_image.load()
+
+    img = Image.open(FILENAME).convert("RGB")
+    pixels = img.load()
+    width2, height2 = img.size
+
+    if width != width2 or height != height2:
+        raise ValueError("Predicted and actual image dimensions must match")
+
+    def in_bounds(x, y):
+        return 0 <= x < width and 0 <= y < height
+
+    adjusted_centers = []
+
+    for center in dot_centers:
+        x0, y0 = int(center[0]), int(center[1])
+        cluster = []
+
+        for dx in range(-10, 11):
+            for dy in range(-10, 11):
+                nx, ny = x0 + dx, y0 + dy
+                if in_bounds(nx, ny):
+                    cluster.append((nx, ny))
+
+        error_points = []
+        for (cx, cy) in cluster:
+            pred_dist = color_distance(predicted_pixels[cx, cy], DOT_COLOR_RGB)
+            actual_dist = color_distance(pixels[cx, cy], DOT_COLOR_RGB)
+            if pred_dist - actual_dist > COLOR_THRESHOLD and color_distance(predicted_pixels[cx, cy], background_pixels[cx, cy]) > COLOR_THRESHOLD:
+                error_points.append((cx, cy))
+
+        if not error_points:
+            print("NO ERROR POINTS FOUND FOR CENTER:", center)
+            adjusted_centers.append(center)
+            continue
+
+        avg_x = sum(x for x, y in error_points) / len(error_points) + 0.5
+        avg_y = sum(y for x, y in error_points) / len(error_points) + 0.5
+
+        dx = avg_x - center[0]
+        dy = avg_y - center[1]
+        magnitude = math.hypot(dx, dy)
+        for ep in error_points:
+            print(ep)
+        print(f"Center: {center}, Error centroid: ({avg_x:.2f}, {avg_y:.2f}), Direction: ({dx:.2f}, {dy:.2f}), Magnitude: {magnitude:.2f}")
+        if magnitude == 0:
+            adjusted_centers.append(center)
+        else:
+            scale = dist / magnitude
+            new_center = (
+                center[0] + dx * scale,
+                center[1] + dy * scale
+            )
+            adjusted_centers.append(new_center)
+
+    return adjusted_centers    
+def find_dot_centers(image_path=FILENAME, background_path=BACKGROUND, dot_color=DOT_COLOR_RGB):
+    img = Image.open(image_path).convert("RGB")
+    width, height = img.size
+    pixels = img.load()
+    background = Image.open(background_path).convert("RGB")
+    background_pixels = background.load()
+
+    global_visited = set()
+    dot_centers = []
+    dot_radii = []
+
+    def in_bounds(x, y):
+        return 0 <= x < width and 0 <= y < height
+
+    def bfs(start_x, start_y):
+        local_visited = set()
+        cluster = []
+        border_pixels = set()
+        pixel_weight = defaultdict(lambda: 1.0)
+
+        queue = deque()
+        local_visited.add((start_x, start_y))
+        queue.append((start_x, start_y))
+        cluster.append((start_x, start_y))
+
+        while queue:
+            a, b = queue.popleft()
+            for dx, dy in product(range(-1, 2), range(-1, 2)):
+                nx, ny = a + dx, b + dy
+                if not in_bounds(nx, ny):
+                    continue
+                if (nx, ny) in local_visited:
+                    continue
+                local_visited.add((nx, ny))
+                if color_distance(pixels[nx, ny], dot_color) <= COLOR_THRESHOLD:
+                    queue.append((nx, ny))
+                    cluster.append((nx, ny))
+                else:
+                    cluster.append((nx, ny))
+                    border_pixels.add((nx, ny))
+
+        for a, b in border_pixels:
+            avg_bg = background_pixels[a, b]
+            dist_to_bg = color_distance(avg_bg, pixels[a, b])
+            dist_to_dot = color_distance(avg_bg, dot_color)
+            denom = max(1e-5, dist_to_dot)
+            pixel_weight[(a, b)] = min(1.0, dist_to_bg / denom)
+
+        x_sum = y_sum = weight_sum = 0.0
+        for x, y in cluster:
+            w = pixel_weight[(x, y)]
+            x_sum += w * x
+            y_sum += w * y
+            weight_sum += w
+
+        if weight_sum < 1e-5:
+            return None, None, None, None
+
+        cx = x_sum / weight_sum + 0.5
+        cy = y_sum / weight_sum + 0.5
+        radius = math.sqrt(weight_sum / math.pi)
+        return cx, cy, radius, cluster
+
+    for x in range(width):
+        for y in range(height):
+            if (x, y) in global_visited:
+                continue
+
+            if color_distance(pixels[x, y], dot_color) <= COLOR_THRESHOLD:
+                cx, cy, radius, cluster_pixels = bfs(x, y)
+                if cx is None:
+                    continue
+                dot_centers.append((cx, cy))
+                dot_radii.append(radius)
+                global_visited.update(cluster_pixels)
+    return dot_centers
+
+def match_estimates(true_centers, estimated_centers):
+    true_centers = np.array(true_centers)
+    estimated_centers = np.array(estimated_centers)
+    print(f"ESTIMATED CENTER LENGTH: {len(estimated_centers)}")
+    n_true = len(true_centers)
+    n_est = len(estimated_centers)
+    n = max(n_true, n_est)
+
+    cost_matrix = np.full((n, n), fill_value=1e6)
+    for i in range(n_true):
+        for j in range(n_est):
+            dx = true_centers[i][0] - estimated_centers[j][0]
+            dy = true_centers[i][1] - estimated_centers[j][1]
+            cost_matrix[i][j] = dx**2 + dy**2
+
+    row_ind, col_ind = linear_sum_assignment(cost_matrix)
+
+    errors = []
+    matched = []
+    for i, j in zip(row_ind, col_ind):
+        if i < n_true and j < n_est:
+            true = true_centers[i]
+            est = estimated_centers[j]
+            errors.append(((abs(true[0] - est[0])), (abs(true[1] - est[1]))))
+            matched.append(tuple(est))
+    return errors, matched
+
+def get_true_points(filename=JSON_FILE):
+    with open(filename, "r") as f:
+        data = json.load(f)
+    
+    true_points = []
+    for feature in data.get("features", []):
+        coords = feature.get("geometry", {}).get("coordinates")
+        if coords:
+            true_points.append((coords[0], coords[1]))
+    return true_points
+
+def main():
+    png_path = FILENAME
+    true_locations = get_true_points()
+    img = Image.open(png_path)
+    img_width, img_height = img.size
+
+    true_centers = [latlon_to_pixel(loc[1], loc[0], img_width, img_height) for loc in true_locations]
+    estimated_centers = find_dot_centers()
+
+    good_errors, matched_good = match_estimates(true_centers, estimated_centers)
+
+    true_latlons = [(loc[1], loc[0]) for loc in true_locations]
+    good_pred_latlons = [pixel_to_latlon(x, y, img_width, img_height) for x, y in matched_good]
+    good_geo_errors = [geodesic(true, pred).meters for true, pred in zip(true_latlons, good_pred_latlons)]
+
+    def average_coord_error(true_coords, pred_coords):
+        lat_errors = [abs(pred[0] - true[0]) for true, pred in zip(true_coords, pred_coords)]
+        lon_errors = [abs(pred[1] - true[1]) for true, pred in zip(true_coords, pred_coords)]
+        return sum(lat_errors) / len(lat_errors), sum(lon_errors) / len(lon_errors)
+
+    def average_pixel_error(true_pixels, pred_pixels):
+        x_errors = [abs(pred[0] - true[0]) for true, pred in zip(true_pixels, pred_pixels)]
+        y_errors = [abs(pred[1] - true[1]) for true, pred in zip(true_pixels, pred_pixels)]
+        return sum(x_errors) / len(x_errors), sum(y_errors) / len(y_errors)
+
+    def average(lst):
+        return sum(lst) / len(lst) if lst else 0.0
+
+    print("Choose mode:")
+    print("1. First step (detect, match, output metrics, write GeoJSON)")
+    print("2. Single refinement iteration (use final_overlay.png, update GeoJSON)")
+    mode = input("Enter 1 or 2: ").strip()
+
+    if mode == "1":
+        good_avg_lat_error, good_avg_lon_error = average_coord_error(true_latlons, good_pred_latlons)
+        good_avg_x_error, good_avg_y_error = average_pixel_error(true_centers, matched_good)
+        good_geo_error = average(good_geo_errors)
+
+        print(f"\nGOOD AVG PIXEL ERROR: x = {good_avg_x_error:.8f} px, y = {good_avg_y_error:.8f} px", flush=True)
+        print(f"GOOD AVG GEODESIC ERROR: {good_geo_error:.2f} meters", flush=True)
+        create_geojson(good_pred_latlons, "predicted_points.geojson")
+        print("\nGeoJSON file saved as predicted_points.geojson", flush=True)
+
+    elif mode == "2":
+        png_path = "final_overlay.png"
+        true_locations = get_true_points()
+        img = Image.open(FILENAME)
+        img_width, img_height = img.size
+        true_centers = [latlon_to_pixel(loc[1], loc[0], img_width, img_height) for loc in true_locations]
+        estimated_centers_lat_lon = get_true_points(filename="predicted_points.geojson")
+        estimated_centers = [latlon_to_pixel(loc[1], loc[0], img_width, img_height) for loc in estimated_centers_lat_lon]
+
+        step_size = 0.005
+        refined_centers = find_dot_errors(estimated_centers, step_size)
+
+        pred_latlons = [pixel_to_latlon(x, y, img_width, img_height) for x, y in refined_centers]
+
+        errors, matched = match_estimates(true_centers, refined_centers)
+        if errors:
+            x_errors = [err[0] for err in errors]
+            y_errors = [err[1] for err in errors]
+            avg_x_error = sum(x_errors) / len(x_errors)
+            avg_y_error = sum(y_errors) / len(y_errors)
+            total_pixel_error = math.sqrt(avg_x_error**2 + avg_y_error**2)
+
+            print(f"Refinement iteration pixel errors:")
+            print(f"  X error: {avg_x_error:.8f} px")
+            print(f"  Y error: {avg_y_error:.8f} px")
+            print(f"  Total pixel error: {total_pixel_error:.8f} px")
+            matched_true_latlons = [(loc[1], loc[0]) for loc in true_locations]
+            matched_pred_latlons = [pixel_to_latlon(x, y, img_width, img_height) for x, y in matched]
+
+            geo_errors = [geodesic(true, pred).meters for true, pred in zip(matched_true_latlons, matched_pred_latlons)]
+            if geo_errors:
+                avg_geo_error = sum(geo_errors) / len(geo_errors)
+                print(f"  Avg geodesic error: {avg_geo_error:.2f} meters")
+            print(geo_errors)
+        # Write to GeoJSON for QGIS visualization
+        create_geojson(pred_latlons, "predicted_points.geojson")
+        print("\nGeoJSON file saved as predicted_points.geojson (after refinement)", flush=True)
+if __name__ == "__main__":
+    with open("dot_center_results.txt", "w") as f:
+        with redirect_stdout(f):
+            main()

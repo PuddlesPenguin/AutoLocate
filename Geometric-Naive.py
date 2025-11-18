@@ -40,7 +40,7 @@ def pixel_to_latlon(x, y, img_width, img_height):
     return (lat, lon)
 def color_distance(c1, c2): # Color distance between two color RGB tuples
     return sum(abs((a) - (b)) for a, b in zip(c1, c2))
-def region_area(r, theta): # Used for Circle Geometric Refinement
+def region_area(r, theta): # Used for Circle Geometric Refinement (Can also be applied to Pentagon shape)
     mid_x = 0.5 + r * math.cos(theta)
     mid_y = 0.5 + r * math.sin(theta)
     if mid_x >= 1 or mid_y >= 1:
@@ -63,6 +63,31 @@ def region_area(r, theta): # Used for Circle Geometric Refinement
         else:
             d = 1/math.sqrt(2) * math.cos(math.pi/4 - theta)
             return 1 - 1/2 * 1/math.cos(theta) * 1/math.sin(theta) * (d - r) ** 2
+def region_area_triangle(r, theta): # Used for Triangle Geometric Refinement
+    mid_x = 0.5 + r * math.cos(theta)
+    mid_y = 0.5 + r * math.sin(theta)
+    if mid_x >= 1 or mid_y >= 1:
+        return 1
+    if mid_x <= 0 or mid_y <= 0:
+        return 0
+    if r < 0:
+        if mid_x ** 2 + (1 - mid_y) ** 2 + r ** 2 < 1/2:
+            return 1/2 + r / math.cos(theta)
+        elif (1 - mid_x) ** 2 + (mid_y) ** 2 + r ** 2 < 1/2:
+            return 1/2 + r / math.sin(theta)
+        else:
+            d = 1/math.sqrt(2) * math.cos(math.pi/4 - theta)
+            return 1/2 * 1/math.cos(theta) * 1/math.sin(theta) * (d + r) ** 2
+    else:
+        if mid_x ** 2 + (1 - mid_y) ** 2 + r ** 2 < 1/2:
+            return 1/2 + r / math.sin(theta)
+        elif (1 - mid_x) ** 2 + (mid_y) ** 2 + r ** 2 < 1/2:
+            return 1/2 + r / math.cos(theta)
+        else:
+            d = 1/math.sqrt(2) * math.cos(math.pi/4 - theta)
+            return 1 - 1/2 * 1/math.cos(theta) * 1/math.sin(theta) * (d - r) ** 2
+
+
 def geometric_find_dot_centers(image_path, dot_color=DOT_COLOR_RGB):
     img = Image.open(image_path).convert("RGB")
     width, height = img.size
@@ -131,7 +156,7 @@ def geometric_find_dot_centers(image_path, dot_color=DOT_COLOR_RGB):
         radius = math.sqrt(weight_sum / math.pi)
         return cx, cy, radius, cluster
 
-    def second_bfs(start_x, start_y, approx_x, approx_y, approx_radius, threshold):
+    def second_bfs(start_x, start_y, approx_x, approx_y, approx_radius, threshold): # Optional - Used for Geometric Refinement (remove weights of bad boundary pixels)
         local_visited = set()
         cluster = []
         border_pixels = set()
@@ -167,7 +192,7 @@ def geometric_find_dot_centers(image_path, dot_color=DOT_COLOR_RGB):
             geo_weight = 0
             theta = math.atan2(dy, dx)
             r = approx_radius - dist
-            geo_weight = region_area(r, theta)
+            geo_weight = region_area(r, theta) # Change to region_triangle_area if shape is triangle
 
             neighborhood = []
             for dx2, dy2 in product(range(-1, 2), range(-1, 2)):
@@ -219,8 +244,8 @@ def geometric_find_dot_centers(image_path, dot_color=DOT_COLOR_RGB):
 
     average_radius = sum(dot_radii) / len(dot_radii)
     print(f"Average radius across dots: {average_radius}")
-    '''
-    # 2nd pass: refine centers with average radius
+    ''' 
+    # Uncomment if using Geometric Pixel Filtering
     refined_centers = []
     thresholds = [0.3, 0.15, 0.1, 0.05]
     counter = 0
@@ -367,26 +392,6 @@ def main():
         avg_dx = sum(dxs) / len(dxs) if dxs else 0.0
         avg_dy = sum(dys) / len(dys) if dys else 0.0
         return avg_dx, avg_dy
-
-    def make_histogram(errors, bins):
-        hist = [0] * (len(bins) + 1)
-        for e in errors:
-            for i, b in enumerate(bins):
-                if e < b:
-                    hist[i] += 1
-                    break
-            else:
-                hist[-1] += 1
-        return hist
-
-    def make_linear_histogram(errors, bins):
-        hist = [0] * (len(bins) - 1)
-        for e in errors:
-            for i in range(len(bins) - 1):
-                if bins[i] <= e < bins[i + 1]:
-                    hist[i] += 1
-                    break
-        return hist
 
     good_avg_lat_error, good_avg_lon_error = average_coord_error(true_latlons, good_pred_latlons)
     bad_avg_lat_error, bad_avg_lon_error = average_coord_error(true_latlons, bad_pred_latlons)

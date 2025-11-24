@@ -14,10 +14,9 @@ import sys
 from contextlib import redirect_stdout
 import time 
 from xyzservices import TileProvider
-from xyzservices import TileProvider
 
 FILENAME = "Map.png" # Change with Map file name
-COORDJSON = "Coord.geojson" # Change with points name
+COORDJSON = "CoordinateJSONs/Non-Connected-US.geojson" # Change with points name
 flag=True # Flag = True means PixelMatch Naive Method (can also be used for Raster2Vec)
           # Flag = False means PixelAvg Naive Method
 pixel_size = 0.02587884152408056 # Latitude / Pixel

@@ -14,7 +14,7 @@ SEED = 1234
 random.seed(SEED)
 
 NUM_CLUSTERS = 25           # number of clusters
-POINTS_PER_CLUSTER = 4    # exactly 4 dots per cluster
+POINTS_PER_CLUSTER = 2    # exactly 4 dots per cluster
 CLUSTER_SPREAD_KM = 30.0    # how far from the center we allow placement
 MIN_SEPARATION_KM = 25.0    # minimum spacing between dots in a cluster
 MIN_CLUSTER_SEPARATION_KM = 200.0  # minimum spacing between cluster centers
@@ -28,7 +28,7 @@ FALLBACK_USA_RAW = (
     "https://raw.githubusercontent.com/johan/world.geo.json/"
     "master/countries/USA.geo.json"
 )
-OUTPUT_GEOJSON = "clusters_output.geojson"
+OUTPUT_GEOJSON = "CoordinateJSONs/Connected-US.geojson"
 
 def download_usa_geojson(dest: str):
     resp = requests.get(FALLBACK_USA_RAW, timeout=20)
@@ -91,7 +91,6 @@ def generate_cluster(center, n, spread_km, min_sep_km, polygon):
         lat2, lon2 = destination_point(center[0], center[1], bearing, dist)
         if not polygon.contains(Point(lon2, lat2)):
             continue
-        # enforce minimum spacing
         too_close = any(haversine(lat2, lon2, p[0], p[1]) < min_sep_km for p in pts)
         if not too_close:
             pts.append((lat2, lon2))
@@ -108,13 +107,11 @@ def main():
     clusters = []
 
     for cid in range(NUM_CLUSTERS):
-        # find cluster center far enough from existing clusters
         for _ in range(10000):
             lat = random.uniform(miny, maxy)
             lon = random.uniform(minx, maxx)
             if not us_geom.contains(Point(lon, lat)):
                 continue
-            # new check: enforce distance from all previous cluster centers
             if all(haversine(lat, lon, c[0], c[1]) >= MIN_CLUSTER_SEPARATION_KM for c, _ in clusters):
                 center = (lat, lon)
                 break

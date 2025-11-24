@@ -35,7 +35,9 @@ RADIUS = 7.5
 DOT_COLOR = (255, 0, 0)
 BACKGROUND_COLOR = (255, 255, 255)
 FILENAME = "map.png" # Change to image destination
-JSON_FILE = "coords.geojson" # Change to geojson file with coordinates
+JSON_FILE = "CoordinateJSONs/Non-Connected-US.geojson" # Change to geojson file with coordinates
+
+AUG_DIR = "AugmentedMaps"
 
 pixel_size = 0.02587884152408056 # Latitude / Pixel
 width_px = 2284 # Pixels / Width
@@ -267,9 +269,7 @@ def main():
     print("2) Predict coordinates")
     x = int(safe_input())
     if x == 1:
-        generate_map(JSON_FILE, "__________.png")
-        generate_map("none", "__________bg.png")
-
+        generate_map(JSON_FILE, FILENAME)
     else:
         image = Image.open(FILENAME).convert("RGB")
         pixels = image.load()
@@ -342,42 +342,54 @@ def main():
             good_avg_lat_error, good_avg_lon_error = average_coord_error(true_latlons, good_pred_latlons)
             good_avg_x_error, good_avg_y_error = average_pixel_error(true_centers, matched_good)
             good_geo_error = average(good_geo_errors)
-            print(f"\nGOOD AVG PIXEL ERROR: x = {good_avg_x_error:.8f} px, y = {good_avg_y_error:.8f} px", flush=True)
+            print(f"\nAVG PIXEL ERROR: x = {good_avg_x_error:.8f} px, y = {good_avg_y_error:.8f} px", flush=True)
         loss_avg = []
+        # ensure augmented maps directory exists
+        os.makedirs(AUG_DIR, exist_ok=True)
         while step_size > 0.000001:
             left = [(prev_centers[i][0] - step_size, prev_centers[i][1]) for i in range(len(keys))]
             left_coords = [pixel_to_lat_lon(c[0], c[1], width, height) for c in left]
-            create_geojson(left_coords, "_left.geojson")
-            generate_map("_left.geojson", "left_img.png")
-            left_pixels = Image.open("left_img.png").convert("RGB").load()
+            left_geo = os.path.join(AUG_DIR, "_left.geojson")
+            left_img = os.path.join(AUG_DIR, "left_img.png")
+            create_geojson(left_coords, left_geo)
+            generate_map(left_geo, left_img)
+            left_pixels = Image.open(left_img).convert("RGB").load()
             left_err = calc_error_for_dot(original_pixels, left_pixels)
-            
+
             right = [(prev_centers[i][0] + step_size, prev_centers[i][1]) for i in range(len(keys))]
             right_coords = [pixel_to_lat_lon(c[0], c[1], width, height) for c in right]
-            create_geojson(right_coords, "_right.geojson")
-            generate_map("_right.geojson", "right_img.png")
-            right_pixels = Image.open("right_img.png").convert("RGB").load()
+            right_geo = os.path.join(AUG_DIR, "_right.geojson")
+            right_img = os.path.join(AUG_DIR, "right_img.png")
+            create_geojson(right_coords, right_geo)
+            generate_map(right_geo, right_img)
+            right_pixels = Image.open(right_img).convert("RGB").load()
             right_err = calc_error_for_dot(original_pixels, right_pixels)
 
             up = [(prev_centers[i][0], prev_centers[i][1] + step_size) for i in range(len(keys))]
             up_coords = [pixel_to_lat_lon(c[0], c[1], width, height) for c in up]
-            create_geojson(up_coords, "_up.geojson")
-            generate_map("_up.geojson", "up_img.png")
-            up_pixels = Image.open("up_img.png").convert("RGB").load()
+            up_geo = os.path.join(AUG_DIR, "_up.geojson")
+            up_img = os.path.join(AUG_DIR, "up_img.png")
+            create_geojson(up_coords, up_geo)
+            generate_map(up_geo, up_img)
+            up_pixels = Image.open(up_img).convert("RGB").load()
             up_err = calc_error_for_dot(original_pixels, up_pixels)
 
             down = [(prev_centers[i][0], prev_centers[i][1] - step_size) for i in range(len(keys))]
             down_coords = [pixel_to_lat_lon(c[0], c[1], width, height) for c in down]
-            create_geojson(down_coords, "_down.geojson")
-            generate_map("_down.geojson", "down_img.png")
-            down_pixels = Image.open("down_img.png").convert("RGB").load()
+            down_geo = os.path.join(AUG_DIR, "_down.geojson")
+            down_img = os.path.join(AUG_DIR, "down_img.png")
+            create_geojson(down_coords, down_geo)
+            generate_map(down_geo, down_img)
+            down_pixels = Image.open(down_img).convert("RGB").load()
             down_err = calc_error_for_dot(original_pixels, down_pixels)
 
             no_change = [(prev_centers[i][0], prev_centers[i][1]) for i in range(len(keys))]
             no_change_coords = [pixel_to_lat_lon(c[0], c[1], width, height) for c in no_change]
-            create_geojson(no_change_coords, "_no_change.geojson")
-            generate_map("_no_change.geojson", "no_change_img.png")
-            no_change_pixels = Image.open("no_change_img.png").convert("RGB").load()
+            no_change_geo = os.path.join(AUG_DIR, "_no_change.geojson")
+            no_change_img = os.path.join(AUG_DIR, "no_change_img.png")
+            create_geojson(no_change_coords, no_change_geo)
+            generate_map(no_change_geo, no_change_img)
+            no_change_pixels = Image.open(no_change_img).convert("RGB").load()
             no_change_err = calc_error_for_dot(original_pixels, no_change_pixels)
             loss_arr = []
             new_pix_coords = [(0, 0) for i in range(len(keys))]
@@ -433,13 +445,13 @@ def main():
         good_avg_lat_error, good_avg_lon_error = average_coord_error(true_latlons, good_pred_latlons)
         good_avg_x_error, good_avg_y_error = average_pixel_error(true_centers, matched_good)
         good_geo_error = average(good_geo_errors)
-        print(f"\nGOOD AVG PIXEL ERROR: x = {good_avg_x_error:.8f} px, y = {good_avg_y_error:.8f} px", flush=True)
+        print(f"\nAVG PIXEL ERROR: x = {good_avg_x_error:.8f} px, y = {good_avg_y_error:.8f} px", flush=True)
 
         print("\nTrue pixel centers:", flush=True)
         for i, (x, y) in enumerate(true_centers):
             print(f"  Dot {i+1}: x = {x:.2f}, y = {y:.2f}", flush=True)
 
-        print("\nPredicted pixel centers (good method):", flush=True)
+        print("\nPredicted pixel centers (Perceptual Descent method):", flush=True)
         for i, (x, y) in enumerate(matched_good):
             print(f"  Dot {i+1}: x = {x:.2f}, y = {y:.2f}", flush=True)
 
@@ -448,18 +460,18 @@ def main():
         for i, (lat, lon) in enumerate(true_latlons):
             print(f"  Dot {i+1}: Latitude = {lat:.5f}, Longitude = {lon:.5f}", flush=True)
 
-        print("\nPredicted lat/lon (good method):", flush=True)
+        print("\nPredicted lat/lon (Perceptual Descent method):", flush=True)
         for i, (lat, lon) in enumerate(good_pred_latlons):
             print(f"  Dot {i+1}: Latitude = {lat:.5f}, Longitude = {lon:.5f}", flush=True)
 
-        print(f"\nGOOD GEO ERROR (total): {good_geo_error:.2f} meters", flush=True)
+        print(f"\nGEO ERROR (total): {good_geo_error:.2f} meters", flush=True)
         print("\nIndividual GEO errors (good method) in meters:", flush=True)
         for i, err in enumerate(good_geo_errors):
             print(f"  Dot {i+1}: {err:.2f} m", flush=True)
 
-        print(f"\nGOOD AVG LATITUDE ERROR: {good_avg_lat_error:.6f} degrees", flush=True)
-        print(f"GOOD AVG LONGITUDE ERROR: {good_avg_lon_error:.6f} degrees", flush=True)
-        print(f"\nGOOD AVG DISTANCE ERROR: {good_geo_error:.2f} meters", flush=True)
+        print(f"\nAVG LATITUDE ERROR: {good_avg_lat_error:.6f} degrees", flush=True)
+        print(f"\nAVG LONGITUDE ERROR: {good_avg_lon_error:.6f} degrees", flush=True)
+        print(f"\nAVG DISTANCE ERROR: {good_geo_error:.2f} meters", flush=True)
 
 if __name__ == "__main__":
     with open("dot_center_results.txt", "w") as f:

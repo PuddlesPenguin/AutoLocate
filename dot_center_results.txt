@@ -1,0 +1,1541 @@
+Average radius across dots: 7.538915229729699
+
+True pixel centers:
+  Dot 1: x = 2046.03, y = 675.33
+  Dot 2: x = 2127.28, y = 632.55
+  Dot 3: x = 2152.56, y = 559.60
+  Dot 4: x = 2221.04, y = 530.36
+  Dot 5: x = 1979.72, y = 760.54
+  Dot 6: x = 1980.38, y = 695.27
+  Dot 7: x = 1940.50, y = 633.15
+  Dot 8: x = 1876.19, y = 593.27
+  Dot 9: x = 1828.48, y = 642.01
+  Dot 10: x = 2042.27, y = 604.69
+  Dot 11: x = 1889.94, y = 728.65
+  Dot 12: x = 1791.61, y = 698.57
+  Dot 13: x = 1882.65, y = 675.61
+  Dot 14: x = 2046.52, y = 547.71
+  Dot 15: x = 560.68, y = 904.91
+  Dot 16: x = 555.67, y = 976.26
+  Dot 17: x = 627.52, y = 1029.59
+  Dot 18: x = 487.15, y = 939.35
+  Dot 19: x = 450.61, y = 1002.83
+  Dot 20: x = 162.76, y = 813.97
+  Dot 21: x = 246.67, y = 765.79
+  Dot 22: x = 168.06, y = 728.70
+  Dot 23: x = 316.09, y = 957.90
+  Dot 24: x = 276.20, y = 898.35
+  Dot 25: x = 300.91, y = 821.40
+  Dot 26: x = 835.86, y = 729.11
+  Dot 27: x = 734.62, y = 825.85
+  Dot 28: x = 764.25, y = 733.24
+  Dot 29: x = 703.91, y = 756.57
+  Dot 30: x = 808.75, y = 778.69
+  Dot 31: x = 801.97, y = 681.86
+  Dot 32: x = 377.17, y = 584.64
+  Dot 33: x = 379.40, y = 527.12
+  Dot 34: x = 548.76, y = 631.22
+  Dot 35: x = 472.28, y = 591.30
+  Dot 36: x = 382.34, y = 402.05
+  Dot 37: x = 487.91, y = 492.78
+  Dot 38: x = 534.47, y = 535.11
+  Dot 39: x = 722.58, y = 486.28
+  Dot 40: x = 676.67, y = 372.03
+  Dot 41: x = 563.65, y = 465.88
+  Dot 42: x = 645.21, y = 511.89
+  Dot 43: x = 751.84, y = 910.94
+  Dot 44: x = 818.69, y = 1008.47
+  Dot 45: x = 745.55, y = 1016.69
+  Dot 46: x = 834.64, y = 948.79
+  Dot 47: x = 355.60, y = 1000.70
+  Dot 48: x = 806.49, y = 859.11
+  Dot 49: x = 314.91, y = 747.06
+  Dot 50: x = 437.97, y = 874.36
+  Dot 51: x = 389.18, y = 691.89
+  Dot 52: x = 462.84, y = 670.67
+  Dot 53: x = 393.18, y = 745.09
+  Dot 54: x = 450.17, y = 811.76
+  Dot 55: x = 305.00, y = 531.70
+  Dot 56: x = 115.69, y = 539.36
+  Dot 57: x = 187.37, y = 562.96
+  Dot 58: x = 109.00, y = 625.36
+  Dot 59: x = 85.88, y = 479.87
+  Dot 60: x = 224.49, y = 503.97
+  Dot 61: x = 561.16, y = 708.40
+  Dot 62: x = 659.86, y = 692.28
+  Dot 63: x = 351.39, y = 472.25
+  Dot 64: x = 148.13, y = 374.80
+  Dot 65: x = 220.36, y = 428.93
+  Dot 66: x = 143.29, y = 440.24
+  Dot 67: x = 307.31, y = 371.78
+  Dot 68: x = 297.24, y = 435.12
+  Dot 69: x = 807.19, y = 628.06
+  Dot 70: x = 700.48, y = 550.46
+  Dot 71: x = 799.50, y = 574.54
+  Dot 72: x = 729.96, y = 641.14
+  Dot 73: x = 647.35, y = 587.78
+  Dot 74: x = 617.53, y = 650.64
+  Dot 75: x = 1233.56, y = 661.48
+  Dot 76: x = 1309.51, y = 631.00
+  Dot 77: x = 1208.04, y = 611.50
+  Dot 78: x = 1347.13, y = 686.06
+  Dot 79: x = 1173.71, y = 687.74
+  Dot 80: x = 1382.65, y = 640.48
+  Dot 81: x = 1420.73, y = 762.37
+  Dot 82: x = 1461.49, y = 707.36
+  Dot 83: x = 1466.65, y = 652.66
+  Dot 84: x = 1490.96, y = 764.32
+  Dot 85: x = 1453.97, y = 830.72
+  Dot 86: x = 1594.79, y = 690.17
+  Dot 87: x = 1547.95, y = 728.29
+  Dot 88: x = 1539.99, y = 654.33
+  Dot 89: x = 1196.98, y = 804.89
+  Dot 90: x = 1204.75, y = 741.89
+  Dot 91: x = 1063.71, y = 834.78
+  Dot 92: x = 1068.19, y = 773.54
+  Dot 93: x = 1131.79, y = 793.79
+  Dot 94: x = 953.71, y = 729.48
+  Dot 95: x = 1906.16, y = 786.81
+  Dot 96: x = 1804.81, y = 749.73
+  Dot 97: x = 1725.25, y = 813.14
+  Dot 98: x = 1656.77, y = 533.07
+  Dot 99: x = 1581.51, y = 520.28
+  Dot 100: x = 1586.21, y = 614.70
+  Dot 101: x = 1662.32, y = 631.89
+  Dot 102: x = 1541.10, y = 565.62
+  Dot 103: x = 1252.94, y = 468.87
+  Dot 104: x = 1162.21, y = 453.78
+  Dot 105: x = 1223.23, y = 404.58
+  Dot 106: x = 1160.65, y = 513.77
+  Dot 107: x = 1230.46, y = 557.14
+  Dot 108: x = 1363.48, y = 428.02
+  Dot 109: x = 1310.21, y = 766.44
+  Dot 110: x = 1261.91, y = 819.90
+  Dot 111: x = 1369.70, y = 807.12
+  Dot 112: x = 1364.46, y = 576.55
+  Dot 113: x = 961.81, y = 372.78
+  Dot 114: x = 983.84, y = 454.04
+  Dot 115: x = 1111.97, y = 394.30
+  Dot 116: x = 903.85, y = 454.49
+  Dot 117: x = 855.79, y = 412.36
+  Dot 118: x = 1069.67, y = 451.54
+  Dot 119: x = 1069.24, y = 696.96
+  Dot 120: x = 1095.00, y = 625.46
+  Dot 121: x = 956.80, y = 652.45
+  Dot 122: x = 870.30, y = 663.02
+  Dot 123: x = 1009.45, y = 556.76
+  Dot 124: x = 1003.92, y = 609.74
+  Dot 125: x = 1646.47, y = 761.14
+  Dot 126: x = 1694.59, y = 686.10
+  Dot 127: x = 1753.21, y = 646.27
+  Dot 128: x = 1708.65, y = 741.22
+  Dot 129: x = 1090.42, y = 555.34
+  Dot 130: x = 932.22, y = 603.54
+  Dot 131: x = 863.85, y = 539.33
+  Dot 132: x = 1018.23, y = 501.43
+  Dot 133: x = 951.34, y = 524.32
+  Dot 134: x = 1375.08, y = 482.50
+  Dot 135: x = 1469.01, y = 555.62
+  Dot 136: x = 1336.52, y = 527.80
+  Dot 137: x = 1434.82, y = 602.70
+  Dot 138: x = 1453.13, y = 489.76
+  Dot 139: x = 1533.56, y = 1005.85
+  Dot 140: x = 1492.88, y = 1078.64
+  Dot 141: x = 1526.49, y = 949.76
+  Dot 142: x = 1474.41, y = 916.98
+  Dot 143: x = 1575.23, y = 1057.10
+  Dot 144: x = 1473.60, y = 1028.80
+  Dot 145: x = 1284.56, y = 868.87
+  Dot 146: x = 1279.80, y = 931.67
+  Dot 147: x = 1346.00, y = 940.36
+  Dot 148: x = 1695.19, y = 1119.39
+  Dot 149: x = 1759.28, y = 1174.63
+  Dot 150: x = 1780.44, y = 1253.41
+  Dot 151: x = 1709.87, y = 1230.74
+  Dot 152: x = 1677.05, y = 1187.02
+  Dot 153: x = 1690.37, y = 1029.87
+  Dot 154: x = 1657.51, y = 983.23
+  Dot 155: x = 1590.42, y = 938.44
+  Dot 156: x = 1652.35, y = 1080.14
+  Dot 157: x = 1729.39, y = 1070.59
+  Dot 158: x = 1652.65, y = 928.08
+  Dot 159: x = 1590.97, y = 790.69
+  Dot 160: x = 1554.93, y = 844.69
+  Dot 161: x = 1360.62, y = 1094.00
+  Dot 162: x = 1271.60, y = 1074.37
+  Dot 163: x = 1282.06, y = 1022.90
+  Dot 164: x = 1339.59, y = 1044.93
+  Dot 165: x = 1424.25, y = 979.05
+  Dot 166: x = 1422.53, y = 1091.07
+  Dot 167: x = 1410.21, y = 1037.29
+  Dot 168: x = 1808.20, y = 866.32
+  Dot 169: x = 1723.75, y = 883.40
+  Dot 170: x = 1779.06, y = 913.43
+  Dot 171: x = 1914.77, y = 891.90
+  Dot 172: x = 1839.79, y = 928.66
+  Dot 173: x = 1117.57, y = 907.44
+  Dot 174: x = 1191.11, y = 884.47
+  Dot 175: x = 1757.63, y = 1007.28
+  Dot 176: x = 1809.93, y = 974.77
+  Dot 177: x = 1715.64, y = 939.56
+  Dot 178: x = 1410.51, y = 902.12
+  Dot 179: x = 1547.22, y = 897.28
+  Dot 180: x = 1610.45, y = 888.96
+  Dot 181: x = 1180.70, y = 1039.14
+  Dot 182: x = 913.49, y = 1015.71
+  Dot 183: x = 1123.70, y = 1182.71
+  Dot 184: x = 1063.43, y = 971.94
+  Dot 185: x = 962.07, y = 912.76
+  Dot 186: x = 1068.93, y = 1138.99
+  Dot 187: x = 1842.39, y = 804.61
+  Dot 188: x = 1879.11, y = 848.10
+
+Predicted pixel centers (good method):
+  Dot 1: x = 2046.02, y = 675.34
+  Dot 2: x = 2127.29, y = 632.56
+  Dot 3: x = 2152.56, y = 559.60
+  Dot 4: x = 2221.04, y = 530.36
+  Dot 5: x = 1979.71, y = 760.54
+  Dot 6: x = 1980.37, y = 695.27
+  Dot 7: x = 1940.50, y = 633.15
+  Dot 8: x = 1876.19, y = 593.26
+  Dot 9: x = 1828.47, y = 642.00
+  Dot 10: x = 2042.27, y = 604.68
+  Dot 11: x = 1889.94, y = 728.65
+  Dot 12: x = 1791.61, y = 698.57
+  Dot 13: x = 1882.65, y = 675.61
+  Dot 14: x = 2046.51, y = 547.71
+  Dot 15: x = 560.68, y = 904.91
+  Dot 16: x = 555.66, y = 976.26
+  Dot 17: x = 627.52, y = 1029.59
+  Dot 18: x = 487.15, y = 939.34
+  Dot 19: x = 450.62, y = 1002.83
+  Dot 20: x = 162.75, y = 813.98
+  Dot 21: x = 246.67, y = 765.79
+  Dot 22: x = 168.06, y = 728.70
+  Dot 23: x = 316.10, y = 957.91
+  Dot 24: x = 276.20, y = 898.35
+  Dot 25: x = 300.92, y = 821.40
+  Dot 26: x = 835.86, y = 729.11
+  Dot 27: x = 734.62, y = 825.85
+  Dot 28: x = 764.25, y = 733.24
+  Dot 29: x = 703.92, y = 756.56
+  Dot 30: x = 808.75, y = 778.69
+  Dot 31: x = 801.97, y = 681.86
+  Dot 32: x = 377.17, y = 584.64
+  Dot 33: x = 379.40, y = 527.12
+  Dot 34: x = 548.76, y = 631.22
+  Dot 35: x = 472.28, y = 591.30
+  Dot 36: x = 382.33, y = 402.05
+  Dot 37: x = 487.91, y = 492.78
+  Dot 38: x = 534.47, y = 535.10
+  Dot 39: x = 722.58, y = 486.28
+  Dot 40: x = 676.67, y = 372.02
+  Dot 41: x = 563.65, y = 465.89
+  Dot 42: x = 645.21, y = 511.88
+  Dot 43: x = 751.84, y = 910.95
+  Dot 44: x = 818.69, y = 1008.47
+  Dot 45: x = 745.55, y = 1016.69
+  Dot 46: x = 834.64, y = 948.79
+  Dot 47: x = 355.60, y = 1000.70
+  Dot 48: x = 806.49, y = 859.10
+  Dot 49: x = 314.90, y = 747.07
+  Dot 50: x = 437.97, y = 874.35
+  Dot 51: x = 389.18, y = 691.88
+  Dot 52: x = 462.85, y = 670.68
+  Dot 53: x = 393.18, y = 745.08
+  Dot 54: x = 450.16, y = 811.77
+  Dot 55: x = 305.00, y = 531.69
+  Dot 56: x = 115.69, y = 539.36
+  Dot 57: x = 187.38, y = 562.96
+  Dot 58: x = 109.00, y = 625.37
+  Dot 59: x = 85.87, y = 479.86
+  Dot 60: x = 224.49, y = 503.96
+  Dot 61: x = 561.16, y = 708.40
+  Dot 62: x = 659.86, y = 692.28
+  Dot 63: x = 351.39, y = 472.24
+  Dot 64: x = 148.13, y = 374.79
+  Dot 65: x = 220.36, y = 428.94
+  Dot 66: x = 143.28, y = 440.24
+  Dot 67: x = 307.30, y = 371.78
+  Dot 68: x = 297.23, y = 435.12
+  Dot 69: x = 807.19, y = 628.06
+  Dot 70: x = 700.48, y = 550.46
+  Dot 71: x = 799.50, y = 574.53
+  Dot 72: x = 729.96, y = 641.14
+  Dot 73: x = 647.35, y = 587.78
+  Dot 74: x = 617.53, y = 650.64
+  Dot 75: x = 1233.55, y = 661.48
+  Dot 76: x = 1309.51, y = 631.00
+  Dot 77: x = 1208.04, y = 611.50
+  Dot 78: x = 1347.14, y = 686.06
+  Dot 79: x = 1173.71, y = 687.74
+  Dot 80: x = 1382.65, y = 640.48
+  Dot 81: x = 1420.73, y = 762.37
+  Dot 82: x = 1461.49, y = 707.36
+  Dot 83: x = 1466.65, y = 652.66
+  Dot 84: x = 1490.96, y = 764.32
+  Dot 85: x = 1453.97, y = 830.72
+  Dot 86: x = 1594.79, y = 690.16
+  Dot 87: x = 1547.95, y = 728.29
+  Dot 88: x = 1539.98, y = 654.32
+  Dot 89: x = 1196.97, y = 804.88
+  Dot 90: x = 1204.75, y = 741.90
+  Dot 91: x = 1063.71, y = 834.79
+  Dot 92: x = 1068.18, y = 773.55
+  Dot 93: x = 1131.78, y = 793.80
+  Dot 94: x = 953.71, y = 729.48
+  Dot 95: x = 1906.15, y = 786.82
+  Dot 96: x = 1804.82, y = 749.73
+  Dot 97: x = 1725.25, y = 813.14
+  Dot 98: x = 1656.77, y = 533.08
+  Dot 99: x = 1581.51, y = 520.28
+  Dot 100: x = 1586.20, y = 614.70
+  Dot 101: x = 1662.32, y = 631.90
+  Dot 102: x = 1541.09, y = 565.63
+  Dot 103: x = 1252.95, y = 468.87
+  Dot 104: x = 1162.20, y = 453.79
+  Dot 105: x = 1223.23, y = 404.58
+  Dot 106: x = 1160.66, y = 513.77
+  Dot 107: x = 1230.46, y = 557.13
+  Dot 108: x = 1363.48, y = 428.02
+  Dot 109: x = 1310.21, y = 766.44
+  Dot 110: x = 1261.90, y = 819.90
+  Dot 111: x = 1369.70, y = 807.11
+  Dot 112: x = 1364.45, y = 576.55
+  Dot 113: x = 961.81, y = 372.78
+  Dot 114: x = 983.83, y = 454.04
+  Dot 115: x = 1111.97, y = 394.30
+  Dot 116: x = 903.85, y = 454.49
+  Dot 117: x = 855.79, y = 412.36
+  Dot 118: x = 1069.67, y = 451.54
+  Dot 119: x = 1069.24, y = 696.95
+  Dot 120: x = 1095.00, y = 625.46
+  Dot 121: x = 956.79, y = 652.45
+  Dot 122: x = 870.30, y = 663.02
+  Dot 123: x = 1009.44, y = 556.75
+  Dot 124: x = 1003.92, y = 609.73
+  Dot 125: x = 1646.47, y = 761.14
+  Dot 126: x = 1694.59, y = 686.09
+  Dot 127: x = 1753.20, y = 646.27
+  Dot 128: x = 1708.65, y = 741.21
+  Dot 129: x = 1090.42, y = 555.34
+  Dot 130: x = 932.22, y = 603.54
+  Dot 131: x = 863.85, y = 539.33
+  Dot 132: x = 1018.22, y = 501.43
+  Dot 133: x = 951.34, y = 524.32
+  Dot 134: x = 1375.07, y = 482.50
+  Dot 135: x = 1469.00, y = 555.62
+  Dot 136: x = 1336.52, y = 527.80
+  Dot 137: x = 1434.82, y = 602.71
+  Dot 138: x = 1453.13, y = 489.76
+  Dot 139: x = 1533.57, y = 1005.85
+  Dot 140: x = 1492.88, y = 1078.64
+  Dot 141: x = 1526.49, y = 949.77
+  Dot 142: x = 1474.40, y = 916.97
+  Dot 143: x = 1575.23, y = 1057.10
+  Dot 144: x = 1473.60, y = 1028.80
+  Dot 145: x = 1284.56, y = 868.87
+  Dot 146: x = 1279.80, y = 931.68
+  Dot 147: x = 1346.00, y = 940.36
+  Dot 148: x = 1695.18, y = 1119.39
+  Dot 149: x = 1759.28, y = 1174.63
+  Dot 150: x = 1780.44, y = 1253.40
+  Dot 151: x = 1709.87, y = 1230.74
+  Dot 152: x = 1677.06, y = 1187.02
+  Dot 153: x = 1690.37, y = 1029.87
+  Dot 154: x = 1657.51, y = 983.23
+  Dot 155: x = 1590.42, y = 938.44
+  Dot 156: x = 1652.35, y = 1080.13
+  Dot 157: x = 1729.39, y = 1070.59
+  Dot 158: x = 1652.65, y = 928.07
+  Dot 159: x = 1590.97, y = 790.68
+  Dot 160: x = 1554.93, y = 844.69
+  Dot 161: x = 1360.61, y = 1094.00
+  Dot 162: x = 1271.60, y = 1074.37
+  Dot 163: x = 1282.07, y = 1022.89
+  Dot 164: x = 1339.59, y = 1044.94
+  Dot 165: x = 1424.25, y = 979.05
+  Dot 166: x = 1422.53, y = 1091.08
+  Dot 167: x = 1410.21, y = 1037.29
+  Dot 168: x = 1808.19, y = 866.32
+  Dot 169: x = 1723.75, y = 883.39
+  Dot 170: x = 1779.05, y = 913.44
+  Dot 171: x = 1914.77, y = 891.90
+  Dot 172: x = 1839.79, y = 928.66
+  Dot 173: x = 1117.57, y = 907.44
+  Dot 174: x = 1191.11, y = 884.47
+  Dot 175: x = 1757.63, y = 1007.29
+  Dot 176: x = 1809.94, y = 974.77
+  Dot 177: x = 1715.63, y = 939.56
+  Dot 178: x = 1410.51, y = 902.11
+  Dot 179: x = 1547.21, y = 897.28
+  Dot 180: x = 1610.45, y = 888.95
+  Dot 181: x = 1180.69, y = 1039.14
+  Dot 182: x = 913.49, y = 1015.71
+  Dot 183: x = 1123.69, y = 1182.71
+  Dot 184: x = 1063.43, y = 971.94
+  Dot 185: x = 962.07, y = 912.76
+  Dot 186: x = 1068.92, y = 1139.00
+  Dot 187: x = 1842.39, y = 804.61
+  Dot 188: x = 1879.11, y = 848.10
+
+Predicted pixel centers (naive method):
+  Dot 1: x = 2046.03, y = 675.30
+  Dot 2: x = 2127.21, y = 632.68
+  Dot 3: x = 2152.66, y = 559.66
+  Dot 4: x = 2221.06, y = 530.29
+  Dot 5: x = 1979.79, y = 760.68
+  Dot 6: x = 1980.22, y = 695.21
+  Dot 7: x = 1940.50, y = 633.10
+  Dot 8: x = 1876.13, y = 593.20
+  Dot 9: x = 1828.32, y = 642.00
+  Dot 10: x = 2042.19, y = 604.81
+  Dot 11: x = 1889.94, y = 728.71
+  Dot 12: x = 1791.66, y = 698.66
+  Dot 13: x = 1882.75, y = 675.73
+  Dot 14: x = 2046.54, y = 547.73
+  Dot 15: x = 560.80, y = 904.87
+  Dot 16: x = 555.81, y = 976.19
+  Dot 17: x = 627.54, y = 1029.66
+  Dot 18: x = 487.13, y = 939.20
+  Dot 19: x = 450.76, y = 1002.85
+  Dot 20: x = 162.86, y = 813.91
+  Dot 21: x = 246.79, y = 765.84
+  Dot 22: x = 168.13, y = 728.80
+  Dot 23: x = 316.05, y = 957.95
+  Dot 24: x = 276.16, y = 898.21
+  Dot 25: x = 300.94, y = 821.29
+  Dot 26: x = 835.95, y = 729.05
+  Dot 27: x = 734.76, y = 825.85
+  Dot 28: x = 764.19, y = 733.19
+  Dot 29: x = 703.97, y = 756.69
+  Dot 30: x = 808.81, y = 778.81
+  Dot 31: x = 802.00, y = 681.93
+  Dot 32: x = 377.16, y = 584.79
+  Dot 33: x = 379.29, y = 527.06
+  Dot 34: x = 548.81, y = 631.19
+  Dot 35: x = 472.19, y = 591.19
+  Dot 36: x = 382.29, y = 402.06
+  Dot 37: x = 487.88, y = 492.84
+  Dot 38: x = 534.34, y = 535.05
+  Dot 39: x = 722.71, y = 486.22
+  Dot 40: x = 676.70, y = 372.03
+  Dot 41: x = 563.77, y = 465.88
+  Dot 42: x = 645.16, y = 511.88
+  Dot 43: x = 751.92, y = 910.97
+  Dot 44: x = 818.69, y = 1008.45
+  Dot 45: x = 745.69, y = 1016.75
+  Dot 46: x = 834.79, y = 948.84
+  Dot 47: x = 355.73, y = 1000.75
+  Dot 48: x = 806.47, y = 859.10
+  Dot 49: x = 314.97, y = 747.01
+  Dot 50: x = 438.00, y = 874.32
+  Dot 51: x = 389.14, y = 691.91
+  Dot 52: x = 462.87, y = 670.80
+  Dot 53: x = 393.08, y = 745.03
+  Dot 54: x = 450.12, y = 811.84
+  Dot 55: x = 305.00, y = 531.78
+  Dot 56: x = 115.76, y = 539.24
+  Dot 57: x = 187.32, y = 563.00
+  Dot 58: x = 109.00, y = 625.32
+  Dot 59: x = 85.95, y = 479.95
+  Dot 60: x = 224.43, y = 503.98
+  Dot 61: x = 561.15, y = 708.24
+  Dot 62: x = 659.87, y = 692.20
+  Dot 63: x = 351.24, y = 472.18
+  Dot 64: x = 148.12, y = 374.84
+  Dot 65: x = 220.29, y = 428.94
+  Dot 66: x = 143.19, y = 440.19
+  Dot 67: x = 307.21, y = 371.84
+  Dot 68: x = 297.16, y = 435.12
+  Dot 69: x = 807.08, y = 628.03
+  Dot 70: x = 700.46, y = 550.34
+  Dot 71: x = 799.50, y = 574.57
+  Dot 72: x = 730.00, y = 641.07
+  Dot 73: x = 647.21, y = 587.84
+  Dot 74: x = 617.54, y = 650.66
+  Dot 75: x = 1233.66, y = 661.46
+  Dot 76: x = 1309.50, y = 631.00
+  Dot 77: x = 1208.00, y = 611.50
+  Dot 78: x = 1347.08, y = 686.03
+  Dot 79: x = 1173.81, y = 687.81
+  Dot 80: x = 1382.66, y = 640.46
+  Dot 81: x = 1420.79, y = 762.22
+  Dot 82: x = 1461.46, y = 707.34
+  Dot 83: x = 1466.76, y = 652.76
+  Dot 84: x = 1490.93, y = 764.26
+  Dot 85: x = 1453.88, y = 830.84
+  Dot 86: x = 1594.84, y = 690.12
+  Dot 87: x = 1547.87, y = 728.20
+  Dot 88: x = 1540.00, y = 654.32
+  Dot 89: x = 1196.99, y = 804.97
+  Dot 90: x = 1204.84, y = 741.88
+  Dot 91: x = 1063.79, y = 834.84
+  Dot 92: x = 1068.13, y = 773.64
+  Dot 93: x = 1131.85, y = 793.85
+  Dot 94: x = 953.73, y = 729.46
+  Dot 95: x = 1906.12, y = 786.84
+  Dot 96: x = 1804.87, y = 749.80
+  Dot 97: x = 1725.16, y = 813.12
+  Dot 98: x = 1656.84, y = 533.12
+  Dot 99: x = 1581.54, y = 520.27
+  Dot 100: x = 1586.16, y = 614.79
+  Dot 101: x = 1662.20, y = 631.87
+  Dot 102: x = 1541.06, y = 565.71
+  Dot 103: x = 1252.95, y = 468.95
+  Dot 104: x = 1162.15, y = 453.85
+  Dot 105: x = 1223.17, y = 404.73
+  Dot 106: x = 1160.79, y = 513.84
+  Dot 107: x = 1230.33, y = 557.11
+  Dot 108: x = 1363.35, y = 428.02
+  Dot 109: x = 1310.18, y = 766.30
+  Dot 110: x = 1261.95, y = 819.95
+  Dot 111: x = 1369.80, y = 807.13
+  Dot 112: x = 1364.34, y = 576.66
+  Dot 113: x = 961.88, y = 372.84
+  Dot 114: x = 983.93, y = 454.00
+  Dot 115: x = 1111.93, y = 394.26
+  Dot 116: x = 903.90, y = 454.47
+  Dot 117: x = 855.84, y = 412.21
+  Dot 118: x = 1069.70, y = 451.64
+  Dot 119: x = 1069.14, y = 696.91
+  Dot 120: x = 1095.00, y = 625.32
+  Dot 121: x = 956.82, y = 652.30
+  Dot 122: x = 870.22, y = 663.06
+  Dot 123: x = 1009.32, y = 556.79
+  Dot 124: x = 1003.88, y = 609.84
+  Dot 125: x = 1646.38, y = 761.10
+  Dot 126: x = 1694.71, y = 686.06
+  Dot 127: x = 1753.16, y = 646.21
+  Dot 128: x = 1708.79, y = 741.16
+  Dot 129: x = 1090.27, y = 555.25
+  Dot 130: x = 932.21, y = 603.68
+  Dot 131: x = 863.87, y = 539.20
+  Dot 132: x = 1018.17, y = 501.27
+  Dot 133: x = 951.24, y = 524.24
+  Dot 134: x = 1375.03, y = 482.50
+  Dot 135: x = 1469.00, y = 555.68
+  Dot 136: x = 1336.53, y = 527.84
+  Dot 137: x = 1434.87, y = 602.80
+  Dot 138: x = 1453.12, y = 489.84
+  Dot 139: x = 1533.67, y = 1005.89
+  Dot 140: x = 1492.88, y = 1078.77
+  Dot 141: x = 1526.47, y = 949.84
+  Dot 142: x = 1474.32, y = 917.00
+  Dot 143: x = 1575.16, y = 1057.12
+  Dot 144: x = 1473.73, y = 1028.83
+  Dot 145: x = 1284.67, y = 868.89
+  Dot 146: x = 1279.84, y = 931.79
+  Dot 147: x = 1346.00, y = 940.32
+  Dot 148: x = 1695.15, y = 1119.24
+  Dot 149: x = 1759.21, y = 1174.78
+  Dot 150: x = 1780.34, y = 1253.34
+  Dot 151: x = 1709.87, y = 1230.80
+  Dot 152: x = 1677.00, y = 1187.00
+  Dot 153: x = 1690.23, y = 1029.88
+  Dot 154: x = 1657.53, y = 983.16
+  Dot 155: x = 1590.34, y = 938.34
+  Dot 156: x = 1652.20, y = 1080.13
+  Dot 157: x = 1729.34, y = 1070.66
+  Dot 158: x = 1652.71, y = 928.06
+  Dot 159: x = 1590.93, y = 790.74
+  Dot 160: x = 1554.87, y = 844.80
+  Dot 161: x = 1360.68, y = 1094.00
+  Dot 162: x = 1271.71, y = 1074.29
+  Dot 163: x = 1282.01, y = 1022.97
+  Dot 164: x = 1339.69, y = 1044.97
+  Dot 165: x = 1424.14, y = 979.09
+  Dot 166: x = 1422.65, y = 1091.02
+  Dot 167: x = 1410.16, y = 1037.21
+  Dot 168: x = 1808.16, y = 866.21
+  Dot 169: x = 1723.82, y = 883.24
+  Dot 170: x = 1779.00, y = 913.32
+  Dot 171: x = 1914.84, y = 891.88
+  Dot 172: x = 1839.84, y = 928.79
+  Dot 173: x = 1117.66, y = 907.34
+  Dot 174: x = 1191.05, y = 884.34
+  Dot 175: x = 1757.76, y = 1007.24
+  Dot 176: x = 1809.88, y = 974.84
+  Dot 177: x = 1715.66, y = 939.66
+  Dot 178: x = 1410.53, y = 902.10
+  Dot 179: x = 1547.16, y = 897.21
+  Dot 180: x = 1610.32, y = 889.00
+  Dot 181: x = 1180.80, y = 1039.13
+  Dot 182: x = 913.46, y = 1015.73
+  Dot 183: x = 1123.81, y = 1182.81
+  Dot 184: x = 1063.32, y = 972.00
+  Dot 185: x = 962.12, y = 912.84
+  Dot 186: x = 1069.00, y = 1139.00
+  Dot 187: x = 1842.34, y = 804.66
+  Dot 188: x = 1879.05, y = 848.05
+
+GOOD AVG PIXEL ERROR: x = 0.003 px, y = 0.003 px
+NAIVE AVG PIXEL ERROR: x = 0.065 px, y = 0.064 px
+GOOD AVG PIXEL DISPLACEMENT: dx = -0.001204 px, dy = -0.000347 px
+NAIVE AVG PIXEL DISPLACEMENT: dx = -0.001 px, dy = 0.004 px
+
+True centers (lat/lon):
+  Dot 1: Latitude = 41.14361, Longitude = -73.22773
+  Dot 2: Latitude = 42.25063, Longitude = -71.12504
+  Dot 3: Latitude = 44.13860, Longitude = -70.47075
+  Dot 4: Latitude = 44.89528, Longitude = -68.69852
+  Dot 5: Latitude = 38.93853, Longitude = -74.94378
+  Dot 6: Latitude = 40.62770, Longitude = -74.92672
+  Dot 7: Latitude = 42.23517, Longitude = -75.95863
+  Dot 8: Latitude = 43.26730, Longitude = -77.62291
+  Dot 9: Latitude = 42.00599, Longitude = -78.85776
+  Dot 10: Latitude = 42.97179, Longitude = -73.32494
+  Dot 11: Latitude = 39.76378, Longitude = -77.26712
+  Dot 12: Latitude = 40.54218, Longitude = -79.81168
+  Dot 13: Latitude = 41.13648, Longitude = -77.45566
+  Dot 14: Latitude = 44.44637, Longitude = -73.21511
+  Dot 15: Latitude = 35.20244, Longitude = -111.66679
+  Dot 16: Latitude = 33.35580, Longitude = -111.79657
+  Dot 17: Latitude = 31.97578, Longitude = -109.93712
+  Dot 18: Latitude = 34.31116, Longitude = -113.56968
+  Dot 19: Latitude = 32.66833, Longitude = -114.51530
+  Dot 20: Latitude = 37.55568, Longitude = -121.96466
+  Dot 21: Latitude = 38.80270, Longitude = -119.79304
+  Dot 22: Latitude = 39.76241, Longitude = -121.82741
+  Dot 23: Latitude = 33.83109, Longitude = -117.99645
+  Dot 24: Latitude = 35.37209, Longitude = -119.02878
+  Dot 25: Latitude = 37.36343, Longitude = -118.38943
+  Dot 26: Latitude = 39.75189, Longitude = -104.54537
+  Dot 27: Latitude = 37.24833, Longitude = -107.16553
+  Dot 28: Latitude = 39.64491, Longitude = -106.39859
+  Dot 29: Latitude = 39.04128, Longitude = -107.96012
+  Dot 30: Latitude = 38.46890, Longitude = -105.24700
+  Dot 31: Latitude = 40.97455, Longitude = -105.42259
+  Dot 32: Latitude = 43.49051, Longitude = -116.41580
+  Dot 33: Latitude = 44.97912, Longitude = -116.35822
+  Dot 34: Latitude = 42.28506, Longitude = -111.97541
+  Dot 35: Latitude = 43.31829, Longitude = -113.95440
+  Dot 36: Latitude = 48.21582, Longitude = -116.28214
+  Dot 37: Latitude = 45.86777, Longitude = -113.55005
+  Dot 38: Latitude = 44.77237, Longitude = -112.34512
+  Dot 39: Latitude = 46.03603, Longitude = -107.47694
+  Dot 40: Latitude = 48.99274, Longitude = -108.66511
+  Dot 41: Latitude = 46.56385, Longitude = -111.59007
+  Dot 42: Latitude = 45.37337, Longitude = -109.47926
+  Dot 43: Latitude = 35.04638, Longitude = -106.71988
+  Dot 44: Latitude = 32.52233, Longitude = -104.98991
+  Dot 45: Latitude = 32.30966, Longitude = -106.88262
+  Dot 46: Latitude = 34.06678, Longitude = -104.57699
+  Dot 47: Latitude = 32.72352, Longitude = -116.97411
+  Dot 48: Latitude = 36.38756, Longitude = -105.30562
+  Dot 49: Latitude = 39.28722, Longitude = -118.02697
+  Dot 50: Latitude = 35.99300, Longitude = -114.84237
+  Dot 51: Latitude = 40.71513, Longitude = -116.10507
+  Dot 52: Latitude = 41.26416, Longitude = -114.19887
+  Dot 53: Latitude = 39.33827, Longitude = -116.00141
+  Dot 54: Latitude = 37.61287, Longitude = -114.52682
+  Dot 55: Latitude = 44.86067, Longitude = -118.28353
+  Dot 56: Latitude = 44.66235, Longitude = -123.18253
+  Dot 57: Latitude = 44.05153, Longitude = -121.32763
+  Dot 58: Latitude = 42.43669, Longitude = -123.35583
+  Dot 59: Latitude = 46.20188, Longitude = -123.95418
+  Dot 60: Latitude = 45.57817, Longitude = -120.36710
+  Dot 61: Latitude = 40.28778, Longitude = -111.65429
+  Dot 62: Latitude = 40.70486, Longitude = -109.10025
+  Dot 63: Latitude = 46.39921, Longitude = -117.08311
+  Dot 64: Latitude = 48.92111, Longitude = -122.34316
+  Dot 65: Latitude = 47.52005, Longitude = -120.47382
+  Dot 66: Latitude = 47.22740, Longitude = -122.46838
+  Dot 67: Latitude = 48.99922, Longitude = -118.22383
+  Dot 68: Latitude = 47.35990, Longitude = -118.48446
+  Dot 69: Latitude = 42.36697, Longitude = -105.28748
+  Dot 70: Latitude = 44.37518, Longitude = -108.04895
+  Dot 71: Latitude = 43.75200, Longitude = -105.48638
+  Dot 72: Latitude = 42.02844, Longitude = -107.28598
+  Dot 73: Latitude = 43.40927, Longitude = -109.42388
+  Dot 74: Latitude = 41.78255, Longitude = -110.19552
+  Dot 75: Latitude = 41.50205, Longitude = -94.25356
+  Dot 76: Latitude = 42.29081, Longitude = -92.28792
+  Dot 77: Latitude = 42.79552, Longitude = -94.91391
+  Dot 78: Latitude = 40.86600, Longitude = -91.31430
+  Dot 79: Latitude = 40.82255, Longitude = -95.80225
+  Dot 80: Latitude = 42.04537, Longitude = -90.39510
+  Dot 81: Latitude = 38.89109, Longitude = -89.40964
+  Dot 82: Latitude = 40.31459, Longitude = -88.35503
+  Dot 83: Latitude = 41.73028, Longitude = -88.22127
+  Dot 84: Latitude = 38.84054, Longitude = -87.59221
+  Dot 85: Latitude = 37.12224, Longitude = -88.54951
+  Dot 86: Latitude = 40.75970, Longitude = -84.90521
+  Dot 87: Latitude = 39.77296, Longitude = -86.11748
+  Dot 88: Latitude = 41.68717, Longitude = -86.32355
+  Dot 89: Latitude = 37.79078, Longitude = -95.20024
+  Dot 90: Latitude = 39.42105, Longitude = -94.99915
+  Dot 91: Latitude = 37.01714, Longitude = -98.64892
+  Dot 92: Latitude = 38.60203, Longitude = -98.53309
+  Dot 93: Latitude = 38.07791, Longitude = -96.88721
+  Dot 94: Latitude = 39.74236, Longitude = -101.49570
+  Dot 95: Latitude = 38.25854, Longitude = -76.84742
+  Dot 96: Latitude = 39.21818, Longitude = -79.47014
+  Dot 97: Latitude = 37.57727, Longitude = -81.52919
+  Dot 98: Latitude = 44.82509, Longitude = -83.30124
+  Dot 99: Latitude = 45.15617, Longitude = -85.24893
+  Dot 100: Latitude = 42.71273, Longitude = -85.12743
+  Dot 101: Latitude = 42.26774, Longitude = -83.15779
+  Dot 102: Latitude = 43.98282, Longitude = -86.29469
+  Dot 103: Latitude = 46.48643, Longitude = -93.75182
+  Dot 104: Latitude = 46.87698, Longitude = -96.10001
+  Dot 105: Latitude = 48.15038, Longitude = -94.52072
+  Dot 106: Latitude = 45.32453, Longitude = -96.14023
+  Dot 107: Latitude = 44.20226, Longitude = -94.33364
+  Dot 108: Latitude = 47.54377, Longitude = -90.89134
+  Dot 109: Latitude = 38.78572, Longitude = -92.26985
+  Dot 110: Latitude = 37.40223, Longitude = -93.51980
+  Dot 111: Latitude = 37.73310, Longitude = -90.73030
+  Dot 112: Latitude = 43.69986, Longitude = -90.86604
+  Dot 113: Latitude = 48.97330, Longitude = -101.28601
+  Dot 114: Latitude = 46.87030, Longitude = -100.71596
+  Dot 115: Latitude = 48.41629, Longitude = -97.40000
+  Dot 116: Latitude = 46.85865, Longitude = -102.78601
+  Dot 117: Latitude = 47.94892, Longitude = -104.02980
+  Dot 118: Latitude = 46.93501, Longitude = -98.49464
+  Dot 119: Latitude = 40.58398, Longitude = -98.50588
+  Dot 120: Latitude = 42.43413, Longitude = -97.83935
+  Dot 121: Latitude = 41.73573, Longitude = -101.41582
+  Dot 122: Latitude = 41.46219, Longitude = -103.65423
+  Dot 123: Latitude = 44.21213, Longitude = -100.05331
+  Dot 124: Latitude = 42.84095, Longitude = -100.19626
+  Dot 125: Latitude = 38.92304, Longitude = -83.56782
+  Dot 126: Latitude = 40.86501, Longitude = -82.32264
+  Dot 127: Latitude = 41.89565, Longitude = -80.80565
+  Dot 128: Latitude = 39.43857, Longitude = -81.95867
+  Dot 129: Latitude = 44.24875, Longitude = -97.95786
+  Dot 130: Latitude = 43.00140, Longitude = -102.05169
+  Dot 131: Latitude = 44.66312, Longitude = -103.82125
+  Dot 132: Latitude = 45.64398, Longitude = -99.82608
+  Dot 133: Latitude = 45.05159, Longitude = -101.55700
+  Dot 134: Latitude = 46.13390, Longitude = -90.59115
+  Dot 135: Latitude = 44.24170, Longitude = -88.16036
+  Dot 136: Latitude = 44.96154, Longitude = -91.58911
+  Dot 137: Latitude = 43.02307, Longitude = -89.04510
+  Dot 138: Latitude = 45.94607, Longitude = -88.57123
+  Dot 139: Latitude = 32.59013, Longitude = -86.48972
+  Dot 140: Latitude = 30.70647, Longitude = -87.54261
+  Dot 141: Latitude = 34.04169, Longitude = -86.67270
+  Dot 142: Latitude = 34.89006, Longitude = -88.02062
+  Dot 143: Latitude = 31.26392, Longitude = -85.41150
+  Dot 144: Latitude = 31.99635, Longitude = -88.04154
+  Dot 145: Latitude = 36.13510, Longitude = -92.93362
+  Dot 146: Latitude = 34.50972, Longitude = -93.05673
+  Dot 147: Latitude = 34.28484, Longitude = -91.34363
+  Dot 148: Latitude = 29.65176, Longitude = -82.30715
+  Dot 149: Latitude = 28.22238, Longitude = -80.64852
+  Dot 150: Latitude = 26.18367, Longitude = -80.10076
+  Dot 151: Latitude = 26.77021, Longitude = -81.92706
+  Dot 152: Latitude = 27.90157, Longitude = -82.77647
+  Dot 153: Latitude = 31.96845, Longitude = -82.43172
+  Dot 154: Latitude = 33.17547, Longitude = -83.28204
+  Dot 155: Latitude = 34.33468, Longitude = -85.01844
+  Dot 156: Latitude = 30.66772, Longitude = -83.41555
+  Dot 157: Latitude = 30.91473, Longitude = -81.42190
+  Dot 158: Latitude = 34.60283, Longitude = -83.40789
+  Dot 159: Latitude = 38.15817, Longitude = -85.00404
+  Dot 160: Latitude = 36.76083, Longitude = -85.93674
+  Dot 161: Latitude = 30.30894, Longitude = -90.96532
+  Dot 162: Latitude = 30.81702, Longitude = -93.26906
+  Dot 163: Latitude = 32.14898, Longitude = -92.99824
+  Dot 164: Latitude = 31.57887, Longitude = -91.50954
+  Dot 165: Latitude = 33.28366, Longitude = -89.31875
+  Dot 166: Latitude = 30.38463, Longitude = -89.36317
+  Dot 167: Latitude = 31.77639, Longitude = -89.68196
+  Dot 168: Latitude = 36.20112, Longitude = -79.38252
+  Dot 169: Latitude = 35.75910, Longitude = -81.56791
+  Dot 170: Latitude = 34.98177, Longitude = -80.13665
+  Dot 171: Latitude = 35.53914, Longitude = -76.62461
+  Dot 172: Latitude = 34.58785, Longitude = -78.56499
+  Dot 173: Latitude = 35.13687, Longitude = -97.25513
+  Dot 174: Latitude = 35.73133, Longitude = -95.35194
+  Dot 175: Latitude = 32.55304, Longitude = -80.69124
+  Dot 176: Latitude = 33.39445, Longitude = -79.33762
+  Dot 177: Latitude = 34.30573, Longitude = -81.77792
+  Dot 178: Latitude = 35.27456, Longitude = -89.67421
+  Dot 179: Latitude = 35.39978, Longitude = -86.13642
+  Dot 180: Latitude = 35.61524, Longitude = -84.49993
+  Dot 181: Latitude = 31.72854, Longitude = -95.62156
+  Dot 182: Latitude = 32.33501, Longitude = -102.53643
+  Dot 183: Latitude = 28.01330, Longitude = -97.09663
+  Dot 184: Latitude = 33.46762, Longitude = -98.65614
+  Dot 185: Latitude = 34.99920, Longitude = -101.27924
+  Dot 186: Latitude = 29.14470, Longitude = -98.51391
+  Dot 187: Latitude = 37.79799, Longitude = -78.49772
+  Dot 188: Latitude = 36.67259, Longitude = -77.54746
+
+Predicted lat/lon (good method):
+  Dot 1: Latitude = 41.14345, Longitude = -73.22785
+  Dot 2: Latitude = 42.25047, Longitude = -71.12490
+  Dot 3: Latitude = 44.13857, Longitude = -70.47082
+  Dot 4: Latitude = 44.89522, Longitude = -68.69854
+  Dot 5: Latitude = 38.93858, Longitude = -74.94395
+  Dot 6: Latitude = 40.62758, Longitude = -74.92686
+  Dot 7: Latitude = 42.23529, Longitude = -75.95867
+  Dot 8: Latitude = 43.26741, Longitude = -77.62304
+  Dot 9: Latitude = 42.00603, Longitude = -78.85801
+  Dot 10: Latitude = 42.97187, Longitude = -73.32502
+  Dot 11: Latitude = 39.76385, Longitude = -77.26715
+  Dot 12: Latitude = 40.54221, Longitude = -79.81173
+  Dot 13: Latitude = 41.13642, Longitude = -77.45582
+  Dot 14: Latitude = 44.44637, Longitude = -73.21534
+  Dot 15: Latitude = 35.20247, Longitude = -111.66682
+  Dot 16: Latitude = 33.35593, Longitude = -111.79671
+  Dot 17: Latitude = 31.97573, Longitude = -109.93707
+  Dot 18: Latitude = 34.31128, Longitude = -113.56980
+  Dot 19: Latitude = 32.66838, Longitude = -114.51498
+  Dot 20: Latitude = 37.55563, Longitude = -121.96482
+  Dot 21: Latitude = 38.80264, Longitude = -119.79308
+  Dot 22: Latitude = 39.76243, Longitude = -121.82749
+  Dot 23: Latitude = 33.83088, Longitude = -117.99631
+  Dot 24: Latitude = 35.37219, Longitude = -119.02891
+  Dot 25: Latitude = 37.36350, Longitude = -118.38923
+  Dot 26: Latitude = 39.75186, Longitude = -104.54546
+  Dot 27: Latitude = 37.24830, Longitude = -107.16549
+  Dot 28: Latitude = 39.64502, Longitude = -106.39870
+  Dot 29: Latitude = 39.04138, Longitude = -107.95997
+  Dot 30: Latitude = 38.46886, Longitude = -105.24697
+  Dot 31: Latitude = 40.97456, Longitude = -105.42265
+  Dot 32: Latitude = 43.49055, Longitude = -116.41579
+  Dot 33: Latitude = 44.97921, Longitude = -116.35826
+  Dot 34: Latitude = 42.28517, Longitude = -111.97542
+  Dot 35: Latitude = 43.31833, Longitude = -113.95445
+  Dot 36: Latitude = 48.21586, Longitude = -116.28224
+  Dot 37: Latitude = 45.86782, Longitude = -113.55012
+  Dot 38: Latitude = 44.77248, Longitude = -112.34511
+  Dot 39: Latitude = 46.03606, Longitude = -107.47696
+  Dot 40: Latitude = 48.99283, Longitude = -108.66509
+  Dot 41: Latitude = 46.56373, Longitude = -111.59002
+  Dot 42: Latitude = 45.37341, Longitude = -109.47929
+  Dot 43: Latitude = 35.04615, Longitude = -106.71985
+  Dot 44: Latitude = 32.52235, Longitude = -104.98996
+  Dot 45: Latitude = 32.30964, Longitude = -106.88263
+  Dot 46: Latitude = 34.06675, Longitude = -104.57698
+  Dot 47: Latitude = 32.72340, Longitude = -116.97399
+  Dot 48: Latitude = 36.38774, Longitude = -105.30561
+  Dot 49: Latitude = 39.28704, Longitude = -118.02727
+  Dot 50: Latitude = 35.99313, Longitude = -114.84253
+  Dot 51: Latitude = 40.71519, Longitude = -116.10506
+  Dot 52: Latitude = 41.26396, Longitude = -114.19860
+  Dot 53: Latitude = 39.33847, Longitude = -116.00154
+  Dot 54: Latitude = 37.61274, Longitude = -114.52691
+  Dot 55: Latitude = 44.86076, Longitude = -118.28361
+  Dot 56: Latitude = 44.66248, Longitude = -123.18257
+  Dot 57: Latitude = 44.05154, Longitude = -121.32750
+  Dot 58: Latitude = 42.43664, Longitude = -123.35587
+  Dot 59: Latitude = 46.20206, Longitude = -123.95425
+  Dot 60: Latitude = 45.57837, Longitude = -120.36716
+  Dot 61: Latitude = 40.28784, Longitude = -111.65435
+  Dot 62: Latitude = 40.70497, Longitude = -109.10019
+  Dot 63: Latitude = 46.39928, Longitude = -117.08313
+  Dot 64: Latitude = 48.92120, Longitude = -122.34318
+  Dot 65: Latitude = 47.51985, Longitude = -120.47395
+  Dot 66: Latitude = 47.22747, Longitude = -122.46855
+  Dot 67: Latitude = 48.99919, Longitude = -118.22392
+  Dot 68: Latitude = 47.35991, Longitude = -118.48453
+  Dot 69: Latitude = 42.36692, Longitude = -105.28747
+  Dot 70: Latitude = 44.37522, Longitude = -108.04899
+  Dot 71: Latitude = 43.75207, Longitude = -105.48639
+  Dot 72: Latitude = 42.02834, Longitude = -107.28607
+  Dot 73: Latitude = 43.40923, Longitude = -109.42393
+  Dot 74: Latitude = 41.78260, Longitude = -110.19561
+  Dot 75: Latitude = 41.50208, Longitude = -94.25361
+  Dot 76: Latitude = 42.29083, Longitude = -92.28794
+  Dot 77: Latitude = 42.79553, Longitude = -94.91391
+  Dot 78: Latitude = 40.86595, Longitude = -91.31413
+  Dot 79: Latitude = 40.82252, Longitude = -95.80227
+  Dot 80: Latitude = 42.04559, Longitude = -90.39507
+  Dot 81: Latitude = 38.89111, Longitude = -89.40970
+  Dot 82: Latitude = 40.31459, Longitude = -88.35504
+  Dot 83: Latitude = 41.73029, Longitude = -88.22128
+  Dot 84: Latitude = 38.84065, Longitude = -87.59221
+  Dot 85: Latitude = 37.12239, Longitude = -88.54954
+  Dot 86: Latitude = 40.75975, Longitude = -84.90514
+  Dot 87: Latitude = 39.77295, Longitude = -86.11747
+  Dot 88: Latitude = 41.68720, Longitude = -86.32356
+  Dot 89: Latitude = 37.79100, Longitude = -95.20038
+  Dot 90: Latitude = 39.42075, Longitude = -94.99897
+  Dot 91: Latitude = 37.01710, Longitude = -98.64891
+  Dot 92: Latitude = 38.60173, Longitude = -98.53325
+  Dot 93: Latitude = 38.07771, Longitude = -96.88753
+  Dot 94: Latitude = 39.74230, Longitude = -101.49575
+  Dot 95: Latitude = 38.25845, Longitude = -76.84761
+  Dot 96: Latitude = 39.21816, Longitude = -79.47002
+  Dot 97: Latitude = 37.57734, Longitude = -81.52918
+  Dot 98: Latitude = 44.82491, Longitude = -83.30132
+  Dot 99: Latitude = 45.15605, Longitude = -85.24887
+  Dot 100: Latitude = 42.71265, Longitude = -85.12751
+  Dot 101: Latitude = 42.26765, Longitude = -83.15760
+  Dot 102: Latitude = 43.98254, Longitude = -86.29496
+  Dot 103: Latitude = 46.48662, Longitude = -93.75165
+  Dot 104: Latitude = 46.87694, Longitude = -96.10009
+  Dot 105: Latitude = 48.15028, Longitude = -94.52076
+  Dot 106: Latitude = 45.32455, Longitude = -96.14016
+  Dot 107: Latitude = 44.20237, Longitude = -94.33367
+  Dot 108: Latitude = 47.54383, Longitude = -90.89141
+  Dot 109: Latitude = 38.78573, Longitude = -92.26986
+  Dot 110: Latitude = 37.40242, Longitude = -93.51999
+  Dot 111: Latitude = 37.73319, Longitude = -90.73029
+  Dot 112: Latitude = 43.69988, Longitude = -90.86610
+  Dot 113: Latitude = 48.97338, Longitude = -101.28602
+  Dot 114: Latitude = 46.87028, Longitude = -100.71612
+  Dot 115: Latitude = 48.41627, Longitude = -97.40021
+  Dot 116: Latitude = 46.85867, Longitude = -102.78592
+  Dot 117: Latitude = 47.94895, Longitude = -104.02980
+  Dot 118: Latitude = 46.93503, Longitude = -98.49469
+  Dot 119: Latitude = 40.58403, Longitude = -98.50590
+  Dot 120: Latitude = 42.43415, Longitude = -97.83937
+  Dot 121: Latitude = 41.73580, Longitude = -101.41588
+  Dot 122: Latitude = 41.46222, Longitude = -103.65421
+  Dot 123: Latitude = 44.21222, Longitude = -100.05332
+  Dot 124: Latitude = 42.84116, Longitude = -100.19637
+  Dot 125: Latitude = 38.92307, Longitude = -83.56777
+  Dot 126: Latitude = 40.86515, Longitude = -82.32266
+  Dot 127: Latitude = 41.89568, Longitude = -80.80573
+  Dot 128: Latitude = 39.43861, Longitude = -81.95870
+  Dot 129: Latitude = 44.24877, Longitude = -97.95789
+  Dot 130: Latitude = 43.00143, Longitude = -102.05172
+  Dot 131: Latitude = 44.66323, Longitude = -103.82113
+  Dot 132: Latitude = 45.64407, Longitude = -99.82614
+  Dot 133: Latitude = 45.05161, Longitude = -101.55705
+  Dot 134: Latitude = 46.13392, Longitude = -90.59129
+  Dot 135: Latitude = 44.24160, Longitude = -88.16049
+  Dot 136: Latitude = 44.96156, Longitude = -91.58906
+  Dot 137: Latitude = 43.02301, Longitude = -89.04508
+  Dot 138: Latitude = 45.94594, Longitude = -88.57122
+  Dot 139: Latitude = 32.59009, Longitude = -86.48949
+  Dot 140: Latitude = 30.70638, Longitude = -87.54249
+  Dot 141: Latitude = 34.04155, Longitude = -86.67270
+  Dot 142: Latitude = 34.89018, Longitude = -88.02077
+  Dot 143: Latitude = 31.26387, Longitude = -85.41149
+  Dot 144: Latitude = 31.99633, Longitude = -88.04157
+  Dot 145: Latitude = 36.13500, Longitude = -92.93367
+  Dot 146: Latitude = 34.50967, Longitude = -93.05673
+  Dot 147: Latitude = 34.28483, Longitude = -91.34357
+  Dot 148: Latitude = 29.65175, Longitude = -82.30721
+  Dot 149: Latitude = 28.22236, Longitude = -80.64856
+  Dot 150: Latitude = 26.18374, Longitude = -80.10087
+  Dot 151: Latitude = 26.77023, Longitude = -81.92716
+  Dot 152: Latitude = 27.90164, Longitude = -82.77620
+  Dot 153: Latitude = 31.96840, Longitude = -82.43175
+  Dot 154: Latitude = 33.17551, Longitude = -83.28217
+  Dot 155: Latitude = 34.33466, Longitude = -85.01843
+  Dot 156: Latitude = 30.66784, Longitude = -83.41563
+  Dot 157: Latitude = 30.91475, Longitude = -81.42194
+  Dot 158: Latitude = 34.60298, Longitude = -83.40794
+  Dot 159: Latitude = 38.15842, Longitude = -85.00399
+  Dot 160: Latitude = 36.76073, Longitude = -85.93672
+  Dot 161: Latitude = 30.30895, Longitude = -90.96547
+  Dot 162: Latitude = 30.81701, Longitude = -93.26912
+  Dot 163: Latitude = 32.14913, Longitude = -92.99812
+  Dot 164: Latitude = 31.57857, Longitude = -91.50967
+  Dot 165: Latitude = 33.28370, Longitude = -89.31876
+  Dot 166: Latitude = 30.38455, Longitude = -89.36312
+  Dot 167: Latitude = 31.77652, Longitude = -89.68205
+  Dot 168: Latitude = 36.20095, Longitude = -79.38260
+  Dot 169: Latitude = 35.75925, Longitude = -81.56793
+  Dot 170: Latitude = 34.98169, Longitude = -80.13678
+  Dot 171: Latitude = 35.53912, Longitude = -76.62459
+  Dot 172: Latitude = 34.58776, Longitude = -78.56497
+  Dot 173: Latitude = 35.13688, Longitude = -97.25528
+  Dot 174: Latitude = 35.73143, Longitude = -95.35200
+  Dot 175: Latitude = 32.55295, Longitude = -80.69122
+  Dot 176: Latitude = 33.39453, Longitude = -79.33752
+  Dot 177: Latitude = 34.30576, Longitude = -81.77799
+  Dot 178: Latitude = 35.27486, Longitude = -89.67411
+  Dot 179: Latitude = 35.39982, Longitude = -86.13650
+  Dot 180: Latitude = 35.61532, Longitude = -84.50002
+  Dot 181: Latitude = 31.72863, Longitude = -95.62165
+  Dot 182: Latitude = 32.33504, Longitude = -102.53644
+  Dot 183: Latitude = 28.01325, Longitude = -97.09667
+  Dot 184: Latitude = 33.46759, Longitude = -98.65623
+  Dot 185: Latitude = 34.99924, Longitude = -101.27923
+  Dot 186: Latitude = 29.14443, Longitude = -98.51430
+  Dot 187: Latitude = 37.79808, Longitude = -78.49772
+  Dot 188: Latitude = 36.67246, Longitude = -77.54737
+
+Predicted lat/lon (naive method):
+  Dot 1: Latitude = 41.14432, Longitude = -73.22771
+  Dot 2: Latitude = 42.24734, Longitude = -71.12675
+  Dot 3: Latitude = 44.13714, Longitude = -70.46835
+  Dot 4: Latitude = 44.89704, Longitude = -68.69806
+  Dot 5: Latitude = 38.93485, Longitude = -74.94201
+  Dot 6: Latitude = 40.62918, Longitude = -74.93071
+  Dot 7: Latitude = 42.23658, Longitude = -75.95869
+  Dot 8: Latitude = 43.26915, Longitude = -77.62462
+  Dot 9: Latitude = 42.00616, Longitude = -78.86176
+  Dot 10: Latitude = 42.96865, Longitude = -73.32701
+  Dot 11: Latitude = 39.76225, Longitude = -77.26719
+  Dot 12: Latitude = 40.53998, Longitude = -79.81061
+  Dot 13: Latitude = 41.13331, Longitude = -77.45331
+  Dot 14: Latitude = 44.44585, Longitude = -73.21462
+  Dot 15: Latitude = 35.20328, Longitude = -111.66362
+  Dot 16: Latitude = 33.35765, Longitude = -111.79292
+  Dot 17: Latitude = 31.97393, Longitude = -109.93670
+  Dot 18: Latitude = 34.31507, Longitude = -113.57033
+  Dot 19: Latitude = 32.66781, Longitude = -114.51142
+  Dot 20: Latitude = 37.55726, Longitude = -121.96204
+  Dot 21: Latitude = 38.80131, Longitude = -119.78982
+  Dot 22: Latitude = 39.75976, Longitude = -121.82568
+  Dot 23: Latitude = 33.82964, Longitude = -117.99767
+  Dot 24: Latitude = 35.37586, Longitude = -119.02989
+  Dot 25: Latitude = 37.36630, Longitude = -118.38867
+  Dot 26: Latitude = 39.75350, Longitude = -104.54306
+  Dot 27: Latitude = 37.24837, Longitude = -107.16183
+  Dot 28: Latitude = 39.64621, Longitude = -106.40017
+  Dot 29: Latitude = 39.03810, Longitude = -107.95873
+  Dot 30: Latitude = 38.46573, Longitude = -105.24558
+  Dot 31: Latitude = 40.97275, Longitude = -105.42175
+  Dot 32: Latitude = 43.48656, Longitude = -116.41613
+  Dot 33: Latitude = 44.98061, Longitude = -116.36095
+  Dot 34: Latitude = 42.28585, Longitude = -111.97407
+  Dot 35: Latitude = 43.32100, Longitude = -113.95679
+  Dot 36: Latitude = 48.21546, Longitude = -116.28332
+  Dot 37: Latitude = 45.86630, Longitude = -113.55073
+  Dot 38: Latitude = 44.77393, Longitude = -112.34847
+  Dot 39: Latitude = 46.03752, Longitude = -107.47356
+  Dot 40: Latitude = 48.99268, Longitude = -108.66444
+  Dot 41: Latitude = 46.56387, Longitude = -111.58686
+  Dot 42: Latitude = 45.37343, Longitude = -109.48054
+  Dot 43: Latitude = 35.04562, Longitude = -106.71775
+  Dot 44: Latitude = 32.52284, Longitude = -104.98974
+  Dot 45: Latitude = 32.30797, Longitude = -106.87889
+  Dot 46: Latitude = 34.06548, Longitude = -104.57306
+  Dot 47: Latitude = 32.72224, Longitude = -116.97075
+  Dot 48: Latitude = 36.38782, Longitude = -105.30619
+  Dot 49: Latitude = 39.28856, Longitude = -118.02562
+  Dot 50: Latitude = 35.99397, Longitude = -114.84165
+  Dot 51: Latitude = 40.71448, Longitude = -116.10600
+  Dot 52: Latitude = 41.26074, Longitude = -114.19794
+  Dot 53: Latitude = 39.33977, Longitude = -116.00414
+  Dot 54: Latitude = 37.61095, Longitude = -114.52808
+  Dot 55: Latitude = 44.85845, Longitude = -118.28353
+  Dot 56: Latitude = 44.66548, Longitude = -123.18083
+  Dot 57: Latitude = 44.05059, Longitude = -121.32894
+  Dot 58: Latitude = 42.43780, Longitude = -123.35579
+  Dot 59: Latitude = 46.19972, Longitude = -123.95219
+  Dot 60: Latitude = 45.57797, Longitude = -120.36847
+  Dot 61: Latitude = 40.29196, Longitude = -111.65463
+  Dot 62: Latitude = 40.70715, Longitude = -109.09980
+  Dot 63: Latitude = 46.40100, Longitude = -117.08700
+  Dot 64: Latitude = 48.92000, Longitude = -122.34349
+  Dot 65: Latitude = 47.51997, Longitude = -120.47569
+  Dot 66: Latitude = 47.22871, Longitude = -122.47093
+  Dot 67: Latitude = 48.99758, Longitude = -118.22647
+  Dot 68: Latitude = 47.36006, Longitude = -118.48637
+  Dot 69: Latitude = 42.36759, Longitude = -105.29030
+  Dot 70: Latitude = 44.37825, Longitude = -108.04936
+  Dot 71: Latitude = 43.75118, Longitude = -105.48645
+  Dot 72: Latitude = 42.03029, Longitude = -107.28503
+  Dot 73: Latitude = 43.40775, Longitude = -109.42766
+  Dot 74: Latitude = 41.78201, Longitude = -110.19549
+  Dot 75: Latitude = 41.50243, Longitude = -94.25085
+  Dot 76: Latitude = 42.29082, Longitude = -92.28824
+  Dot 77: Latitude = 42.79546, Longitude = -94.91494
+  Dot 78: Latitude = 40.86662, Longitude = -91.31572
+  Dot 79: Latitude = 40.82071, Longitude = -95.79980
+  Dot 80: Latitude = 42.04588, Longitude = -90.39491
+  Dot 81: Latitude = 38.89493, Longitude = -89.40815
+  Dot 82: Latitude = 40.31527, Longitude = -88.35556
+  Dot 83: Latitude = 41.72769, Longitude = -88.21852
+  Dot 84: Latitude = 38.84227, Longitude = -87.59306
+  Dot 85: Latitude = 37.11925, Longitude = -88.55177
+  Dot 86: Latitude = 40.76095, Longitude = -84.90402
+  Dot 87: Latitude = 39.77551, Longitude = -86.11939
+  Dot 88: Latitude = 41.68731, Longitude = -86.32317
+  Dot 89: Latitude = 37.78878, Longitude = -95.19993
+  Dot 90: Latitude = 39.42129, Longitude = -94.99677
+  Dot 91: Latitude = 37.01567, Longitude = -98.64681
+  Dot 92: Latitude = 38.59957, Longitude = -98.53469
+  Dot 93: Latitude = 38.07644, Longitude = -96.88560
+  Dot 94: Latitude = 39.74267, Longitude = -101.49525
+  Dot 95: Latitude = 38.25792, Longitude = -76.84849
+  Dot 96: Latitude = 39.21631, Longitude = -79.46853
+  Dot 97: Latitude = 37.57785, Longitude = -81.53139
+  Dot 98: Latitude = 44.82393, Longitude = -83.29953
+  Dot 99: Latitude = 45.15629, Longitude = -85.24828
+  Dot 100: Latitude = 42.71020, Longitude = -85.12861
+  Dot 101: Latitude = 42.26820, Longitude = -83.16088
+  Dot 102: Latitude = 43.98050, Longitude = -86.29567
+  Dot 103: Latitude = 46.48439, Longitude = -93.75159
+  Dot 104: Latitude = 46.87524, Longitude = -96.10150
+  Dot 105: Latitude = 48.14644, Longitude = -94.52241
+  Dot 106: Latitude = 45.32278, Longitude = -96.13656
+  Dot 107: Latitude = 44.20296, Longitude = -94.33701
+  Dot 108: Latitude = 47.54383, Longitude = -90.89463
+  Dot 109: Latitude = 38.78934, Longitude = -92.27056
+  Dot 110: Latitude = 37.40092, Longitude = -93.51868
+  Dot 111: Latitude = 37.73289, Longitude = -90.72764
+  Dot 112: Latitude = 43.69720, Longitude = -90.86893
+  Dot 113: Latitude = 48.97176, Longitude = -101.28416
+  Dot 114: Latitude = 46.87138, Longitude = -100.71355
+  Dot 115: Latitude = 48.41744, Longitude = -97.40115
+  Dot 116: Latitude = 46.85933, Longitude = -102.78473
+  Dot 117: Latitude = 47.95298, Longitude = -104.02842
+  Dot 118: Latitude = 46.93258, Longitude = -98.49410
+  Dot 119: Latitude = 40.58508, Longitude = -98.50839
+  Dot 120: Latitude = 42.43780, Longitude = -97.83925
+  Dot 121: Latitude = 41.73953, Longitude = -101.41527
+  Dot 122: Latitude = 41.46109, Longitude = -103.65619
+  Dot 123: Latitude = 44.21139, Longitude = -100.05655
+  Dot 124: Latitude = 42.83847, Longitude = -100.19725
+  Dot 125: Latitude = 38.92406, Longitude = -83.57012
+  Dot 126: Latitude = 40.86587, Longitude = -82.31949
+  Dot 127: Latitude = 41.89733, Longitude = -80.80684
+  Dot 128: Latitude = 39.44002, Longitude = -81.95495
+  Dot 129: Latitude = 44.25103, Longitude = -97.96161
+  Dot 130: Latitude = 42.99783, Longitude = -102.05197
+  Dot 131: Latitude = 44.66661, Longitude = -103.82052
+  Dot 132: Latitude = 45.64808, Longitude = -99.82758
+  Dot 133: Latitude = 45.05366, Longitude = -101.55961
+  Dot 134: Latitude = 46.13383, Longitude = -90.59238
+  Dot 135: Latitude = 44.24004, Longitude = -88.16056
+  Dot 136: Latitude = 44.96051, Longitude = -91.58861
+  Dot 137: Latitude = 43.02050, Longitude = -89.04370
+  Dot 138: Latitude = 45.94393, Longitude = -88.57160
+  Dot 139: Latitude = 32.58915, Longitude = -86.48703
+  Dot 140: Latitude = 30.70305, Longitude = -87.54251
+  Dot 141: Latitude = 34.03964, Longitude = -86.67343
+  Dot 142: Latitude = 34.88948, Longitude = -88.02287
+  Dot 143: Latitude = 31.26342, Longitude = -85.41321
+  Dot 144: Latitude = 31.99539, Longitude = -88.03816
+  Dot 145: Latitude = 36.13456, Longitude = -92.93087
+  Dot 146: Latitude = 34.50660, Longitude = -93.05580
+  Dot 147: Latitude = 34.28596, Longitude = -91.34366
+  Dot 148: Latitude = 29.65575, Longitude = -82.30803
+  Dot 149: Latitude = 28.21850, Longitude = -80.65030
+  Dot 150: Latitude = 26.18527, Longitude = -80.10333
+  Dot 151: Latitude = 26.76859, Longitude = -81.92702
+  Dot 152: Latitude = 27.90219, Longitude = -82.77776
+  Dot 153: Latitude = 31.96821, Longitude = -82.43539
+  Dot 154: Latitude = 33.17731, Longitude = -83.28151
+  Dot 155: Latitude = 34.33710, Longitude = -85.02031
+  Dot 156: Latitude = 30.66797, Longitude = -83.41967
+  Dot 157: Latitude = 30.91305, Longitude = -81.42315
+  Dot 158: Latitude = 34.60319, Longitude = -83.40640
+  Dot 159: Latitude = 38.15688, Longitude = -85.00518
+  Dot 160: Latitude = 36.75782, Longitude = -85.93824
+  Dot 161: Latitude = 30.30892, Longitude = -90.96378
+  Dot 162: Latitude = 30.81908, Longitude = -93.26611
+  Dot 163: Latitude = 32.14719, Longitude = -92.99958
+  Dot 164: Latitude = 31.57783, Longitude = -91.50695
+  Dot 165: Latitude = 33.28273, Longitude = -89.32140
+  Dot 166: Latitude = 30.38615, Longitude = -89.36008
+  Dot 167: Latitude = 31.77870, Longitude = -89.68328
+  Dot 168: Latitude = 36.20398, Longitude = -79.38350
+  Dot 169: Latitude = 35.76325, Longitude = -81.56601
+  Dot 170: Latitude = 34.98469, Longitude = -80.13812
+  Dot 171: Latitude = 35.53947, Longitude = -76.62279
+  Dot 172: Latitude = 34.58424, Longitude = -78.56364
+  Dot 173: Latitude = 35.13935, Longitude = -97.25295
+  Dot 174: Latitude = 35.73467, Longitude = -95.35362
+  Dot 175: Latitude = 32.55418, Longitude = -80.68777
+  Dot 176: Latitude = 33.39270, Longitude = -79.33890
+  Dot 177: Latitude = 34.30318, Longitude = -81.77741
+  Dot 178: Latitude = 35.27503, Longitude = -89.67359
+  Dot 179: Latitude = 35.40174, Longitude = -86.13788
+  Dot 180: Latitude = 35.61408, Longitude = -84.50335
+  Dot 181: Latitude = 31.72900, Longitude = -95.61874
+  Dot 182: Latitude = 32.33456, Longitude = -102.53717
+  Dot 183: Latitude = 28.01068, Longitude = -97.09374
+  Dot 184: Latitude = 33.46614, Longitude = -98.65907
+  Dot 185: Latitude = 34.99718, Longitude = -101.27812
+  Dot 186: Latitude = 29.14437, Longitude = -98.51210
+  Dot 187: Latitude = 37.79682, Longitude = -78.49884
+  Dot 188: Latitude = 36.67392, Longitude = -77.54905
+
+GOOD GEO ERROR (total): 12.44 meters
+NAIVE GEO ERROR (total): 260.17 meters
+
+Individual GEO errors (good method) in meters:
+  Dot 1: 20.65 m
+  Dot 2: 20.58 m
+  Dot 3: 6.62 m
+  Dot 4: 7.56 m
+  Dot 5: 15.06 m
+  Dot 6: 18.01 m
+  Dot 7: 13.75 m
+  Dot 8: 16.11 m
+  Dot 9: 21.75 m
+  Dot 10: 11.09 m
+  Dot 11: 8.31 m
+  Dot 12: 5.23 m
+  Dot 13: 14.75 m
+  Dot 14: 18.43 m
+  Dot 15: 4.44 m
+  Dot 16: 19.44 m
+  Dot 17: 6.98 m
+  Dot 18: 17.19 m
+  Dot 19: 30.69 m
+  Dot 20: 15.87 m
+  Dot 21: 8.34 m
+  Dot 22: 6.69 m
+  Dot 23: 26.52 m
+  Dot 24: 16.27 m
+  Dot 25: 19.35 m
+  Dot 26: 8.36 m
+  Dot 27: 5.32 m
+  Dot 28: 15.57 m
+  Dot 29: 17.52 m
+  Dot 30: 4.49 m
+  Dot 31: 4.77 m
+  Dot 32: 3.90 m
+  Dot 33: 10.46 m
+  Dot 34: 11.34 m
+  Dot 35: 5.52 m
+  Dot 36: 8.68 m
+  Dot 37: 8.21 m
+  Dot 38: 13.18 m
+  Dot 39: 3.72 m
+  Dot 40: 10.48 m
+  Dot 41: 13.32 m
+  Dot 42: 4.50 m
+  Dot 43: 25.10 m
+  Dot 44: 5.42 m
+  Dot 45: 2.48 m
+  Dot 46: 3.30 m
+  Dot 47: 16.57 m
+  Dot 48: 20.28 m
+  Dot 49: 32.36 m
+  Dot 50: 20.06 m
+  Dot 51: 6.44 m
+  Dot 52: 31.23 m
+  Dot 53: 24.57 m
+  Dot 54: 15.81 m
+  Dot 55: 12.41 m
+  Dot 56: 14.67 m
+  Dot 57: 10.11 m
+  Dot 58: 6.24 m
+  Dot 59: 20.77 m
+  Dot 60: 22.67 m
+  Dot 61: 8.95 m
+  Dot 62: 12.94 m
+  Dot 63: 8.07 m
+  Dot 64: 10.46 m
+  Dot 65: 23.77 m
+  Dot 66: 14.32 m
+  Dot 67: 7.05 m
+  Dot 68: 5.58 m
+  Dot 69: 4.86 m
+  Dot 70: 5.93 m
+  Dot 71: 7.94 m
+  Dot 72: 13.91 m
+  Dot 73: 6.47 m
+  Dot 74: 9.10 m
+  Dot 75: 5.76 m
+  Dot 76: 2.49 m
+  Dot 77: 0.55 m
+  Dot 78: 15.79 m
+  Dot 79: 4.34 m
+  Dot 80: 24.59 m
+  Dot 81: 5.52 m
+  Dot 82: 0.94 m
+  Dot 83: 1.89 m
+  Dot 84: 11.56 m
+  Dot 85: 17.26 m
+  Dot 86: 7.61 m
+  Dot 87: 1.73 m
+  Dot 88: 4.08 m
+  Dot 89: 27.21 m
+  Dot 90: 36.86 m
+  Dot 91: 5.44 m
+  Dot 92: 36.16 m
+  Dot 93: 35.24 m
+  Dot 94: 7.31 m
+  Dot 95: 19.81 m
+  Dot 96: 10.57 m
+  Dot 97: 7.50 m
+  Dot 98: 20.96 m
+  Dot 99: 13.47 m
+  Dot 100: 11.18 m
+  Dot 101: 18.10 m
+  Dot 102: 38.10 m
+  Dot 103: 24.36 m
+  Dot 104: 7.48 m
+  Dot 105: 12.04 m
+  Dot 106: 5.48 m
+  Dot 107: 12.40 m
+  Dot 108: 8.56 m
+  Dot 109: 1.29 m
+  Dot 110: 27.01 m
+  Dot 111: 9.49 m
+  Dot 112: 5.89 m
+  Dot 113: 8.13 m
+  Dot 114: 12.63 m
+  Dot 115: 15.79 m
+  Dot 116: 6.61 m
+  Dot 117: 3.30 m
+  Dot 118: 4.44 m
+  Dot 119: 5.91 m
+  Dot 120: 2.93 m
+  Dot 121: 8.41 m
+  Dot 122: 3.67 m
+  Dot 123: 10.46 m
+  Dot 124: 24.55 m
+  Dot 125: 5.88 m
+  Dot 126: 15.60 m
+  Dot 127: 7.43 m
+  Dot 128: 4.84 m
+  Dot 129: 2.93 m
+  Dot 130: 4.65 m
+  Dot 131: 15.03 m
+  Dot 132: 10.30 m
+  Dot 133: 4.65 m
+  Dot 134: 11.21 m
+  Dot 135: 15.53 m
+  Dot 136: 4.37 m
+  Dot 137: 6.28 m
+  Dot 138: 14.76 m
+  Dot 139: 21.59 m
+  Dot 140: 15.39 m
+  Dot 141: 15.64 m
+  Dot 142: 18.35 m
+  Dot 143: 5.17 m
+  Dot 144: 3.23 m
+  Dot 145: 11.30 m
+  Dot 146: 4.56 m
+  Dot 147: 6.20 m
+  Dot 148: 5.88 m
+  Dot 149: 4.09 m
+  Dot 150: 13.75 m
+  Dot 151: 10.29 m
+  Dot 152: 28.37 m
+  Dot 153: 5.99 m
+  Dot 154: 13.28 m
+  Dot 155: 2.51 m
+  Dot 156: 15.37 m
+  Dot 157: 4.60 m
+  Dot 158: 17.22 m
+  Dot 159: 28.99 m
+  Dot 160: 11.10 m
+  Dot 161: 13.98 m
+  Dot 162: 5.82 m
+  Dot 163: 20.03 m
+  Dot 164: 35.88 m
+  Dot 165: 4.37 m
+  Dot 166: 10.28 m
+  Dot 167: 16.21 m
+  Dot 168: 19.68 m
+  Dot 169: 16.52 m
+  Dot 170: 14.64 m
+  Dot 171: 2.60 m
+  Dot 172: 10.27 m
+  Dot 173: 13.70 m
+  Dot 174: 11.74 m
+  Dot 175: 10.57 m
+  Dot 176: 12.32 m
+  Dot 177: 6.73 m
+  Dot 178: 34.45 m
+  Dot 179: 8.97 m
+  Dot 180: 12.21 m
+  Dot 181: 12.67 m
+  Dot 182: 3.24 m
+  Dot 183: 7.10 m
+  Dot 184: 8.95 m
+  Dot 185: 4.50 m
+  Dot 186: 47.71 m
+  Dot 187: 9.14 m
+  Dot 188: 15.85 m
+
+Individual GEO errors (naive method) in meters:
+  Dot 1: 78.95 m
+  Dot 2: 391.38 m
+  Dot 3: 251.31 m
+  Dot 4: 198.49 m
+  Dot 5: 437.03 m
+  Dot 6: 374.75 m
+  Dot 7: 157.60 m
+  Dot 8: 248.20 m
+  Dot 9: 332.17 m
+  Dot 10: 387.15 m
+  Dot 11: 170.45 m
+  Dot 12: 260.84 m
+  Dot 13: 403.97 m
+  Dot 14: 69.62 m
+  Dot 15: 302.88 m
+  Dot 16: 395.99 m
+  Dot 17: 208.94 m
+  Dot 18: 438.03 m
+  Dot 19: 368.60 m
+  Dot 20: 290.01 m
+  Dot 21: 319.35 m
+  Dot 22: 329.49 m
+  Dot 23: 197.34 m
+  Dot 24: 430.32 m
+  Dot 25: 325.10 m
+  Dot 26: 266.89 m
+  Dot 27: 328.79 m
+  Dot 28: 197.87 m
+  Dot 29: 372.71 m
+  Dot 30: 372.46 m
+  Dot 31: 212.94 m
+  Dot 32: 439.60 m
+  Dot 33: 271.52 m
+  Dot 34: 140.18 m
+  Dot 35: 357.81 m
+  Dot 36: 95.85 m
+  Dot 37: 171.55 m
+  Dot 38: 317.54 m
+  Dot 39: 309.09 m
+  Dot 40: 49.66 m
+  Dot 41: 245.95 m
+  Dot 42: 99.79 m
+  Dot 43: 211.94 m
+  Dot 44: 58.07 m
+  Dot 45: 397.51 m
+  Dot 46: 389.96 m
+  Dot 47: 345.14 m
+  Dot 48: 58.12 m
+  Dot 49: 188.59 m
+  Dot 50: 125.20 m
+  Dot 51: 107.61 m
+  Dot 52: 387.57 m
+  Dot 53: 287.90 m
+  Dot 54: 240.56 m
+  Dot 55: 246.52 m
+  Dot 56: 373.34 m
+  Dot 57: 148.74 m
+  Dot 58: 123.53 m
+  Dot 59: 284.73 m
+  Dot 60: 109.15 m
+  Dot 61: 464.87 m
+  Dot 62: 257.04 m
+  Dot 63: 359.71 m
+  Dot 64: 125.61 m
+  Dot 65: 140.97 m
+  Dot 66: 241.40 m
+  Dot 67: 265.85 m
+  Dot 68: 145.61 m
+  Dot 69: 242.22 m
+  Dot 70: 342.50 m
+  Dot 71: 92.11 m
+  Dot 72: 219.87 m
+  Dot 73: 349.89 m
+  Dot 74: 59.80 m
+  Dot 75: 229.89 m
+  Dot 76: 26.40 m
+  Dot 77: 84.36 m
+  Dot 78: 138.19 m
+  Dot 79: 291.39 m
+  Dot 80: 59.18 m
+  Dot 81: 445.20 m
+  Dot 82: 88.22 m
+  Dot 83: 368.16 m
+  Dot 84: 205.19 m
+  Dot 85: 387.50 m
+  Dot 86: 171.23 m
+  Dot 87: 327.30 m
+  Dot 88: 35.62 m
+  Dot 89: 223.57 m
+  Dot 90: 206.46 m
+  Dot 91: 249.42 m
+  Dot 92: 306.36 m
+  Dot 93: 216.15 m
+  Dot 94: 52.18 m
+  Dot 95: 116.41 m
+  Dot 96: 249.60 m
+  Dot 97: 204.47 m
+  Dot 98: 186.32 m
+  Dot 99: 52.47 m
+  Dot 100: 297.45 m
+  Dot 101: 259.92 m
+  Dot 102: 269.40 m
+  Dot 103: 227.87 m
+  Dot 104: 224.15 m
+  Dot 105: 456.57 m
+  Dot 106: 347.60 m
+  Dot 107: 280.22 m
+  Dot 108: 248.21 m
+  Dot 109: 407.14 m
+  Dot 110: 176.82 m
+  Dot 111: 235.67 m
+  Dot 112: 376.23 m
+  Dot 113: 218.94 m
+  Dot 114: 219.73 m
+  Dot 115: 153.12 m
+  Dot 116: 122.84 m
+  Dot 117: 462.57 m
+  Dot 118: 273.73 m
+  Dot 119: 245.36 m
+  Dot 120: 407.99 m
+  Dot 121: 424.19 m
+  Dot 122: 204.22 m
+  Dot 123: 272.25 m
+  Dot 124: 287.12 m
+  Dot 125: 229.29 m
+  Dot 126: 281.63 m
+  Dot 127: 211.39 m
+  Dot 128: 358.18 m
+  Dot 129: 392.19 m
+  Dot 130: 396.97 m
+  Dot 131: 391.67 m
+  Dot 132: 469.66 m
+  Dot 133: 308.90 m
+  Dot 134: 95.51 m
+  Dot 135: 185.53 m
+  Dot 136: 121.10 m
+  Dot 137: 307.48 m
+  Dot 138: 239.20 m
+  Dot 139: 274.10 m
+  Dot 140: 379.58 m
+  Dot 141: 237.28 m
+  Dot 142: 215.40 m
+  Dot 143: 172.28 m
+  Dot 144: 336.61 m
+  Dot 145: 254.95 m
+  Dot 146: 355.50 m
+  Dot 147: 124.94 m
+  Dot 148: 450.53 m
+  Dot 149: 463.79 m
+  Dot 150: 312.32 m
+  Dot 151: 179.77 m
+  Dot 152: 144.10 m
+  Dot 153: 348.04 m
+  Dot 154: 210.07 m
+  Dot 155: 318.58 m
+  Dot 156: 395.74 m
+  Dot 157: 220.78 m
+  Dot 158: 141.85 m
+  Dot 159: 174.32 m
+  Dot 160: 359.96 m
+  Dot 161: 148.51 m
+  Dot 162: 362.15 m
+  Dot 163: 235.28 m
+  Dot 164: 272.01 m
+  Dot 165: 267.66 m
+  Dot 166: 341.41 m
+  Dot 167: 285.12 m
+  Dot 168: 329.97 m
+  Dot 169: 491.65 m
+  Dot 170: 350.41 m
+  Dot 171: 168.36 m
+  Dot 172: 418.75 m
+  Dot 173: 338.67 m
+  Dot 174: 400.63 m
+  Dot 175: 349.58 m
+  Dot 176: 228.24 m
+  Dot 177: 287.35 m
+  Dot 178: 77.16 m
+  Dot 179: 255.26 m
+  Dot 180: 334.89 m
+  Dot 181: 272.00 m
+  Dot 182: 86.52 m
+  Dot 183: 406.46 m
+  Dot 184: 318.15 m
+  Dot 185: 246.58 m
+  Dot 186: 180.19 m
+  Dot 187: 163.49 m
+  Dot 188: 205.29 m
+GOOD AVG PIXEL ERROR: 0.00308116 0.00317803
+BAD AVG PIXEL ERROR: 0.065437 0.0640194
+
+GOOD AVG LATITUDE ERROR: 0.000082 degrees
+GOOD AVG LONGITUDE ERROR: 0.000080 degrees
+
+BAD AVG LATITUDE ERROR: 0.001657 degrees
+BAD AVG LONGITUDE ERROR: 0.001693 degrees
+
+GOOD AVG DISTANCE ERROR: 12.44 meters
+BAD AVG DISTANCE ERROR: 260.17 meters
+Total runtime: 6.66 seconds

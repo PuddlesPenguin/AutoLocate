@@ -9,9 +9,7 @@ This repository contains research code used to detect and recover high-precision
 - **Python**: 3.8+ recommended.
 - **Core packages**: `Pillow`, `numpy`, `scipy`, `geopy`, `matplotlib`, `xyzservices`, `shapely`, `geopandas`, `pyproj`, `contextily`, `cartopy` (used in `Geometric-and-Naive.py`).
 - On Windows, installing `geopandas`, `cartopy` and `contextily` is easiest via conda. See "Installation" below.
-# AutoLocate
 
-This README focuses on what each file in the repository does, what inputs the scripts expect, and what outputs they produce. Minimal setup notes are at the end.
 
 Note: the interactive menu/interface used by the perceptual-descent scripts (the prompt where you press `1` to generate a map or `2` to run prediction) is printed to standard output. When the repository helper runs the scripts it often redirects stdout to `dot_center_results.txt`, so you may find the menu and runtime logs recorded in that file.
 
@@ -45,7 +43,7 @@ Note: the interactive menu/interface used by the perceptual-descent scripts (the
 - `dot_center_results.txt`: primary results file. Contains detected dot pixel centers, converted lat/lon (if ground truth is available and matching is performed), summary error metrics, and runtime info. This is the main file to inspect for experiment results.
 - Intermediate artifacts: `AugmentedMaps/` and files like `BoundaryPixels.png` are created during perceptual-descent for debugging/visualization only — they are optional and can be ignored for normal use.
 
-**Quick run (minimal)**
+**Quick run**
 - Detect dots with the geometric approach:
 
   ```bash
@@ -91,22 +89,11 @@ Inspect results
  - Primary result: `dot_center_results.txt` — contains detected pixel centers, converted lat/lon (if ground truth available), summary error metrics, and runtime info.
  - Ignore intermediate `AugmentedMaps/` files unless you need debug visuals.
 
-**Installation**
-- Minimal (pip):
+**Installation (minimal)**
+- `pip`:
 
   ```bash
   pip install geopandas contextily pillow numpy scipy shapely pyproj geopy matplotlib
   ```
-
-  Note: on Windows `geopandas` and some geospatial dependencies may be easier to install via `conda`, but the `pip` line above installs the main Python packages used by the scripts.
-
-**File structure (minimal)**
-- `Geometric-and-Naive.py`: geometric and naive detectors
-- `Perceptual-Descent-Connected.py`: perceptual-descent for connected clusters
-- `Perceptual-Descent-Nonconnected.py`: perceptual-descent for isolated dots
-- `CoordinateJSONs/`: example GeoJSONs
-- `Media-Misc/`: example map images and world files
-- `AugmentedMaps/`: generated at runtime for intermediate artifacts (debug)
-- `dot_center_results.txt`: primary results log
 
 

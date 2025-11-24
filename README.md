@@ -14,8 +14,6 @@ This repository contains research code used to detect and recover high-precision
 This README focuses on what each file in the repository does, what inputs the scripts expect, and what outputs they produce. Minimal setup notes are at the end.
 
 Note: the interactive menu/interface used by the perceptual-descent scripts (the prompt where you press `1` to generate a map or `2` to run prediction) is printed to standard output. When the repository helper runs the scripts it often redirects stdout to `dot_center_results.txt`, so you may find the menu and runtime logs recorded in that file.
-**How to Generate Map with Geopandas**
-
 
 **What each script does**
 - `Geometric-and-Naive.py`: Detects red dot clusters in an input map image and estimates each dot's pixel center using 

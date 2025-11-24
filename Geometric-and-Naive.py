@@ -17,8 +17,8 @@ from xyzservices import TileProvider
 
 FILENAME = "Map.png" # Change with Map file name
 COORDJSON = "CoordinateJSONs/Non-Connected-US.geojson" # Change with points name
-flag=True # Flag = True means PixelMatch Naive Method (can also be used for Raster2Vec)
-          # Flag = False means PixelAvg Naive Method
+flag=True # Flag = True means script uses PixelMatch Naive Method (can also be used for Raster2Vec)
+          # Flag = False means script uses PixelAvg Naive Method
 pixel_size = 0.02587884152408056 # Latitude / Pixel
 width_px = 2284 # Pixels / Width
 height_px = 1424 # Pixels / Height

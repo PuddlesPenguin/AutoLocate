@@ -91,4 +91,22 @@ Inspect results
  - Primary result: `dot_center_results.txt` — contains detected pixel centers, converted lat/lon (if ground truth available), summary error metrics, and runtime info.
  - Ignore intermediate `AugmentedMaps/` files unless you need debug visuals.
 
+**Installation**
+- Minimal (pip):
+
+  ```bash
+  pip install geopandas contextily pillow numpy scipy shapely pyproj geopy matplotlib
+  ```
+
+  Note: on Windows `geopandas` and some geospatial dependencies may be easier to install via `conda`, but the `pip` line above installs the main Python packages used by the scripts.
+
+**File structure (minimal)**
+- `Geometric-and-Naive.py`: geometric and naive detectors
+- `Perceptual-Descent-Connected.py`: perceptual-descent for connected clusters
+- `Perceptual-Descent-Nonconnected.py`: perceptual-descent for isolated dots
+- `CoordinateJSONs/`: example GeoJSONs
+- `Media-Misc/`: example map images and world files
+- `AugmentedMaps/`: generated at runtime for intermediate artifacts (debug)
+- `dot_center_results.txt`: primary results log
+
 

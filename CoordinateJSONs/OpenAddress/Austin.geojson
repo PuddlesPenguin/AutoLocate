@@ -1,0 +1,425 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "32622c26b99e547c",
+        "number": "7523",
+        "street": "ESCALA DR",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78735",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8597265,
+          30.2703445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ca25b782470457f7",
+        "number": "7716",
+        "street": "MARBLE CREST DR",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78747",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7430128,
+          30.1626576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1b01ec3e1cc17c56",
+        "number": "12324",
+        "street": "PALOMA BLANCA WAY",
+        "unit": "",
+        "city": "Del Valle",
+        "district": "",
+        "region": "TX",
+        "postcode": "78617",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6297817,
+          30.1687288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7c09a2550ad28db5",
+        "number": "4800",
+        "street": "DIAMANTE DR",
+        "unit": "",
+        "city": "Spicewood",
+        "district": "",
+        "region": "TX",
+        "postcode": "78669",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0760806,
+          30.3617303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e0963ffd0286a489",
+        "number": "2404",
+        "street": "TIVOLI DR",
+        "unit": "",
+        "city": "CEDAR PARK",
+        "district": "",
+        "region": "TX",
+        "postcode": "78613",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.849958,
+          30.4658513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d6594c64764a64d6",
+        "number": "4714 1/2",
+        "street": "SPICEWOOD SPRINGS RD",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78759",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7628428,
+          30.3761567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8152cf511824aaf4",
+        "number": "11580",
+        "street": "MOUNTAIN TOP CIR",
+        "unit": "",
+        "city": "Leander",
+        "district": "",
+        "region": "TX",
+        "postcode": "78645",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9432954,
+          30.5044776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "74b6a4d29e13748c",
+        "number": "15302",
+        "street": "BARRIE DR",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78734",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9559159,
+          30.3544989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "940d82f90d5854d0",
+        "number": "17904",
+        "street": "DEAD END RD",
+        "unit": "",
+        "city": "Leander",
+        "district": "",
+        "region": "TX",
+        "postcode": "78645",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9630609,
+          30.4168055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6d850fd22ba5c1a4",
+        "number": "3207",
+        "street": "DANCY ST",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78722",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7201269,
+          30.2889918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7aa981818cb0b95a",
+        "number": "1819",
+        "street": "RIVER CROSSING CIR",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78741",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7142693,
+          30.2314998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "83a2218e0d145024",
+        "number": "508",
+        "street": "SWEET LEAF LN",
+        "unit": "",
+        "city": "Pflugerville",
+        "district": "",
+        "region": "TX",
+        "postcode": "78660",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6312786,
+          30.4224914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a399067792358c45",
+        "number": "6305",
+        "street": "WOODCREST DR",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78759",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7585973,
+          30.4228267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "edaf2be90dcbedc3",
+        "number": "6100",
+        "street": "HEWETSON DR",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78738",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.0331911,
+          30.3249914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2d4aa93fe914afb5",
+        "number": "9204",
+        "street": "COLLINGWOOD DR",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78748",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8278837,
+          30.183954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "34a5451571bab3e9",
+        "number": "125",
+        "street": "LAVA BED DR",
+        "unit": "",
+        "city": "Pflugerville",
+        "district": "",
+        "region": "TX",
+        "postcode": "78660",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6223922,
+          30.4667114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6c8ac334dd9caefe",
+        "number": "3213",
+        "street": "SUMMER CANYON DR",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78732",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.9047108,
+          30.3793607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f12a673b68e15512",
+        "number": "6908",
+        "street": "CRESTONE RD",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78744",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7024221,
+          30.1986761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fc5f6e66a885f56f",
+        "number": "3628",
+        "street": "PEREGRINE FALCON DR",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78746",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8110384,
+          30.2704142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2221939444ff6450",
+        "number": "6731",
+        "street": "LEGADO LN",
+        "unit": "",
+        "city": "Austin",
+        "district": "",
+        "region": "TX",
+        "postcode": "78749",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8324223,
+          30.2209474
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+Pillow
+scipy
+geopy
+numpy
+pyproj
+geopandas
+matplotlib
+contextily
+xyzservices

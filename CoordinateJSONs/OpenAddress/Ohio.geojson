@@ -1,0 +1,433 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f9c4f8622557b920",
+        "number": "2400",
+        "street": "EAGLE RIDGE DR",
+        "unit": "APT",
+        "city": "DAYTON",
+        "district": "",
+        "region": "OH",
+        "postcode": "45459",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2120654,
+          39.6707768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "bdef889f46dcf004",
+        "number": "00301",
+        "street": "FAIRGROUNDS RD",
+        "unit": "",
+        "city": "MOUNT VERNON",
+        "district": "",
+        "region": "",
+        "postcode": "43050.0",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4849814,
+          40.4159508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "57972c09576b4356",
+        "number": "-9",
+        "street": "TR 230",
+        "unit": "",
+        "city": "",
+        "district": "HAN",
+        "region": "OH",
+        "postcode": "45840",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6214553,
+          41.0982868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fe2e5d2f0e16677b",
+        "number": "208",
+        "street": "W HICKS ST",
+        "unit": "",
+        "city": "HICKSVILLE",
+        "district": "DEF",
+        "region": "OH",
+        "postcode": "43526",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7623511,
+          41.2887431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0cc6a574f1c8aaa2",
+        "number": "2333",
+        "street": "GALAXIE DR",
+        "unit": "",
+        "city": "",
+        "district": "RIC",
+        "region": "OH",
+        "postcode": "44903",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4285931,
+          40.7691221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d9df1558b63e95d9",
+        "number": "8214",
+        "street": "COLERAIN AV",
+        "unit": "",
+        "city": "COLERAIN TOWNSHIP HAM OH",
+        "district": "",
+        "region": "OH",
+        "postcode": "45239",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.585949,
+          39.2203994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "bfb746aa5636c1a1",
+        "number": "1374",
+        "street": "WEXFORD LN",
+        "unit": "",
+        "city": "GREEN TOWNSHIP HAM OH",
+        "district": "",
+        "region": "OH",
+        "postcode": "45233",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6567457,
+          39.1237544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f7ae40a423ca21be",
+        "number": "1119",
+        "street": "PAR CT",
+        "unit": "",
+        "city": "",
+        "district": "DEL",
+        "region": "OH",
+        "postcode": "43074",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.8897282,
+          40.2435493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1e9c6342f592608a",
+        "number": "11300",
+        "street": "CHESTER RD",
+        "unit": "",
+        "city": "SHARONVILLE HAM OH",
+        "district": "",
+        "region": "OH",
+        "postcode": "45246",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4430777,
+          39.2780486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9e55071efae8aa5b",
+        "number": "18211",
+        "street": "CADIZ ST",
+        "unit": "",
+        "city": "",
+        "district": "HOC",
+        "region": "OH",
+        "postcode": "43158",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3589777,
+          39.4580128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "981dc710a1d6d963",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6221785,
+          41.5184925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1554ee209467a505",
+        "number": "12209",
+        "street": "WEST RIDGE RD",
+        "unit": "",
+        "city": "OBERLIN",
+        "district": "",
+        "region": "",
+        "postcode": "44074",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1482568,
+          41.310208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d0a0df79bd617aa3",
+        "number": "",
+        "street": "7TH ST",
+        "unit": "",
+        "city": "HAMILTON",
+        "district": "",
+        "region": "",
+        "postcode": "45011",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5560845,
+          39.3942719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "968af363ede74322",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6209426,
+          41.3366741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "20eadce09b922f08",
+        "number": "1111",
+        "street": "ROSEDALE DR",
+        "unit": "",
+        "city": "DAYTON",
+        "district": "",
+        "region": "OH",
+        "postcode": "45402",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2267912,
+          39.7682101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "958535600b1f0aa7",
+        "number": "5747",
+        "street": "TALMADGE RD",
+        "unit": "",
+        "city": "TOLEDO",
+        "district": "LUC",
+        "region": "OH",
+        "postcode": "43623",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6464054,
+          41.7189545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "976519c245bda792",
+        "number": "6295",
+        "street": "WILLIS RD",
+        "unit": "",
+        "city": "",
+        "district": "DAR",
+        "region": "OH",
+        "postcode": "45331",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1388033.0572617,
+          771864.1682108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ebfc3b0d24b6f829",
+        "number": "1203",
+        "street": "W MARKET ST",
+        "unit": "",
+        "city": "BALTIMORE",
+        "district": "",
+        "region": "",
+        "postcode": "43105",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.6162383,
+          39.8454948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5809c6b030701b2a",
+        "number": "7142",
+        "street": "BROOKWOOD DR SE",
+        "unit": "",
+        "city": "",
+        "district": "TRU",
+        "region": "OH",
+        "postcode": "44403",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.557296,
+          41.2279036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9384c5e526a78c47",
+        "number": "1109",
+        "street": "LURAY DR",
+        "unit": "",
+        "city": "ASHLAND",
+        "district": "ASD",
+        "region": "OH",
+        "postcode": "44805",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.3016062,
+          40.8592203
+        ]
+      }
+    }
+  ]
+}

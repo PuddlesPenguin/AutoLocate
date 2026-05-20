@@ -1,0 +1,3376 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "df64c5fd3049ffb7",
+        "number": "25",
+        "street": "Highland Ave",
+        "unit": "",
+        "city": "Woodridge",
+        "district": "Sullivan",
+        "region": "NY",
+        "postcode": "12789",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.5757817,
+          41.7091954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b44392ecdc46e6fc",
+        "number": "8973",
+        "street": "RIVER BEND CT",
+        "unit": "",
+        "city": "INDIANAPOLIS",
+        "district": "MARION",
+        "region": "IN",
+        "postcode": "46250",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0777014,
+          39.9180671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "951877e239a6fd3d",
+        "number": "2103",
+        "street": "INDIAN PAINTBRUSH WAY",
+        "unit": "",
+        "city": "ERIE",
+        "district": "WELD",
+        "region": "CO",
+        "postcode": "80516",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0142199,
+          40.0132346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f3a40b9bb4961bb3",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.4869574,
+          41.5434809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c9cab22fe590a320",
+        "number": "8877",
+        "street": "SW 36 ST",
+        "unit": "",
+        "city": "Unincorporated County",
+        "district": "",
+        "region": "",
+        "postcode": "33165-4364",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3392505,
+          25.7368552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "95d760174c86165d",
+        "number": "1504",
+        "street": "Osprey Drive",
+        "unit": "",
+        "city": "",
+        "district": "Dallas County",
+        "region": "TX",
+        "postcode": "75115",
+        "id": "SiteID-00654",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.8492703,
+          32.6196415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2d4f52278dba23c9",
+        "number": "3772",
+        "street": "98TH CT NE",
+        "unit": "",
+        "city": "BLAINE",
+        "district": "",
+        "region": "",
+        "postcode": "55014",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1747574,
+          45.1488911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "882dd7a68ff3e197",
+        "number": "1174",
+        "street": "Koe Street",
+        "unit": "",
+        "city": "San Diego",
+        "district": "",
+        "region": "CA",
+        "postcode": "92114",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0311849,
+          32.7187074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1edddb0dda3c81a5",
+        "number": "1221",
+        "street": "HARDING ST",
+        "unit": "",
+        "city": "Great Bend",
+        "district": "",
+        "region": "",
+        "postcode": "67530",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7963635,
+          38.3642979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9a8dc81be71f0116",
+        "number": "0",
+        "street": "SHICKSHINNY RD",
+        "unit": "",
+        "city": "Salem",
+        "district": "",
+        "region": "",
+        "postcode": "24153",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1559129,
+          37.2863515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f03cd575c3874d22",
+        "number": "1813",
+        "street": "EAST MEIGHAN BOULEVARD",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9687855,
+          33.9959346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fc548c8363e6c638",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4254118,
+          35.7769901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "75916",
+        "unit": "",
+        "number": "2009",
+        "street": "Willow Rd",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "61801",
+        "hash": "ac7e451c8b5e8cdf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2011923,
+          40.1326996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6802830157",
+        "unit": "",
+        "number": "103",
+        "street": "E PITT ST",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "hash": "5c68eb8be9c5c0e0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9443224,
+          35.9944133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "73674ea0693dac99",
+        "number": "209",
+        "street": "C ST",
+        "unit": "",
+        "city": "st-augustine",
+        "district": "st_johns",
+        "region": "fl",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2696452,
+          29.8430817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d7ac6713cbf0a28e",
+        "number": "5835",
+        "street": "WESTCHESTER HILLS CT",
+        "unit": "",
+        "city": "",
+        "district": "Carroll",
+        "region": "",
+        "postcode": "21784",
+        "id": "46265",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9174583,
+          39.4104055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3341ea89e45d205c",
+        "number": "1275",
+        "street": "ESTRIDGE DR",
+        "unit": "",
+        "city": "cocoa-rockledge",
+        "district": "brevard",
+        "region": "fl",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7390737,
+          28.3434154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8fe28ba8142f1058",
+        "number": "157",
+        "street": "HIGHWOOD AVE",
+        "unit": "",
+        "city": "Tenafly",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9534276,
+          40.9253365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "62dcf59bcaff666a",
+        "number": "11921",
+        "street": "Klingerman Street",
+        "unit": "",
+        "city": "El Monte",
+        "district": "",
+        "region": "",
+        "postcode": "91732",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0290932,
+          34.0556569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "735c634c140867e4",
+        "number": "5011",
+        "street": "LAFONTAINE",
+        "unit": "",
+        "city": "DETROIT",
+        "district": "",
+        "region": "MI",
+        "postcode": "48236",
+        "id": "21078620.",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.9144044,
+          42.4130878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1a3ed0d17fb61a83",
+        "number": "21301",
+        "street": "IVAN DR",
+        "unit": "",
+        "city": "PARK RAPIDS",
+        "district": "",
+        "region": "",
+        "postcode": "56470",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.9228427,
+          47.0368403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "60aa50ef6bef2531",
+        "number": "39",
+        "street": "SQUIRREL HILL RD",
+        "unit": "",
+        "city": "WINTERSVILLE",
+        "district": "JEF",
+        "region": "OH",
+        "postcode": "43953",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7302223,
+          40.3902625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3459d8b3897a62f4",
+        "number": "8010",
+        "street": "Ivyshaw Dr",
+        "unit": "",
+        "city": "Gainesville",
+        "district": "",
+        "region": "",
+        "postcode": "30506",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9700908,
+          34.3006632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "123",
+        "street": "TAYLORS COURT",
+        "city": "SHILOH",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "hash": "cad8f58be506c0e9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1083637,
+          36.280805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c466d33c22c59658",
+        "number": "70",
+        "street": "LA CITA CT",
+        "unit": "",
+        "city": "INDIAN RIVER SHORES",
+        "district": "",
+        "region": "",
+        "postcode": "32963",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3937489,
+          27.7424215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "579ad1f0063fab20",
+        "number": "15477",
+        "street": "SUNNY DR",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.75957,
+          30.53749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8e482e6467e49f01",
+        "number": "7312",
+        "street": "MACARTHUR DR",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "72118",
+        "id": "21834",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3116674,
+          34.8147488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5e40ab72148714cb",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.3315586,
+          26.1704834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8a1aeb2cf88ea46e",
+        "number": "4966",
+        "street": "Skeet Club Road",
+        "unit": "",
+        "city": "HURLOCK",
+        "district": "Dorchester",
+        "region": "MD",
+        "postcode": "21643",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.8255246,
+          38.6294026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fa2b19d76ad805cf",
+        "number": "4220",
+        "street": "WHITE CAP CRST",
+        "unit": "",
+        "city": "CHESAPEAKE",
+        "district": "",
+        "region": "VA",
+        "postcode": "23321",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4026784,
+          36.7999552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d35eac1f224ca748",
+        "number": "1113",
+        "street": "KERN ST",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.0030996,
+          40.5004123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5b1dcdce68b0bc3c",
+        "number": "18910",
+        "street": "SHILOH RANCH DR",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.6800467,
+          39.1052477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "132179a262ed3a78",
+        "number": "835",
+        "street": "BURNS AVE S",
+        "unit": "",
+        "city": "lehigh-acres",
+        "district": "lee",
+        "region": "fl",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6193489,
+          26.5435843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7671c8449d21bacf",
+        "number": "304",
+        "street": "35th Street",
+        "unit": "",
+        "city": "New Orleans",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "88040703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.1186196,
+          30.0113554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5894247f5889aa83",
+        "number": "200",
+        "street": "S Garner Rd",
+        "unit": "",
+        "city": "Milford",
+        "district": "",
+        "region": "MI",
+        "postcode": "48380",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6401361,
+          42.577787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "51643afba53c1fde",
+        "number": "2500",
+        "street": "BIRCH DR",
+        "unit": "",
+        "city": "RICHMOND",
+        "district": "",
+        "region": "",
+        "postcode": "47374",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.9359848,
+          39.8286476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "015e659afe8a2b39",
+        "number": "18456",
+        "street": "16th Avenue",
+        "unit": "",
+        "city": "Unincorporated",
+        "district": "",
+        "region": "",
+        "postcode": "32833",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1038786,
+          28.5476086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9d8a4f867b0cc618",
+        "number": "3214",
+        "street": "Larson DR",
+        "unit": "",
+        "city": "Idaho Falls",
+        "district": "",
+        "region": "ID",
+        "postcode": "83401",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.9697889,
+          43.5192657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c57c8d374ef0e36c",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4990974,
+          37.803301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "49731b7564c5b0da",
+        "number": "18703",
+        "street": "DANFORTH COVE",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5414759,
+          29.6147154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "33ef6102a99c4561",
+        "number": "4630",
+        "street": "TAM O SHANTER DR",
+        "unit": "",
+        "city": "Thousand Oaks",
+        "district": "",
+        "region": "CA",
+        "postcode": "91362",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8093269,
+          34.1939421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7d3aec092c5345a1",
+        "number": "13031",
+        "street": "E 13TH PL",
+        "unit": "",
+        "city": "AURORA",
+        "district": "",
+        "region": "ARAPAHOE",
+        "postcode": "80011",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8373803,
+          39.7372108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a7a99da7c3737940",
+        "number": "120",
+        "street": "THREE WOOD LN",
+        "unit": "",
+        "city": "SUMMERVILLE",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2113152,
+          33.0071952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "214fa7eb64a56684",
+        "number": "14074",
+        "street": "ADLER VALE DR",
+        "unit": "UNIT 305",
+        "city": "SPRING HILL",
+        "district": "",
+        "region": "FL",
+        "postcode": "34609",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4933655,
+          28.4972624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "86ae59032c86a485",
+        "number": "",
+        "street": "ST",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "11357",
+        "id": null,
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8187771,
+          40.7820556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "48a56fdcd38d5088",
+        "number": "1275",
+        "street": "US HWY 87",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "TX",
+        "postcode": "79088",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.7721528,
+          34.4814681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "204396404e6b3faf",
+        "number": "1152",
+        "street": "COUNTRY CLUB DR",
+        "unit": "",
+        "city": "MANHEIM TOWNSHIP",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2826998,
+          40.068397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "eb798cdd873194a8",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9633503,
+          34.7925834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "480095777071b562",
+        "number": "1238",
+        "street": "AZORA DR",
+        "unit": "",
+        "city": "DELTONA",
+        "district": "",
+        "region": "",
+        "postcode": "32725",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.240909,
+          28.8960467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0173188089f5bfb5",
+        "number": "15125",
+        "street": "TILBURY PL",
+        "unit": "",
+        "city": "ISSUE",
+        "district": "",
+        "region": "",
+        "postcode": "20645",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9072084,
+          38.2971352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "RLA09496",
+        "unit": "",
+        "number": "3305",
+        "street": "Abbey Cir",
+        "city": "Manhattan",
+        "district": "",
+        "region": "",
+        "postcode": "66503",
+        "hash": "5e7ae81927187629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6195371,
+          39.2115019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9b55c82ac02aec97",
+        "number": "10306",
+        "street": "LAKELAND DR",
+        "unit": "",
+        "city": "Fishers",
+        "district": "",
+        "region": "",
+        "postcode": "46037",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.9870537,
+          39.9276025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c18018c725fa3fc3",
+        "number": "42",
+        "street": "ROSSITER AV",
+        "unit": "",
+        "city": "Schuylkill",
+        "district": "Chester",
+        "region": "PA",
+        "postcode": "19460",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5035943,
+          40.1254626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "08e5c287046282b4",
+        "number": "16015",
+        "street": "EL CAMINO REAL",
+        "unit": "",
+        "city": "HOUSTON",
+        "district": "",
+        "region": "TX",
+        "postcode": "77062",
+        "id": "377687",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1276245,
+          29.5631377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c223852b43a923a2",
+        "number": "36815",
+        "street": "SW COUNTY ROAD 379",
+        "unit": "",
+        "city": "BRISTOL",
+        "district": "LIBERTY",
+        "region": "",
+        "postcode": "32321",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.060283,
+          30.118568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0c21acf4e1b6736c",
+        "number": "3000",
+        "street": "FOREST WANDER WAY",
+        "unit": "",
+        "city": "NASHVILLE",
+        "district": "",
+        "region": "",
+        "postcode": "37206",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7107436,
+          36.185726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1f529c100afbe61d",
+        "number": "3013",
+        "street": "SAWTIMBER TR",
+        "unit": "",
+        "city": "FORT WORTH                      ",
+        "district": "",
+        "region": "TX",
+        "postcode": "          ",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2957643,
+          32.9548368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f2005e41039c8416",
+        "number": "9414",
+        "street": "Bascom Street",
+        "unit": "",
+        "city": "Pico Rivera",
+        "district": "",
+        "region": "",
+        "postcode": "90660",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0943185,
+          33.9715338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "adaba23ab091d619",
+        "number": "3024",
+        "street": "MANITOBA LN",
+        "unit": "",
+        "city": "BISMARCK",
+        "district": "BURLEIGH COUNTY",
+        "region": "ND",
+        "postcode": "58503",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.7873872,
+          46.839906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fa74e205beb4c86b",
+        "number": "14551",
+        "street": "ARMADA RD",
+        "unit": "",
+        "city": "Port Charlotte",
+        "district": "",
+        "region": "",
+        "postcode": "33953",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2062417,
+          26.9640331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "031619c58d143057",
+        "number": "2504",
+        "street": "BLUEBERRY LN",
+        "unit": "",
+        "city": "PASADENA",
+        "district": "",
+        "region": "",
+        "postcode": "77502",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1897109,
+          29.6749772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "637b6bffb45a2935",
+        "number": "861",
+        "street": "8 CAROLINA AVE",
+        "unit": "8",
+        "city": "Sumter",
+        "district": "",
+        "region": "SC",
+        "postcode": "29150",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.3508117,
+          33.9449177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7d9e505c9c1ecca2",
+        "number": "125",
+        "street": "W DESFORD ST",
+        "unit": "",
+        "city": "Carson",
+        "district": "Los Angeles",
+        "region": "CA",
+        "postcode": "90745",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2795125,
+          33.8338917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "79b9fad6db2868c2",
+        "number": "27689",
+        "street": "Fahey Road",
+        "unit": "",
+        "city": "Gustine",
+        "district": "",
+        "region": "",
+        "postcode": "95322",
+        "id": "SITE84790@Merced.ca.us",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.9912703,
+          37.1214158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f1e3c6c4aad8f09f",
+        "number": "12208",
+        "street": "WINONA CT NE",
+        "unit": "",
+        "city": "ALBUQUERQUE",
+        "district": "",
+        "region": "",
+        "postcode": "87112",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.5116064,
+          35.0949838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1fb86dcbcc56f4a9",
+        "number": "9799",
+        "street": "GEORGIE LANE",
+        "unit": "",
+        "city": "KOUNTZE",
+        "district": "",
+        "region": "TX",
+        "postcode": "77625",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.2909344,
+          30.22156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "3302",
+        "street": "CHARTREUSE WAY",
+        "city": "HOUSTON",
+        "district": "HARRIS",
+        "region": "TX",
+        "postcode": "77082",
+        "hash": "d039976ebf4815ca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.5775764,
+          29.7230657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "17b85b98b208f1c0",
+        "number": "10155",
+        "street": "Caminito Volar",
+        "unit": "",
+        "city": "San Diego",
+        "district": "",
+        "region": "CA",
+        "postcode": "92126",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1186065,
+          32.9027035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d2afac130d62497b",
+        "number": "527",
+        "street": "SW RIVER DR",
+        "unit": "",
+        "city": "DALLAS",
+        "district": "",
+        "region": "",
+        "postcode": "97338",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.3282841,
+          44.9240238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "79670f764b6e5892",
+        "number": "228",
+        "street": "SEDBURGH CT",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0503326,
+          41.1136703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "655406fcf3dedaf5",
+        "number": "7806",
+        "street": "BIRCH BAY DR",
+        "unit": "UNIT 406",
+        "city": "Blaine",
+        "district": "",
+        "region": "",
+        "postcode": "98230",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.7447095,
+          48.9248163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "UNIT B",
+        "number": "1218",
+        "street": "MARIEMONT RD",
+        "city": "SUGAR GROVE",
+        "district": "",
+        "region": "",
+        "postcode": "60554",
+        "hash": "76f2eb99f313169f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.4141678,
+          41.7618459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "2204",
+        "street": "8th Ave SE",
+        "city": "Willmar",
+        "district": "",
+        "region": "",
+        "postcode": "56201",
+        "hash": "9bf5c2f8a7e7fbba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.0142146,
+          45.1163782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6cc138eec8f90b60",
+        "number": "2409",
+        "street": "FOX MEADOW LANE",
+        "unit": "",
+        "city": "NORTHFIELD",
+        "district": "COOK COUNTY",
+        "region": "IL",
+        "postcode": "60093",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.7936269,
+          42.1021797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "760697c70550a0b4",
+        "number": "93",
+        "street": "SWEETBRIAR DR",
+        "unit": "",
+        "city": "PALMETTO",
+        "district": "",
+        "region": "GA",
+        "postcode": "30268",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6397905,
+          33.505189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f8735ce1567c44c6",
+        "number": "14701",
+        "street": "E MAYES RD",
+        "unit": "",
+        "city": "INDEPENDENCE",
+        "district": "",
+        "region": "",
+        "postcode": "64050",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.4013965,
+          39.1128273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e348370325e228f0",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4525176,
+          33.9411779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "43403041",
+        "unit": "",
+        "number": "1207",
+        "street": "PREVOST ST",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "hash": "00fe1324cabeac8a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.8893657,
+          37.3122391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cccaae0b87916acd",
+        "number": "30",
+        "street": "STRAW FLOWER",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7573284,
+          33.7275949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0a8e4ceb81f3312f",
+        "number": "19424",
+        "street": "SE ASH ST",
+        "unit": "",
+        "city": "PORTLAND",
+        "district": "",
+        "region": "",
+        "postcode": "97233",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4624887,
+          45.5208735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "389b68abadb1941b",
+        "number": "21942",
+        "street": "N 260TH LN",
+        "unit": "",
+        "city": "BUCKEYE",
+        "district": "",
+        "region": "",
+        "postcode": "85396",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.6119304,
+          33.68437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "483cc02b1eff1022",
+        "number": "",
+        "street": "FK GLEN",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5363274,
+          37.6973463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "66a20afb049c7fa7",
+        "number": "14633",
+        "street": "CORPUS CHRISTI ST",
+        "unit": "",
+        "city": "UNINCORPORATED",
+        "district": "",
+        "region": "TX",
+        "postcode": "77015",
+        "id": "83394",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.1617522,
+          29.7833844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "407",
+        "street": "TWIN OAK DR",
+        "city": "",
+        "district": "RUTHERFORD",
+        "region": "TN",
+        "postcode": "37130",
+        "hash": "7187990c9ca06e6c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.3456847,
+          35.8450019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c34e80d35d41bae4",
+        "number": "79",
+        "street": "SPRING LAKE",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5379399,
+          29.5998919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8d63f2cfc1bc945d",
+        "number": "3034",
+        "street": "RICSAN RD",
+        "unit": "",
+        "city": "ABILENE",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.7691562,
+          32.4130135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1588d3505fc66c29",
+        "number": "1217",
+        "street": "EVERS DR",
+        "unit": "",
+        "city": "MCKINNEY",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6213189,
+          33.2409311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ffe168ade51e59f7",
+        "number": "1133",
+        "street": "Heather LN",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9122473,
+          33.0252258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0dc120af72d11909",
+        "number": "720",
+        "street": "9TH ST NW",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "ga",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7986282,
+          31.1875944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "150",
+        "street": "SPIRAL RD",
+        "city": "HOLTSVILLE",
+        "district": "",
+        "region": "",
+        "postcode": "11742",
+        "hash": "cacb72bab21d6112"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0506022,
+          40.7971881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c59285fa2b34a7c2",
+        "number": "61512",
+        "street": "FRIENDSHIP CHURCH RD",
+        "unit": "",
+        "city": "AMITE",
+        "district": "TANGIPAHOA",
+        "region": "",
+        "postcode": "70422",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3612537,
+          30.7512697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "782701c11516835a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2795835,
+          30.7343569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e662a3e19d633b2e",
+        "number": "6446",
+        "street": "PACE AV",
+        "unit": "",
+        "city": "CINCINNATI HAM OH",
+        "district": "",
+        "region": "OH",
+        "postcode": "45213",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4190255,
+          39.1915371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "abee77419e432fb7",
+        "number": "187",
+        "street": "Paseo Marguerita",
+        "unit": "",
+        "city": "Vista",
+        "district": "",
+        "region": "CA",
+        "postcode": "92084",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2476037,
+          33.2302938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3c12f0d390f74d6b",
+        "number": "2902",
+        "street": "Lingo Ln",
+        "unit": "",
+        "city": "Unincorporated",
+        "district": "",
+        "region": "",
+        "postcode": "32822",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2976116,
+          28.4968173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a02ae1a1d3c41824",
+        "number": "6262",
+        "street": "ERIC LN",
+        "unit": "",
+        "city": "MONTGOMERY",
+        "district": "",
+        "region": "AL",
+        "postcode": "36116",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2269669,
+          32.3033065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7c93b78dbf1b5e6d",
+        "number": "611",
+        "street": "E MAIN ST",
+        "unit": "",
+        "city": "GENEVA",
+        "district": "",
+        "region": "",
+        "postcode": "32732",
+        "id": "22203230002300000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1071352,
+          28.7395931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e89b510859e1cd18",
+        "number": "",
+        "street": "ST",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "11204",
+        "id": null,
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.988033,
+          40.613345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d547f6dfee6caf6f",
+        "number": "2337",
+        "street": "MARCONI AV",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "63110",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.273848,
+          38.6123319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "12c777bcde7c41f5",
+        "number": "6306",
+        "street": "HAYMAN DR",
+        "unit": "",
+        "city": "UNINCORPORATED",
+        "district": "",
+        "region": "TX",
+        "postcode": "77449",
+        "id": "929021",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7127136,
+          29.8660325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c19a1404307b0c5c",
+        "number": "W11710",
+        "street": "W PULASKI LAKE RD",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.2772771,
+          45.3350704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "APT 2",
+        "number": "1008",
+        "street": "CALDWELL ST",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "hash": "1d20d903869ce1a7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.5996256,
+          37.0727097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0e26d24f743d15bd",
+        "number": "1122",
+        "street": "HWY 1206",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "0",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.1341862,
+          31.3376856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d8f8ff8ee3a98ad8",
+        "number": "515",
+        "street": "BALDWIN ST",
+        "unit": "",
+        "city": "MODESTO",
+        "district": "",
+        "region": "CA",
+        "postcode": "95350",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.0005428,
+          37.6632884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8bd5c182537188c9",
+        "number": "",
+        "street": "SHIPYARD WAY",
+        "unit": "",
+        "city": "LORAIN",
+        "district": "",
+        "region": "",
+        "postcode": "44052",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1696742,
+          41.4689447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c88dbb7cf19f74e4",
+        "number": "15702",
+        "street": "PALATINE AVE N",
+        "unit": "",
+        "city": "Shoreline",
+        "district": "KING",
+        "region": "",
+        "postcode": "98133",
+        "id": "{AC95F9C7-6F57-4E83-8F92-FF2768CEC19A}",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.357329,
+          47.7433056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c5924b4c013f02a1",
+        "number": "204",
+        "street": "Sil Cove",
+        "unit": "",
+        "city": "Leander",
+        "district": "Williamson",
+        "region": "TX",
+        "postcode": "78641",
+        "id": "82211"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.8795937,
+          30.5706491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2ab34d07565191a7",
+        "number": "8036",
+        "street": "LINNIE LN",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.6255251,
+          30.3058977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1fc75e6379b009ec",
+        "number": "412",
+        "street": "Jasmine Ct",
+        "unit": "",
+        "city": "Cumming",
+        "district": "",
+        "region": "",
+        "postcode": "30040",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1448611,
+          34.1906634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "1257",
+        "street": "NW 136TH ST",
+        "city": "NEWBERRY",
+        "district": "ALACHUA",
+        "region": "FL",
+        "postcode": "",
+        "hash": "bd2c2d07dc3a7330"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.4855436,
+          29.6639466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "072e223a4a0bf0bb",
+        "number": "1010",
+        "street": "HENDERSON RD NW",
+        "unit": "UNIT 15I",
+        "city": "Huntsville",
+        "district": "",
+        "region": "",
+        "postcode": "35816",
+        "id": "94706",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6350734,
+          34.7326185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "12611",
+        "street": "VALLEYWOOD DR",
+        "city": "WOODBRIDGE",
+        "district": "",
+        "region": "",
+        "postcode": "22192",
+        "hash": "a6e19f64023be7ef"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2994629,
+          38.6791853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "33dc283a0bc39cf1",
+        "number": "2745",
+        "street": "W ARTESA DR",
+        "unit": "",
+        "city": "ELOY",
+        "district": "PINAL",
+        "region": "AZ",
+        "postcode": "85131",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.5982351,
+          32.8091947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "261302800",
+        "unit": "",
+        "number": "2330",
+        "street": "S BANCROFT ST",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "19145-4314",
+        "hash": "9a7940ad212de8b9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1743312,
+          39.9217025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fc20a613909cdc40",
+        "number": "3240 14",
+        "street": "S Semoran Blvd",
+        "unit": "14",
+        "city": "Orlando",
+        "district": "",
+        "region": "",
+        "postcode": "32822",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3128268,
+          28.5109088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "04d34d4d784faca5",
+        "number": "21152",
+        "street": "OAKWOOD LN",
+        "unit": "",
+        "city": "FORESTHILL",
+        "district": "",
+        "region": "CA",
+        "postcode": "95631",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.8769151,
+          38.9841948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d64618a6746a9cca",
+        "number": "2055",
+        "street": "SIMMONS ST",
+        "unit": "#C",
+        "city": "Dupont",
+        "district": "",
+        "region": "WA",
+        "postcode": "98327",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6565941,
+          47.0984743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "bde91c779af888bf",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9333511,
+          41.3776834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "bb6ff911f0d884ba",
+        "number": "1627",
+        "street": "E Avenue J12",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "93535",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1001329,
+          34.6789149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "2806",
+        "street": "HIGHWAY 394",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "hash": "e6bbe4f3f4c4bc41"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.5328337,
+          40.4917194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "77257b62882baddd",
+        "number": "2671",
+        "street": "HUTCHENS WAY",
+        "unit": "109",
+        "city": "CAPE CORAL",
+        "district": "",
+        "region": "",
+        "postcode": "33909",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9165725,
+          26.723909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9f529b27b6187d80",
+        "number": "4905",
+        "street": "E KILTY CT",
+        "unit": "",
+        "city": "bradenton",
+        "district": "manatee",
+        "region": "fl",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5068352,
+          27.454006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8733edc7261fdbd6",
+        "number": "15765",
+        "street": "W MARLIN PL",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "91406",
+        "id": "183B141   497",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.47708,
+          34.19674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c0e2fca1c3693810",
+        "number": "347",
+        "street": "NE 152ND ST",
+        "unit": "",
+        "city": "SHORELINE",
+        "district": "",
+        "region": "WA",
+        "postcode": "98155",
+        "id": "18025",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3243754,
+          47.7388509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cb7a99b0821b9dda",
+        "number": "1045",
+        "street": "S 115TH ST",
+        "unit": "",
+        "city": "Burien",
+        "district": "KING",
+        "region": "",
+        "postcode": "98168",
+        "id": "{A4AD8821-1AA0-4EBB-827A-FBA5CE8CB831}",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.318474,
+          47.499998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "45763114690e188e",
+        "number": "2833",
+        "street": "Windsor Dr",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0735668,
+          33.0439017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "200",
+        "street": "King Philip St",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "02909",
+        "hash": "4d1e31bf0c88da58"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4649804,
+          41.8239108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6f02509ad07f59b7",
+        "number": "8520",
+        "street": "TOM COSTINE RD E",
+        "unit": "",
+        "city": "LAKELAND",
+        "district": "",
+        "region": "FL",
+        "postcode": "33809",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.9471128,
+          28.1550008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5b873fd92356dc21",
+        "number": "52",
+        "street": "MUSKET",
+        "unit": "",
+        "city": "ANGIER",
+        "district": "",
+        "region": "NC",
+        "postcode": "27501",
+        "id": "828211",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8008412,
+          35.4607561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d86d3301770c7707",
+        "number": "160",
+        "street": "W 7TH ST",
+        "unit": "1C",
+        "city": "Ketchum",
+        "district": "Blaine",
+        "region": "ID",
+        "postcode": "83340",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.3693991,
+          43.6810448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5f82db03254c3436",
+        "number": "5110",
+        "street": "COATES BEND ROAD",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.8548699,
+          34.0605236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "380ca8e30db60e95",
+        "number": "3121",
+        "street": "E OWENS AVE",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.1045244,
+          36.187983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "02b660a1af407532",
+        "number": "4618",
+        "street": "WESTHILL RD",
+        "unit": "",
+        "city": "ELLICOTT CITY",
+        "district": "",
+        "region": "MD",
+        "postcode": "21043",
+        "id": "29666",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8328795,
+          39.2430983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "8920",
+        "street": "CAMDEN PARK DR",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "27613",
+        "hash": "842d791ed80a031f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.73835,
+          35.8966652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3b2f1dbdcf99ab54",
+        "number": "3030",
+        "street": "N Dexter St",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9325762,
+          39.7607151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "135ed7494ed35156",
+        "number": "485",
+        "street": "ANITRA DR",
+        "unit": "",
+        "city": "RENO",
+        "district": "WASHOE",
+        "region": "NV",
+        "postcode": "89511",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.82296,
+          39.4609006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "aac472ce269bd0f5",
+        "number": "701",
+        "street": "RUTH AVE",
+        "unit": "",
+        "city": "HAINES CITY",
+        "district": "",
+        "region": "FL",
+        "postcode": "33844",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5474542,
+          28.0524354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3baf40cdef80083e",
+        "number": "4131",
+        "street": "CAMPUS LP NE",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9826253,
+          44.9781886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6e07d150975524ff",
+        "number": "927",
+        "street": "8th Street",
+        "unit": "",
+        "city": "Hermosa Beach",
+        "district": "",
+        "region": "",
+        "postcode": "90254",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3903307,
+          33.8611526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "419",
+        "street": "Millcreek Ln",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "hash": "a07e9714408e8c82"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.111897,
+          41.7714385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2fdf270e533870d8",
+        "number": "807",
+        "street": "BATTERY CREEK RD",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.695455,
+          32.4042749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "55f3ac19a195447b",
+        "number": "332",
+        "street": "CABELA DR",
+        "unit": "88",
+        "city": "VERDI",
+        "district": "WASHOE",
+        "region": "NV",
+        "postcode": "89439",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9631767,
+          39.5152033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "633888f3a87317b4",
+        "number": "11102",
+        "street": "ATWELL AVENUE",
+        "unit": "",
+        "city": "BOWIE",
+        "district": "",
+        "region": "MD",
+        "postcode": "20720",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8145047,
+          38.951128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2688ab372def2c15",
+        "number": "2518",
+        "street": "Bristol Place",
+        "unit": "",
+        "city": "New Orleans",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "85129294"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0015493,
+          29.9279297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a7e27221a3369efc",
+        "number": "16519",
+        "street": "Archdale St",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "48235",
+        "id": "144938",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.216735,
+          42.4105207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5571fa3974506be3",
+        "number": "1231",
+        "street": "N CENTRAL CT",
+        "unit": "",
+        "city": "CHANDLER",
+        "district": "",
+        "region": "",
+        "postcode": "85224",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8637235,
+          33.3239578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "34e733ccb28ca898",
+        "number": "6698",
+        "street": "10th Ave N",
+        "unit": "407",
+        "city": "Lake Worth",
+        "district": "",
+        "region": "",
+        "postcode": "33467",
+        "id": "726362",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1525904,
+          26.6308395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "969380baa3e70f97",
+        "number": "7013",
+        "street": "Deerhurst Court",
+        "unit": "",
+        "city": "San Diego",
+        "district": "",
+        "region": "CA",
+        "postcode": "92139",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0404052,
+          32.6827231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b40b91454a06ab30",
+        "number": "2650",
+        "street": "Dorset St",
+        "unit": "",
+        "city": "Napa",
+        "district": "",
+        "region": "",
+        "postcode": "94558",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3059053,
+          38.2832419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fa9925a3b0fa3191",
+        "number": "3543",
+        "street": "W BEECHWOOD AVE",
+        "unit": "",
+        "city": "FRESNO",
+        "district": "",
+        "region": "",
+        "postcode": "93711",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.8567649,
+          36.8380272
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f2b33777555852fd",
+        "number": "216",
+        "street": "EAST   TWOHIG AVENUE",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "TX",
+        "postcode": "",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4318553,
+          31.4629877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c8b93bf73336d951",
+        "number": "225",
+        "street": "S GARY AV E",
+        "unit": "",
+        "city": "TULSA",
+        "district": "",
+        "region": "",
+        "postcode": "74104",
+        "id": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9430467,
+          36.1569993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7825314beca5a320",
+        "number": "15",
+        "street": "CHRISTINA LN",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "44-13-039:000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5151953,
+          39.9249883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "99999",
+        "street": "NW 102ND ST & N UNIVERSITY AVE",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "hash": "7ab6ab2f98f1eda4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5363212,
+          35.5740893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1731a262b5d438c1",
+        "number": "2370",
+        "street": "Overlook Court",
+        "unit": "",
+        "city": "HOPEWELL TWP",
+        "district": "York County",
+        "region": "PA",
+        "postcode": "",
+        "id": "",
+        "accuracy": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6425999,
+          39.7791647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "",
+        "unit": "",
+        "number": "897",
+        "street": "KELOWNA ST",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "hash": "3220a8dbbea73b68"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8676812,
+          45.1361636
+        ]
+      }
+    }
+  ]
+}

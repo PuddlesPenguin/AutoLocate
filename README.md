@@ -1,99 +1,92 @@
 # AutoLocate
 
-This repository contains research code used to detect and recover high-precision point locations from dot maps (dot overlays on map images). 
+This repository contains research code for recovering high-precision point locations from dot maps. The current main entry point is `Attack.py`, which renders or reuses a configured map, detects red dot clusters, refines their centers with perceptual descent, and converts recovered pixel centers back to geographic coordinates.
 
 **Quick Summary**:
-- **Purpose**: Extract pixel centers of red dots from map images and convert those pixel locations back to geographic coordinates; includes a geometric/naive detector and two perceptual-descent implementations (connected and non-connected dot patterns).
+- **Purpose**: Recover geographic point locations from rendered dot maps by estimating dot centers at subpixel precision and mapping them back to latitude/longitude.
+- **Main script**: `Attack.py`
+- **Final outputs**: `Results/<TEST_NAME>/<dataset>/`
+- **Intermediate artifacts**: `AugmentedFiles/<TEST_NAME>/<dataset>/`
 
 **Requirements**:
 - **Python**: 3.8+ recommended.
-- **Core packages**: `Pillow`, `numpy`, `scipy`, `geopy`, `matplotlib`, `xyzservices`, `shapely`, `geopandas`, `pyproj`, `contextily`, `cartopy` (used in `Geometric-and-Naive.py`).
-- On Windows, installing `geopandas`, `cartopy` and `contextily` is easiest via conda. See "Installation" below.
+- **Current attack dependencies**: install from `requirements.txt`
+  - `Pillow`, `scipy`, `geopy`, `numpy`, `pyproj`, `geopandas`, `matplotlib`, `contextily`, `xyzservices`
+- Older helper/baseline scripts may need extra geospatial packages depending on your environment.
 
-
-Note: the interactive menu/interface used by the perceptual-descent scripts (the prompt where you press `1` to generate a map or `2` to run prediction) is printed to standard output. When the repository helper runs the scripts it often redirects stdout to `dot_center_results.txt`, so you may find the menu and runtime logs recorded in that file.
+Note: `Attack.py` no longer uses the old `1` / `2` menu flow. A single run now ensures the base map exists (or regenerates it when `REGENERATE_BASE_MAP = True`) and then runs the attack.
 
 **What each script does**
-- `Geometric-and-Naive.py`: Detects red dot clusters in an input map image and estimates each dot's pixel center using 
-  geometric and pre-selected naive-method
-  - Inputs: edit the top-level constants in the file — `FILENAME` (map image path), `COORDJSON` (GeoJSON with true points, optional for evaluation), and the map-to-lat/lon constants (`pixel_size`, `min_lon`, `max_lat`, `width_px`, `height_px`) when using different maps.
-  - Outputs: Lists of dot center recovery errors (geodesic, pixel, lat/lon errors) in text document`dot_center_results.txt` (detection results, pixel and geodesic errors when `COORDJSON` is present) and console output. 
+- `Attack.py`: Current cleaned attack pipeline for connected dot clusters.
+  - Inputs: edit the top-level constants in the file, especially `RUN_DATASET`, `EVAL_SOURCE_FILES`, `TEST_NAME`, `CLUSTER_TYPE`, `CLUSTER_SIZE_MODE`, `BG_MODE`, `REGENERATE_BASE_MAP`, rendering settings, optimization settings, and map bounds.
+  - Outputs: final artifacts in `Results/<TEST_NAME>/<dataset>/`, including the rendered map, rounded evaluation GeoJSON, per-dot results, summary metrics, and geodesic error plots.
+  - Intermediate artifacts: candidate GeoJSONs and rendered candidate images, `BoundaryPixels*.png`, background-reference images, `manual_dot_queries*.txt`, `cluster_size*.png`, and `run_log*.txt` in `AugmentedFiles/<TEST_NAME>/<dataset>/`.
+  - Notes: `CLUSTER_SIZE_MODE = "estimate"` estimates dots per red blob automatically. `CLUSTER_SIZE_MODE = "manual"` prompts for cluster sizes and caches them in `AugmentedFiles/cluster_types/<CLUSTER_TYPE>.geojson`.
 
-- `Perceptual-Descent-Connected.py`: Uses perceptual-descent to refine dot center estimates when dots form connected clusters (maps with clusters with multiple dots).
-  - Inputs: edit the top-level constants in the file — `FILENAME` (map image path), `COORDJSON` (GeoJSON with true points, optional for evaluation), and the map-to-lat/lon constants (`pixel_size`, `min_lon`, `max_lat`, `width_px`, `height_px`) when using different maps
-  - Outputs: `AugmentedMaps/` (created at runtime) containing temporary candidate GeoJSONs and rendered images used during optimization, `BoundaryPixels.png` (diagnostic), and `dot_center_results.txt` (final metrics).
-  - Notes: Script is interactive (menu: generate starter map or predict coordinates). The algorithm clusters red pixels, fits circle models on cluster boundaries, and optionally performs iterative perceptual-descent by rendering candidate maps and minimizing pixel-level loss.
+- `UncleanedAttack.py`: Raw reference version of the attack logic. Useful for comparing behavior against the cleaned script.
 
-- `Perceptual-Descent-Nonconnected.py`: Same perceptual-descent approach adapted for isolated (non-connected) dots.
-  - Inputs: `FILENAME` and `JSON_FILE` (defaults in the script). Map bounds constants apply.
-  - Outputs: `AugmentedMaps/` with candidate GeoJSONs and images, `dot_center_results.txt` with final estimates and errors.
-  - Notes: This variant uses a different initial-center extraction strategy suitable for isolated dots.
+- `Geometric-and-Naive.py`: Baseline detector that estimates red dot centers directly from an input map image without the full perceptual-descent loop.
+
+- `Perceptual-Descent-Connected.py` and `Perceptual-Descent-Nonconnected.py`: Older perceptual-descent variants kept in the repository for comparison and experimentation.
 
 **Other repository items**
-- `CoordinateJSONs/`: example GeoJSON files with point features. Use these with the perceptual-descent scripts to render ground-truth or candidate point sets.
-- `Media-Misc/`: sample map images and associated world files. These are example inputs for `FILENAME`.
+- `CoordinateJSONs/`: GeoJSON inputs used by the attack. The current `Attack.py` defaults point to `CoordinateJSONs/OpenAddress/US.geojson` and `CoordinateJSONs/Synthetic/US.geojson`.
+- `AugmentedFiles/`: scratch directory for intermediate renderings, candidate files, cluster-type cache files, and run logs.
+- `Results/`: final run outputs organized by test name and dataset.
+- `Media-Misc/`: example map images and related assets from earlier experiments.
+- `osm_cache/`: tile cache used by `contextily`.
 
-**Inputs — formats and expectations**
-- Map images: PNG/JPEG files containing red dot overlays on map tiles. Scripts expect the overlay color to be roughly red `(255, 0, 0)` unless you change the `DOT_COLOR` constant.
-- GeoJSON: a FeatureCollection of Point features. Scripts read coordinates as `[longitude, latitude]` pairs.
-- Map bounds: the scripts use simple linear pixel↔lat/lon conversions. If you use your own map image you must provide matching values for `min_lon`, `max_lat`, `pixel_size`, and image resolution (`width_px`, `height_px`).
+**Inputs - formats and expectations**
+- Map images: PNG files containing red dot overlays on map tiles. The scripts expect the overlay color to be exact red `(255, 0, 0)` unless you change `DOT_COLOR`.
+- GeoJSON: a `FeatureCollection` of `Point` features. Coordinates are read as `[longitude, latitude]`.
+- Map bounds: the attack uses linear pixel-to-lat/lon conversion, so `PIXEL_SIZE`, `MIN_LON`, `MAX_LAT`, `WIDTH_PX`, and `HEIGHT_PX` must match the rendered map.
+- Dataset/evaluation split: `RUN_DATASET` controls which GeoJSON is rendered for the attack, and `EVAL_SOURCE_FILES` controls the ground-truth GeoJSON used for scoring.
 
-
-**Outputs — what you'll get**
-- `dot_center_results.txt`: primary results file. Contains detected dot pixel centers, converted lat/lon (if ground truth is available and matching is performed), summary error metrics, and runtime info. This is the main file to inspect for experiment results.
-- Intermediate artifacts: `AugmentedMaps/` and files like `BoundaryPixels.png` are created during perceptual-descent for debugging/visualization only — they are optional and can be ignored for normal use.
+**Outputs - what you'll get**
+- `Results/<TEST_NAME>/<dataset>/dot_center_results*.txt`: compact per-dot output containing pixel centers and converted latitude/longitude values.
+- `Results/<TEST_NAME>/<dataset>/summary_results*.txt`: final summary metrics for the modified method and the baselines.
+- `Results/<TEST_NAME>/<dataset>/geo_error_histogram_boxplot*.png` and `geo_error_boxplot*.pdf`: plots of modified-method geodesic errors.
+- `AugmentedFiles/<TEST_NAME>/<dataset>/`: temporary candidate GeoJSONs/images, diagnostics, background-reference renders, manual cluster notes, and verbose run logs.
 
 **Quick run**
-- Detect dots with the geometric approach:
+- Install dependencies:
 
   ```bash
-  python Geometric-and-Naive.py
+  pip install -r requirements.txt
   ```
 
-- Run perceptual-descent (connected clusters):
+- Run the current attack:
 
   ```bash
-  python Perceptual-Descent-Connected.py
+  python Attack.py
   ```
-
-  The script will prompt to either generate a starter map or run prediction on the `FILENAME` configured in the file.
 
 **How to generate a map with GeoPandas (quick)**
-- The perceptual-descent scripts include a small map-generation helper that renders a GeoJSON of points onto an OSM basemap using GeoPandas.
-- Quick steps:
-  1. Open `Perceptual-Descent-Connected.py` (or `Perceptual-Descent-Nonconnected.py`).
-  2. Run the script:
-
-     ```bash
-     python Perceptual-Descent-Connected.py
-     ```
-
-  3. When prompted, press `1` to "Generate a starter map". The script will render the GeoJSON set in `JSON_FILE` and save it to the `FILENAME` configured at the top of that script (default: `map.png`).
+- `Attack.py` already contains the map-generation helper used by the attack.
+- If `REGENERATE_BASE_MAP = True`, the script will rerender the base map from the configured `JSON_FILE`.
+- If `REGENERATE_BASE_MAP = False`, the script reuses the existing rendered map in `Results/<TEST_NAME>/<dataset>/` unless that file is missing.
+- The rendered base map is saved as `map_<TEST_NAME>_<dataset>.png` inside the corresponding results directory.
 
 Notes:
-- Ensure the GeoJSON uses WGS84 coordinates (`[lon, lat]`) and that `JSON_FILE` points to the file you want to render (example GeoJSONs are in `CoordinateJSONs/`).
-- If you prefer programmatic control, you can render GeoJSONs with GeoPandas yourself (read the GeoJSON into a GeoDataFrame, plot it, and call `contextily.add_basemap`). The scripts' built-in option is the quickest path for experiments in this repo.
+- Ensure the GeoJSON uses WGS84 coordinates (`[lon, lat]`).
+- If you change the dataset, bounds, zoom, image size, or dot size, rerender the base map before trusting attack results.
 
 **Usage Framework (3-step)**
-1) Generate map
-  - Use the perceptual-descent script menu to generate a starter map (open `Perceptual-Descent-Connected.py` and input `1`), or render your own with GeoPandas/contextily. The generated map is saved to the `FILENAME` variable configured in the script (default: `map.png`).
+1) Configure `Attack.py`
+  - Set `RUN_DATASET`, `EVAL_SOURCE_FILES`, `TEST_NAME`, and the map bounds / rendering constants.
+  - Choose `CLUSTER_SIZE_MODE = "estimate"` for automatic blob-size estimation or `"manual"` if you want to label blob multiplicities yourself.
 
-2) Prepare GeoJSON
-  - Prepare a GeoJSON FeatureCollection of Point features in WGS84 (`[lon, lat]`). You can reuse examples in `CoordinateJSONs/` (e.g., `CoordinateJSONs/Austin.geojson`).
-  - Place your GeoJSON path into the script's `JSON_FILE` variable or pass it via the script's helper (the scripts read `JSON_FILE`).
+2) Run the method
+  - Execute `python Attack.py`.
+  - The script processes each dataset listed in `RUN_DATASET`.
 
-3) Run the method
-  - From the perceptual-descent script choose the `2) Predict coordinates` option to run the detection/refinement pipeline on the `FILENAME` map. Alternatively run `python Geometric-and-Naive.py` to use the geometric/naive detector.
-
-Inspect results
- - Primary result: `dot_center_results.txt` — contains detected pixel centers, converted lat/lon (if ground truth available), summary error metrics, and runtime info.
- - Ignore intermediate `AugmentedMaps/` files unless you need debug visuals.
+3) Inspect results
+  - Check `Results/<TEST_NAME>/<dataset>/dot_center_results*.txt` and `summary_results*.txt` first.
+  - Ignore `AugmentedFiles/...` unless you need debug visuals, candidate renders, or the detailed run log.
 
 **Installation (minimal)**
 - `pip`:
 
   ```bash
-  pip install geopandas contextily pillow numpy scipy shapely pyproj geopy matplotlib
+  pip install -r requirements.txt
   ```
-
-

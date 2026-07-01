@@ -26,7 +26,7 @@ and write evaluation artifacts for that run.
 Usage:
 1. Set the run parameters in the parser / config module, especially
    `RUN_DATASET`, `TEST_NAME`, and the rendering / optimization settings.
-2. Run the script with `python Attack.py`.
+2. Run the script with `python attack.py`.
 3. Check the generated outputs in `Results/<TEST_NAME>/<dataset type>/`.
 
  Dataset options:

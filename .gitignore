@@ -14,3 +14,8 @@ dot_center_results.txt
 _*.geojson
 
 AutoLocate_local_archive_*/
+
+# Editor, OS, and paper artifacts
+.DS_Store
+.vscode/
+doc/

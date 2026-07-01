@@ -1,0 +1,16 @@
+AugmentedFiles/
+Results/
+osm_cache/
+__pycache__/
+.pytest_cache/
+
+*.pyc
+*.pyo
+*.log
+
+BoundaryPixels*.png
+dot_center_results.txt
+*_img.png
+_*.geojson
+
+AutoLocate_local_archive_*/

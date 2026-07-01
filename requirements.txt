@@ -7,3 +7,4 @@ geopandas
 matplotlib
 contextily
 xyzservices
+rasterio

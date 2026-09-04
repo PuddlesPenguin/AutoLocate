@@ -1,5 +1,4 @@
 import json
-import math
 import os
 import tempfile
 import time
@@ -11,7 +10,7 @@ import matplotlib.pyplot as plt
 import pyproj
 from PIL import Image
 
-import attack_parser as cfg
+from . import config as cfg
 
 
 def _is_verbose():
@@ -33,15 +32,15 @@ def is_dot_pixel(pixel, dot_color=None):
     if getattr(cfg, "IMAGE_FORMAT", "png") != "jpeg":
         return False
 
-    r, g, b = rgb
-    red_dominance = r - max(g, b)
-    red_ratio = r / max(1, max(g, b))
+    background_rgb = tuple(getattr(cfg, "BACKGROUND_COLOR", (255, 255, 255)))
+    dot_distance = sum(abs(channel - target) for channel, target in zip(rgb, dot_rgb))
+    background_distance = sum(abs(channel - target) for channel, target in zip(rgb, background_rgb))
+    dot_background_distance = sum(abs(dot - background) for dot, background in zip(dot_rgb, background_rgb))
     return (
-        r >= 120
-        and red_dominance >= 45
-        and red_ratio >= 1.35
-        and g <= 155
-        and b <= 155
+        dot_background_distance > 0
+        and dot_distance <= max(80, 0.35 * dot_background_distance)
+        and background_distance >= max(40, 0.25 * dot_background_distance)
+        and dot_distance < background_distance
     )
 
 
@@ -100,12 +99,8 @@ def resolve_dataset_input_path(path: str) -> str:
 
 
 def validate_attack_inputs():
-    missing = []
-    for label, path in (("JSON_FILE", cfg.JSON_FILE), ("EVAL_SOURCE_FILE", cfg.EVAL_SOURCE_FILE)):
-        if path and not os.path.exists(path):
-            missing.append(f"{label}: {path}")
-    if missing:
-        raise FileNotFoundError("Missing required input files:\n" + "\n".join(missing))
+    if not cfg.JSON_FILE or not os.path.exists(cfg.JSON_FILE):
+        raise FileNotFoundError(f"Source GeoJSON not found: {cfg.JSON_FILE}")
 
 
 def write_point_geojson(latlon_list, output_path):
@@ -119,97 +114,19 @@ def write_point_geojson(latlon_list, output_path):
         json.dump(geojson_data, f, indent=2)
 
 
-def round_geojson_coordinates(coords, decimals):
-    if isinstance(coords, list):
-        if coords and isinstance(coords[0], (int, float)):
-            return [round(value, decimals) if isinstance(value, (int, float)) else value for value in coords]
-        return [round_geojson_coordinates(value, decimals) for value in coords]
-    return coords
-
-
-def prepare_rounded_eval_geojson(source_path=None, output_path=None, decimals=None):
-    source_path = source_path or cfg.EVAL_SOURCE_FILE or cfg.JSON_FILE
-    output_path = output_path or cfg.EVAL_JSON
-    decimals = cfg.EVAL_DECIMALS if decimals is None else decimals
-    with open(source_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    rounded = json.loads(json.dumps(data))
-    for feature in rounded.get("features", []):
-        geometry = feature.get("geometry")
-        if geometry and "coordinates" in geometry:
-            geometry["coordinates"] = round_geojson_coordinates(geometry["coordinates"], decimals)
-
-    ensure_parent_dir(output_path)
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(rounded, f, indent=2)
-
-    if _is_verbose():
-        print(f"Prepared EVAL_JSON with {decimals} decimal places: {output_path}")
-
-
-def write_point_center_results(output_path, estimated_centers, width, height):
-    ensure_parent_dir(output_path)
-    with open(output_path, "w", encoding="utf-8") as rf:
-        rf.write("DOT CENTER RESULTS\n")
-        rf.write(f"TEST_NAME: {cfg.TEST_NAME}\n")
-        rf.write(f"INPUT_GEOJSON: {cfg.JSON_FILE}\n")
-        rf.write(f"EVAL_GEOJSON: {cfg.EVAL_JSON}\n")
-        rf.write(f"MAP_IMAGE: {cfg.FILENAME}\n")
-        rf.write(f"RUN_LOG: {cfg.RUN_LOG_FILE}\n")
-        rf.write(f"POINT_COUNT: {len(estimated_centers)}\n\n")
-        rf.write("index,pixel_x,pixel_y,latitude,longitude\n")
-        for idx, center in enumerate(estimated_centers, start=1):
-            lat, lon = pixel_to_geographic(center[0], center[1], width, height)
-            rf.write(f"{idx},{center[0]:.6f},{center[1]:.6f},{lat:.8f},{lon:.8f}\n")
-
-
 def load_ground_truth_points(filename=None):
-    filename = filename or cfg.EVAL_JSON
+    """Load point coordinates for legacy calibration/evaluation callers only."""
+    filename = filename or getattr(cfg, "EVAL_SOURCE_FILE", None)
+    if not filename:
+        raise ValueError("No evaluation source was configured.")
     with open(filename, "r", encoding="utf-8") as f:
         data = json.load(f)
-
-    true_points = []
-    for feature in data.get("features", []):
-        coords = feature.get("geometry", {}).get("coordinates")
-        if coords:
-            true_points.append((coords[0], coords[1]))
-    return true_points
-
-
-def is_valid_latlon(latlon):
-    if latlon is None or len(latlon) < 2:
-        return False
-    lat, lon = latlon[0], latlon[1]
-    return (
-        isinstance(lat, (int, float))
-        and isinstance(lon, (int, float))
-        and math.isfinite(lat)
-        and math.isfinite(lon)
-        and -90 <= lat <= 90
-        and -180 <= lon <= 180
-    )
-
-
-def filter_valid_latlon_pairs(true_latlons, pred_latlons, true_pixels=None, pred_pixels=None):
-    filtered_true_latlons = []
-    filtered_pred_latlons = []
-    filtered_true_pixels = [] if true_pixels is not None else None
-    filtered_pred_pixels = [] if pred_pixels is not None else None
-    skipped = 0
-
-    for idx, (true_latlon, pred_latlon) in enumerate(zip(true_latlons, pred_latlons)):
-        if is_valid_latlon(true_latlon) and is_valid_latlon(pred_latlon):
-            filtered_true_latlons.append(true_latlon)
-            filtered_pred_latlons.append(pred_latlon)
-            if filtered_true_pixels is not None:
-                filtered_true_pixels.append(true_pixels[idx])
-            if filtered_pred_pixels is not None:
-                filtered_pred_pixels.append(pred_pixels[idx])
-        else:
-            skipped += 1
-
-    return filtered_true_latlons, filtered_pred_latlons, filtered_true_pixels, filtered_pred_pixels, skipped
+    return [
+        (coords[0], coords[1])
+        for feature in data.get("features", [])
+        for coords in [feature.get("geometry", {}).get("coordinates")]
+        if coords and len(coords) >= 2
+    ]
 
 
 def geographic_to_pixel(lat, lon, img_width, img_height):
@@ -253,13 +170,17 @@ def render_geojson_map_with_geopandas(predicted_points: str, output_path: str, t
     if gdf.crs is None or gdf.crs.to_epsg() != 4326:
         gdf = gdf.set_crs(epsg=4326)
 
-    tile_source = tile_source or cfg.PRIMARY_TILE_SOURCE
+    tile_source = cfg.PRIMARY_TILE_SOURCE if tile_source is None else tile_source
+    use_blank_white_background = tile_source == "white"
     ctx.set_cache_dir(os.path.join(cfg.BASE_DIR, "osm_cache"))
 
     stretch_factor = 1
     fig_w_in = (cfg.WIDTH_PX / 96) * stretch_factor
     fig_h_in = cfg.HEIGHT_PX / 96
     fig, ax = plt.subplots(figsize=(fig_w_in, fig_h_in), dpi=96)
+    if use_blank_white_background:
+        fig.patch.set_facecolor("white")
+        ax.set_facecolor("white")
 
     mm_to_pt = 72 / 25.4
     marker_diameter_mm = cfg.DOT_RADIUS_MM * 2
@@ -279,14 +200,18 @@ def render_geojson_map_with_geopandas(predicted_points: str, output_path: str, t
     elif _is_verbose():
         print(f"Warning: no valid points found in {predicted_points}; rendering basemap only.", flush=True)
 
-    ctx.add_basemap(ax, source=tile_source, crs="EPSG:4326", zoom=cfg.MAP_ZOOM, reset_extent=False)
+    ax.set_xlim(cfg.MIN_LON, cfg.MAX_LON)
+    ax.set_ylim(cfg.MIN_LAT, cfg.MAX_LAT)
+    if not use_blank_white_background:
+        ctx.add_basemap(ax, source=tile_source, crs="EPSG:4326", zoom=cfg.MAP_ZOOM, reset_extent=False)
     ax.set_xlim(cfg.MIN_LON, cfg.MAX_LON)
     ax.set_ylim(cfg.MIN_LAT, cfg.MAX_LAT)
     ax.set_aspect(1 / stretch_factor)
     ax.set_axis_off()
     fig.subplots_adjust(left=0, right=1, top=1, bottom=0)
     ensure_parent_dir(output_path)
-    save_kwargs = {"dpi": 96, "bbox_inches": None, "pad_inches": 0, "facecolor": "none", "format": "PNG"}
+    save_facecolor = "white" if use_blank_white_background else "none"
+    save_kwargs = {"dpi": 96, "bbox_inches": None, "pad_inches": 0, "facecolor": save_facecolor, "format": "PNG"}
     if getattr(cfg, "IMAGE_FORMAT", "png") == "jpeg":
         parent_dir = os.path.dirname(os.fspath(output_path)) or "."
         tmp_png = None
@@ -314,40 +239,3 @@ def generate_background_reference_images():
     write_point_geojson([], cfg.BACKGROUND_REFERENCE_GEOJSON)
     render_geojson_map(cfg.BACKGROUND_REFERENCE_GEOJSON, cfg.BASE_BACKGROUND_IMG, cfg.PRIMARY_TILE_SOURCE)
     render_geojson_map(cfg.BACKGROUND_REFERENCE_GEOJSON, cfg.SHIFTED_BACKGROUND_IMG, cfg.SHIFTED_TILE_SOURCE)
-
-
-def read_nonempty_input():
-    while True:
-        line = input().strip()
-        if line:
-            return line
-
-
-class FlushingFile:
-    """File wrapper that flushes after each write."""
-
-    def __init__(self, file):
-        self.file = file
-
-    def write(self, text):
-        self.file.write(text)
-        self.file.flush()
-
-    def flush(self):
-        self.file.flush()
-
-
-class TeeOutput:
-    """Mirror stdout to both the terminal and the per-run log file."""
-
-    def __init__(self, *streams):
-        self.streams = streams
-
-    def write(self, text):
-        for stream in self.streams:
-            stream.write(text)
-            stream.flush()
-
-    def flush(self):
-        for stream in self.streams:
-            stream.flush()

@@ -1,0 +1,2105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1cf7690465a2f761",
+        "number": "9",
+        "street": "Doeverenplein",
+        "unit": "",
+        "city": "Hoofddorp",
+        "district": "",
+        "region": "NL",
+        "postcode": "2134DN",
+        "id": "0394010000299374"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.63838502315368,
+          52.3060129675322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ae0fa52d4af86c1b",
+        "number": "312",
+        "street": "Stedumhof",
+        "unit": "",
+        "city": "Arnhem",
+        "district": "",
+        "region": "NL",
+        "postcode": "6835ML",
+        "id": "0202010000285302"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.89701122100976,
+          51.9559751494605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "501b05dfc9d79424",
+        "number": "139",
+        "street": "Turkooislaan",
+        "unit": "",
+        "city": "Leiden",
+        "district": "",
+        "region": "NL",
+        "postcode": "2332RK",
+        "id": "0546010000081698"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4577971670365,
+          52.1571106108873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f32ff728412150e4",
+        "number": "156",
+        "street": "Westduinweg",
+        "unit": "A",
+        "city": "'s-Gravenhage",
+        "district": "",
+        "region": "NL",
+        "postcode": "2583AE",
+        "id": "0518010000843278"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.27088489488853,
+          52.0974758281349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5573c4a2fec7fd41",
+        "number": "16",
+        "street": "Stationsweg",
+        "unit": "",
+        "city": "Ommen",
+        "district": "",
+        "region": "NL",
+        "postcode": "7731AW",
+        "id": "0175010000000951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.42189764118973,
+          52.5131384881175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a00d3e77fd3612fd",
+        "number": "15",
+        "street": "Oldenhofplantsoen",
+        "unit": "",
+        "city": "Ede",
+        "district": "",
+        "region": "NL",
+        "postcode": "6711TP",
+        "id": "0228010000033382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.67281661037694,
+          52.040264299314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d3b9ef33ea3bce42",
+        "number": "28",
+        "street": "Bijlakker",
+        "unit": "",
+        "city": "Mierlo",
+        "district": "",
+        "region": "NL",
+        "postcode": "5731EE",
+        "id": "1771010000013963"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.61670867608829,
+          51.4368080812364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "43cb38366c3b0a18",
+        "number": "16",
+        "street": "Jacob Sijmonsz Kleijnstraat",
+        "unit": "P",
+        "city": "Den Helder",
+        "district": "",
+        "region": "NL",
+        "postcode": "1785CA",
+        "id": "0400010000026038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.7790514678817,
+          52.9370410158833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "16aa3dbd12f965dc",
+        "number": "15",
+        "street": "Zwolseweg",
+        "unit": "",
+        "city": "Barendrecht",
+        "district": "",
+        "region": "NL",
+        "postcode": "2994LB",
+        "id": "0489010000223018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.51062371110239,
+          51.8604421079904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9b713b8cfdd86674",
+        "number": "22",
+        "street": "Industriestraat",
+        "unit": "",
+        "city": "Borne",
+        "district": "",
+        "region": "NL",
+        "postcode": "7622AV",
+        "id": "0147010000115786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.73913493475628,
+          52.3072323750661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a8c861bdbf152a21",
+        "number": "82",
+        "street": "Landauerstraat",
+        "unit": "",
+        "city": "Purmerend",
+        "district": "",
+        "region": "NL",
+        "postcode": "1445PP",
+        "id": "0439010000036261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9753557482113,
+          52.4988921533734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7e27a51ee6620921",
+        "number": "6",
+        "street": "Adriaen Beyerkade",
+        "unit": "BS",
+        "city": "Utrecht",
+        "district": "",
+        "region": "NL",
+        "postcode": "3515XT",
+        "id": "0344010000148300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.12314430899577,
+          52.1048880044049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "154eadc86736f738",
+        "number": "8",
+        "street": "Achter het Verguld Harnas",
+        "unit": "",
+        "city": "'s-Hertogenbosch",
+        "district": "",
+        "region": "NL",
+        "postcode": "5211HL",
+        "id": "0796010000417502"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.30248136796438,
+          51.6876763520722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "09115d2b9060a65d",
+        "number": "311",
+        "street": "Willem de Zwijgerlaan",
+        "unit": "",
+        "city": "Alkmaar",
+        "district": "",
+        "region": "NL",
+        "postcode": "1814KV",
+        "id": "0361010000052035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.74738472889552,
+          52.621117882216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1727ab0845fd2a1c",
+        "number": "21",
+        "street": "Alkemastraat",
+        "unit": "",
+        "city": "Opende",
+        "district": "",
+        "region": "NL",
+        "postcode": "9865BC",
+        "id": "0015010001003564"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.20038390979049,
+          53.1726264915828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ceaefc9358462f3d",
+        "number": "81",
+        "street": "Cederlaan",
+        "unit": "",
+        "city": "Eindhoven",
+        "district": "",
+        "region": "NL",
+        "postcode": "5616SC",
+        "id": "0772010000742484"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.45122259295623,
+          51.4451221435771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6c20987d068e4120",
+        "number": "33",
+        "street": "Stamanstraat",
+        "unit": "a",
+        "city": "Wierden",
+        "district": "",
+        "region": "NL",
+        "postcode": "7642CL",
+        "id": "0189010000002917"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.58654623099424,
+          52.3558743429695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c210f780593314df",
+        "number": "32",
+        "street": "Strausslaan",
+        "unit": "a",
+        "city": "Groningen",
+        "district": "",
+        "region": "NL",
+        "postcode": "9722KT",
+        "id": "0014010011052019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.59017102168837,
+          53.1998075362515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0134d5aa0099ed6a",
+        "number": "38",
+        "street": "Houtschans",
+        "unit": "",
+        "city": "Leiderdorp",
+        "district": "",
+        "region": "NL",
+        "postcode": "2352CH",
+        "id": "0547010000316273"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.52661166307602,
+          52.16421986926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fbdaa5f9059e2548",
+        "number": "127",
+        "street": "Berkenring",
+        "unit": "",
+        "city": "Zundert",
+        "district": "",
+        "region": "NL",
+        "postcode": "4881HX",
+        "id": "0879010000005308"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.64653735481086,
+          51.466868464786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ca7c3a010b6c3406",
+        "number": "3",
+        "street": "Scharwoudestraat",
+        "unit": "",
+        "city": "Amersfoort",
+        "district": "",
+        "region": "NL",
+        "postcode": "3826CL",
+        "id": "0307010000441862"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.43012644515897,
+          52.2003878719712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e71e0513df774136",
+        "number": "162",
+        "street": "Schaerweijdelaan",
+        "unit": "",
+        "city": "Zeist",
+        "district": "",
+        "region": "NL",
+        "postcode": "3702GN",
+        "id": "0355010000788004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.24047454017461,
+          52.094079787025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b1f40b0dea994a93",
+        "number": "12",
+        "street": "Zandpad",
+        "unit": "",
+        "city": "Opijnen",
+        "district": "",
+        "region": "NL",
+        "postcode": "4184CP",
+        "id": "0304010000003085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.29841018225377,
+          51.8286081257022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7f95989980a00b38",
+        "number": "25",
+        "street": "Baasdonkweg",
+        "unit": "",
+        "city": "Venlo",
+        "district": "",
+        "region": "NL",
+        "postcode": "5928NR",
+        "id": "0983010000010922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.14231129261082,
+          51.3802436199385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "bdfdc78b9ba6b3fd",
+        "number": "29",
+        "street": "Hovenier",
+        "unit": "",
+        "city": "Rhoon",
+        "district": "",
+        "region": "NL",
+        "postcode": "3161LG",
+        "id": "0613010000150750"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.41490959097349,
+          51.8599486255176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3df9fbd396b3e295",
+        "number": "3",
+        "street": "Jubileumplein",
+        "unit": "",
+        "city": "Geleen",
+        "district": "",
+        "region": "NL",
+        "postcode": "6161SR",
+        "id": "1883010000027461"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.82296141656393,
+          50.9709508714845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d5cd1c5c0390abbf",
+        "number": "1",
+        "street": "Engelse mijl",
+        "unit": "",
+        "city": "Almere",
+        "district": "",
+        "region": "NL",
+        "postcode": "1318EN",
+        "id": "0034010000033954"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.25061297370195,
+          52.3902387477023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2f025f669efd3f3a",
+        "number": "1",
+        "street": "Pampuskade",
+        "unit": "306",
+        "city": "Sneek",
+        "district": "",
+        "region": "NL",
+        "postcode": "8605AS",
+        "id": "0091010000035247"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.66913689180663,
+          53.0332834500584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2d5ca05723252155",
+        "number": "6",
+        "street": "Dr. Kuyperstraat",
+        "unit": "",
+        "city": "Breda",
+        "district": "",
+        "region": "NL",
+        "postcode": "4812KL",
+        "id": "0758010000005384"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.74771535284889,
+          51.5712308684157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1e8a1c13fb0e4836",
+        "number": "177",
+        "street": "Hobokenstraat",
+        "unit": "B",
+        "city": "Breda",
+        "district": "",
+        "region": "NL",
+        "postcode": "",
+        "id": "0758010000021266"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.78516375646169,
+          51.6116926427245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "bc5575878fda8e80",
+        "number": "33",
+        "street": "Oranjelaan",
+        "unit": "",
+        "city": "Amersfoort",
+        "district": "",
+        "region": "NL",
+        "postcode": "3818GP",
+        "id": "0307010000469275"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.36212205610097,
+          52.1451921626321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "aaa2044f57503a4e",
+        "number": "11",
+        "street": "Kameleonhofke",
+        "unit": "",
+        "city": "Terherne",
+        "district": "",
+        "region": "NL",
+        "postcode": "8493KP",
+        "id": "1940010003280938"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.77982554277218,
+          53.0400938024864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7be18fc78a730022",
+        "number": "11",
+        "street": "Spierkesdreef",
+        "unit": "",
+        "city": "Nuenen",
+        "district": "",
+        "region": "NL",
+        "postcode": "5673PK",
+        "id": "0820010000008158"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.56713210155216,
+          51.4701124159085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0286a45b273b8ed9",
+        "number": "28",
+        "street": "Bos en Lommerweg",
+        "unit": "1",
+        "city": "Amsterdam",
+        "district": "",
+        "region": "NL",
+        "postcode": "1055EB",
+        "id": "0363010000592870"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.85520701391851,
+          52.3836953898763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "82fda3bf49a4092b",
+        "number": "101",
+        "street": "Fokko Kortlanglaan",
+        "unit": "86",
+        "city": "Ermelo",
+        "district": "",
+        "region": "NL",
+        "postcode": "3853KE",
+        "id": "0233010000005071"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.60680367240684,
+          52.3191880527424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "bb54ca30495d8847",
+        "number": "4",
+        "street": "Zaandammerstraat",
+        "unit": "A",
+        "city": "Wormer",
+        "district": "",
+        "region": "NL",
+        "postcode": "1531DR",
+        "id": "0880010000005936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.81217082512607,
+          52.4979727536852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "237884e0678925a8",
+        "number": "4",
+        "street": "Penhoren",
+        "unit": "",
+        "city": "Zeewolde",
+        "district": "",
+        "region": "NL",
+        "postcode": "3894MB",
+        "id": "0050019900049648"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.53415122350651,
+          52.3535192321198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ed7f339a5874bc7b",
+        "number": "22",
+        "street": "Fort Nieuwersluispark",
+        "unit": "",
+        "city": "Weesp",
+        "district": "",
+        "region": "NL",
+        "postcode": "1384BW",
+        "id": "0363010012587467"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.03281104255723,
+          52.3215561849617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cd6b335f88a0bf1f",
+        "number": "9",
+        "street": "Tempelpolderstraat",
+        "unit": "",
+        "city": "Gouda",
+        "district": "",
+        "region": "NL",
+        "postcode": "2807NB",
+        "id": "0513010013060350"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.74927618105235,
+          52.0091050013768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "97c7a4ab61ff38ae",
+        "number": "8",
+        "street": "Weteringdwarsstraat",
+        "unit": "GAR",
+        "city": "Meppel",
+        "district": "",
+        "region": "NL",
+        "postcode": "",
+        "id": "0119010000018013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.18924650084848,
+          52.6968361473446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6d27ed7924fdb314",
+        "number": "1",
+        "street": "Kerkplein",
+        "unit": "",
+        "city": "Almelo",
+        "district": "",
+        "region": "NL",
+        "postcode": "7607BT",
+        "id": "0141010000021301"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.66581210604725,
+          52.3581812407898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "bbb5ca49a42430b2",
+        "number": "522",
+        "street": "Fokkemast",
+        "unit": "",
+        "city": "Amsterdam",
+        "district": "",
+        "region": "NL",
+        "postcode": "1034PW",
+        "id": "0363010012601703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.92208869916773,
+          52.4115802392439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "672c2a32a807deda",
+        "number": "284",
+        "street": "Pieter Langendijkstraat",
+        "unit": "",
+        "city": "'s-Gravenhage",
+        "district": "",
+        "region": "NL",
+        "postcode": "2533TR",
+        "id": "0518010000470298"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.29335270347325,
+          52.0481914087569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7fe0e2a0c6787987",
+        "number": "349",
+        "street": "Statenweg",
+        "unit": "",
+        "city": "Rotterdam",
+        "district": "",
+        "region": "NL",
+        "postcode": "3039HP",
+        "id": "0599010000037404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.46083066096042,
+          51.9259616634378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "616750fd19c87f7a",
+        "number": "3",
+        "street": "de Joncheerelaan",
+        "unit": "04",
+        "city": "Nijverdal",
+        "district": "",
+        "region": "NL",
+        "postcode": "7441HA",
+        "id": "0163010000548131"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.45367156060176,
+          52.3661057688035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7454860e72008282",
+        "number": "2",
+        "street": "Grote Beer",
+        "unit": "",
+        "city": "Rotterdam",
+        "district": "",
+        "region": "NL",
+        "postcode": "3067TT",
+        "id": "0599010000206912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.55636500332004,
+          51.949334074128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e009f415e6a3fa8c",
+        "number": "15",
+        "street": "Zwaardemakerstraat",
+        "unit": "1",
+        "city": "Amsterdam",
+        "district": "",
+        "region": "NL",
+        "postcode": "1097SE",
+        "id": "0363010000881486"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.92790178992868,
+          52.3450738926653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c5f8e9e30020ce56",
+        "number": "434",
+        "street": "Urkhovenseweg",
+        "unit": "",
+        "city": "Eindhoven",
+        "district": "",
+        "region": "NL",
+        "postcode": "5641KS",
+        "id": "0772010000786521"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.52694144812458,
+          51.4451736319948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "42866ef3703c3449",
+        "number": "156",
+        "street": "Savelsbos",
+        "unit": "",
+        "city": "Zoetermeer",
+        "district": "",
+        "region": "NL",
+        "postcode": "2716HH",
+        "id": "0637010000242081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.46920907340408,
+          52.0578234013665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "daa2ef343d21da17",
+        "number": "6",
+        "street": "Ter Hofstadlaan",
+        "unit": "",
+        "city": "Someren",
+        "district": "",
+        "region": "NL",
+        "postcode": "5711VW",
+        "id": "0847010000006176"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.71342781638296,
+          51.3875929202679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "29a017d1748b5735",
+        "number": "21",
+        "street": "Troelstrastraat",
+        "unit": "",
+        "city": "Maarssen",
+        "district": "",
+        "region": "NL",
+        "postcode": "3601WH",
+        "id": "0333010000016967"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.04402943304401,
+          52.145713115607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ae57d796991b84a0",
+        "number": "141",
+        "street": "Dennenlaan",
+        "unit": "",
+        "city": "Veenendaal",
+        "district": "",
+        "region": "NL",
+        "postcode": "3904KK",
+        "id": "0345010004197535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.55018261912692,
+          52.0136366692751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "09b76384e5fb0609",
+        "number": "64",
+        "street": "A.L. Lesturgeonstraat",
+        "unit": "",
+        "city": "Emmen",
+        "district": "",
+        "region": "NL",
+        "postcode": "7815VG",
+        "id": "0114010000308728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.89625788806971,
+          52.794403077322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fc7f5dd737f5416f",
+        "number": "68",
+        "street": "van de Mortelstraat",
+        "unit": "",
+        "city": "Noordwijk",
+        "district": "",
+        "region": "NL",
+        "postcode": "2203JE",
+        "id": "0575010000005476"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.45279895380216,
+          52.2395946331682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "14c237e5335f856a",
+        "number": "11",
+        "street": "Oude Benderseweg",
+        "unit": "422",
+        "city": "Ruinen",
+        "district": "",
+        "region": "NL",
+        "postcode": "7963PX",
+        "id": "1690010000013105"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.36935599872245,
+          52.775684485746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5e1c0b1dc978d65e",
+        "number": "21",
+        "street": "Slootsekuilen",
+        "unit": "",
+        "city": "Beringe",
+        "district": "",
+        "region": "NL",
+        "postcode": "5986PE",
+        "id": "1894010000310808"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.92717780238925,
+          51.3360767496119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7fb80bc46fcde482",
+        "number": "53",
+        "street": "Midzwaard",
+        "unit": "",
+        "city": "Almere",
+        "district": "",
+        "region": "NL",
+        "postcode": "1319CB",
+        "id": "0034010000075239"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.18320070926299,
+          52.3884587917809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c0b1a60ea6082dd9",
+        "number": "88",
+        "street": "Holkenkamp",
+        "unit": "",
+        "city": "Urk",
+        "district": "",
+        "region": "NL",
+        "postcode": "8321AZ",
+        "id": "0184010000002108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.60423621076781,
+          52.6655978128445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9d0b1d382fcb9fe7",
+        "number": "74",
+        "street": "Veurseweg",
+        "unit": "A",
+        "city": "Voorschoten",
+        "district": "",
+        "region": "NL",
+        "postcode": "2252AC",
+        "id": "0626010000011477"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.43902433933933,
+          52.1199109694938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "11bdd9119eda094c",
+        "number": "16",
+        "street": "Lippe-Biesterfeldweg",
+        "unit": "E",
+        "city": "'s-Gravenhage",
+        "district": "",
+        "region": "NL",
+        "postcode": "2552EB",
+        "id": "0518010001790282"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.23845904631635,
+          52.0524436187889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "72acee2cd7615381",
+        "number": "56",
+        "street": "Vondellaan",
+        "unit": "",
+        "city": "'s-Gravenzande",
+        "district": "",
+        "region": "NL",
+        "postcode": "2692DK",
+        "id": "1783010000015747"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.15835865479038,
+          51.9970680881043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "80458d0cc67c2338",
+        "number": "1",
+        "street": "Gastelseweg",
+        "unit": "",
+        "city": "Roosendaal",
+        "district": "",
+        "region": "NL",
+        "postcode": "4702SZ",
+        "id": "1674010000080878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.47329842606774,
+          51.5417715708567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "30a7c78f39b8fa67",
+        "number": "3",
+        "street": "Sportweg",
+        "unit": "",
+        "city": "Doetinchem",
+        "district": "",
+        "region": "NL",
+        "postcode": "7006GJ",
+        "id": "0222010000675799"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.27361446758827,
+          51.9627747643984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ae850e02df758fce",
+        "number": "141",
+        "street": "Bloemenlaan",
+        "unit": "",
+        "city": "Sint-Maartensdijk",
+        "district": "",
+        "region": "NL",
+        "postcode": "4695HP",
+        "id": "0716010000023427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.07057382978212,
+          51.547464819518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5ed359734f658adc",
+        "number": "35",
+        "street": "Veneti\u00ebstraat",
+        "unit": "",
+        "city": "Eindhoven",
+        "district": "",
+        "region": "NL",
+        "postcode": "5632RM",
+        "id": "0772010000775570"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.49899633867989,
+          51.4839737498737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dacb283a25b20aff",
+        "number": "17",
+        "street": "Veenmos",
+        "unit": "",
+        "city": "Ysselsteyn",
+        "district": "",
+        "region": "NL",
+        "postcode": "5813CL",
+        "id": "0984010000315126"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.89891564980843,
+          51.4875357050117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2c94f388802589f0",
+        "number": "61",
+        "street": "Beugenseweg",
+        "unit": "",
+        "city": "Boxmeer",
+        "district": "",
+        "region": "NL",
+        "postcode": "5831LR",
+        "id": "0756010000000823"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.94331226086466,
+          51.6579506520443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "207a3419078e1d2c",
+        "number": "8",
+        "street": "Antillenweg",
+        "unit": "3",
+        "city": "Leeuwarden",
+        "district": "",
+        "region": "NL",
+        "postcode": "8931BX",
+        "id": "0080010000381752"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.78072757171832,
+          53.1906941881366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "82b5130e60d033ed",
+        "number": "47",
+        "street": "Reijer Anslostraat",
+        "unit": "",
+        "city": "Haarlem",
+        "district": "",
+        "region": "NL",
+        "postcode": "2025TB",
+        "id": "0392010000051787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.65055219780763,
+          52.4156658590095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2bd066ebb44845e6",
+        "number": "354",
+        "street": "Nolensstraat",
+        "unit": "",
+        "city": "Amsterdam",
+        "district": "",
+        "region": "NL",
+        "postcode": "1067KP",
+        "id": "0363010001037878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8007961007755,
+          52.3785940555092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "266f38f8e0ec038a",
+        "number": "175",
+        "street": "Kapelland",
+        "unit": "",
+        "city": "Leidschendam",
+        "district": "",
+        "region": "NL",
+        "postcode": "2264JC",
+        "id": "1916010000058108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.40408193424381,
+          52.0938372919333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d77debda9d32ea25",
+        "number": "100",
+        "street": "Bleijenburg",
+        "unit": "",
+        "city": "De Lier",
+        "district": "",
+        "region": "NL",
+        "postcode": "2678BB",
+        "id": "1783010000037757"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.25313457978043,
+          51.9769617203074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "afb7fba0394df9e9",
+        "number": "100",
+        "street": "Lange Groenendaal",
+        "unit": "",
+        "city": "Gouda",
+        "district": "",
+        "region": "NL",
+        "postcode": "2801LV",
+        "id": "0513010013061466"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.70748126872468,
+          52.0104963150774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3fef2350a5fd6106",
+        "number": "220",
+        "street": "Eilenbergstraat",
+        "unit": "",
+        "city": "Tilburg",
+        "district": "",
+        "region": "NL",
+        "postcode": "5011EC",
+        "id": "0855010000020446"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.09436840259222,
+          51.58627526762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5b6bb3764f664927",
+        "number": "24",
+        "street": "de Ganzenebbe",
+        "unit": "",
+        "city": "Zelhem",
+        "district": "",
+        "region": "NL",
+        "postcode": "7021NM",
+        "id": "1876010001002646"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.33971578504649,
+          52.0035740350953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "edc47a5a70bb9958",
+        "number": "12",
+        "street": "Solwerd",
+        "unit": "",
+        "city": "Groningen",
+        "district": "",
+        "region": "NL",
+        "postcode": "9746CG",
+        "id": "0014010011081454"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.51651002164548,
+          53.245541105504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2528edf773a28f48",
+        "number": "5",
+        "street": "Dennenweg",
+        "unit": "",
+        "city": "Klarenbeek",
+        "district": "",
+        "region": "NL",
+        "postcode": "7382BW",
+        "id": "0285010000100339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.06827980682923,
+          52.1682117874474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8994f2aa8a3c55a6",
+        "number": "3",
+        "street": "Uranusstraat",
+        "unit": "",
+        "city": "Spijkenisse",
+        "district": "",
+        "region": "NL",
+        "postcode": "",
+        "id": "0612010000026994"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.32002749975495,
+          51.8415832032249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "029b573b48f0d3c6",
+        "number": "12",
+        "street": "Sacharovlaan",
+        "unit": "",
+        "city": "Amstelveen",
+        "district": "",
+        "region": "NL",
+        "postcode": "1187RG",
+        "id": "0362010002030225"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.82983994781953,
+          52.2820142790339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d039266f2cf3ab38",
+        "number": "14",
+        "street": "De Goede Ree",
+        "unit": "",
+        "city": "Goedereede",
+        "district": "",
+        "region": "NL",
+        "postcode": "3252LJ",
+        "id": "0511010001957352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.97703288671699,
+          51.8207006515409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9599007211f1c4be",
+        "number": "9",
+        "street": "Jacobus Meijlinkstraat",
+        "unit": "",
+        "city": "Deventer",
+        "district": "",
+        "region": "NL",
+        "postcode": "7425SL",
+        "id": "0150010000047106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.22879738509155,
+          52.2650524101493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "99f42b872c23b7e9",
+        "number": "107",
+        "street": "Nieuwendijk",
+        "unit": "",
+        "city": "Woerden",
+        "district": "",
+        "region": "NL",
+        "postcode": "3443BK",
+        "id": "0632010000003833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.87847900895502,
+          52.0927589060226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3c3c4f7a3c620a72",
+        "number": "38",
+        "street": "Heisteeg",
+        "unit": "",
+        "city": "Oisterwijk",
+        "district": "",
+        "region": "NL",
+        "postcode": "5062SG",
+        "id": "0824010000005618"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.20303998606755,
+          51.5658893536721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "201cb7015ffd161a",
+        "number": "5",
+        "street": "Oude Rijksweg",
+        "unit": "",
+        "city": "Gulpen",
+        "district": "",
+        "region": "NL",
+        "postcode": "6271AA",
+        "id": "1729010001056395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.90127968576929,
+          50.8170756471934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "295df68b52a9fb1d",
+        "number": "84",
+        "street": "Koepelstraat",
+        "unit": "C13",
+        "city": "Maastricht",
+        "district": "",
+        "region": "NL",
+        "postcode": "6224LW",
+        "id": "0935010000093430"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.70827661182235,
+          50.8466693052497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "60113f52822c859e",
+        "number": "17",
+        "street": "Van Kinsbergenstraat",
+        "unit": "",
+        "city": "Weert",
+        "district": "",
+        "region": "NL",
+        "postcode": "6004ET",
+        "id": "0988010000002629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7289070653104,
+          51.2534342878384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8a4480c7e80522fc",
+        "number": "174",
+        "street": "Alkenoord",
+        "unit": "",
+        "city": "Capelle aan den IJssel",
+        "district": "",
+        "region": "NL",
+        "postcode": "2903XH",
+        "id": "0502010000001023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.59603144365565,
+          51.9327271673844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b05f9f1d9ca07473",
+        "number": "2",
+        "street": "Maaslandstraat",
+        "unit": "",
+        "city": "Boxtel",
+        "district": "",
+        "region": "NL",
+        "postcode": "5283CL",
+        "id": "0757010001470099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.33489241043015,
+          51.5896445520969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "86a434219c8d52c6",
+        "number": "26",
+        "street": "Staringlaan",
+        "unit": "",
+        "city": "Papendrecht",
+        "district": "",
+        "region": "NL",
+        "postcode": "3351TB",
+        "id": "0590010000011511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.68102191498445,
+          51.8316024185563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "78955a0271b8e12b",
+        "number": "34",
+        "street": "Oud Milligenseweg",
+        "unit": "023",
+        "city": "Garderen",
+        "district": "",
+        "region": "NL",
+        "postcode": "3886ME",
+        "id": "0203010000360681"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.71740575762383,
+          52.2283208683093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "03876d72b45e16aa",
+        "number": "56",
+        "street": "Hendrick Vroomlaan",
+        "unit": "",
+        "city": "Vlissingen",
+        "district": "",
+        "region": "NL",
+        "postcode": "4383TN",
+        "id": "0718010000008135"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.57429703076825,
+          51.4578688141767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "69a73b2fe4d09378",
+        "number": "52",
+        "street": "Jac P Thijsselaan",
+        "unit": "",
+        "city": "Zwolle",
+        "district": "",
+        "region": "NL",
+        "postcode": "8044RA",
+        "id": "0193010000094936"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.03438382114293,
+          52.5433373729193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3d949f3672fa1527",
+        "number": "5",
+        "street": "Burgemeester Loysonstraat",
+        "unit": "",
+        "city": "Landgraaf",
+        "district": "",
+        "region": "NL",
+        "postcode": "6373PA",
+        "id": "0882010000002043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.03814434976005,
+          50.9067898067453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d3b43fc91d25c837",
+        "number": "156",
+        "street": "Rolduckerweg",
+        "unit": "",
+        "city": "Heerlen",
+        "district": "",
+        "region": "NL",
+        "postcode": "6422PT",
+        "id": "0917011313167611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.00401949551447,
+          50.8447977844993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ef72184d9dd4a8a0",
+        "number": "41",
+        "street": "Wilhelminastraat",
+        "unit": "1",
+        "city": "Didam",
+        "district": "",
+        "region": "NL",
+        "postcode": "6942BJ",
+        "id": "1955010000037712"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.13018936166297,
+          51.9365161252695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c066aded0474e1e7",
+        "number": "59",
+        "street": "Sluis",
+        "unit": "",
+        "city": "Heerhugowaard",
+        "district": "",
+        "region": "NL",
+        "postcode": "1705DG",
+        "id": "0398010000010637"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.83295951787082,
+          52.6511808942473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2909e4333bf484df",
+        "number": "292",
+        "street": "Jachtlaan",
+        "unit": "",
+        "city": "Apeldoorn",
+        "district": "",
+        "region": "NL",
+        "postcode": "7312GV",
+        "id": "0200010000102422"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.94185420226428,
+          52.2040294948446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "45866679fb1b0d5d",
+        "number": "37",
+        "street": "Kamperfoelieweg",
+        "unit": "",
+        "city": "Paterswolde",
+        "district": "",
+        "region": "NL",
+        "postcode": "9765HJ",
+        "id": "1730010000002219"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.55992914575342,
+          53.1425812369656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c31e6fba831503ba",
+        "number": "9",
+        "street": "Torenstraat",
+        "unit": "",
+        "city": "Ezinge",
+        "district": "",
+        "region": "NL",
+        "postcode": "9891AE",
+        "id": "0053010000003402"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.44105341551724,
+          53.3096875265483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e92e411949662a3f",
+        "number": "23",
+        "street": "Abstederschans",
+        "unit": "",
+        "city": "Nieuwegein",
+        "district": "",
+        "region": "NL",
+        "postcode": "3432EH",
+        "id": "0356010000033987"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.09396129140745,
+          52.0170612794839
+        ]
+      }
+    }
+  ]
+}

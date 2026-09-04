@@ -1,5 +1,6 @@
 import argparse
 import os
+import tempfile
 
 from pathlib import Path
 
@@ -9,13 +10,11 @@ DEFAULT_RUN_DATASET = {
     "Synthetic": "Synthetic/US.geojson",
 }
 
-DEFAULT_EVAL_SOURCE_FILES = {
-    "OpenAddresses": "OpenAddress/US.geojson",
-    "Synthetic": "Synthetic/US.geojson",
-}
+DEFAULT_EVAL_SOURCE_FILES = dict(DEFAULT_RUN_DATASET)
 
 DEFAULT_TEST_NAME = "192dpiSatelliteBG-US"
 DEFAULT_EVAL_DECIMALS = 6
+DEFAULT_CALIBRATE_SHAPE_OFFSET = False
 DEFAULT_CLUSTER_TYPE = "new"
 DEFAULT_CLUSTER_SIZE_MODE = "estimate"
 DEFAULT_BG_MODE = False
@@ -33,14 +32,20 @@ DEFAULT_MIN_LON = -126.17658145147592563
 DEFAULT_MAX_LAT = 58.62037301762128294
 DEFAULT_MAP_ZOOM = 5
 DEFAULT_DOT_SHAPE = None
+DEFAULT_DOT_COLOR = (255, 0, 0)
 DEFAULT_LOG_LEVEL = "summary"
 DEFAULT_SHAPE_OFFSET_PX = (0.0, 0.0)
-DEFAULT_CALIBRATE_SHAPE_OFFSET = False
 DEFAULT_USE_GEOMETRIC_CIRCLE_INIT = False
 DEFAULT_IMAGE_FORMAT = "png"
 DEFAULT_JPEG_QUALITY = 80
+DEFAULT_INPUT_IMAGE = None
+DEFAULT_OUTPUT = None
+DEFAULT_RANDOM_SEED = 0
+DEFAULT_SAVE_DEBUG_ARTIFACTS = False
+DEFAULT_QUIET = False
 
-BASE_DIR = Path(__file__).resolve().parent
+PACKAGE_DIR = Path(__file__).resolve().parent
+BASE_DIR = PACKAGE_DIR.parent
 DATA_ROOT = BASE_DIR / "CoordinateJSONs"
 
 RUN_DATASET = dict(DEFAULT_RUN_DATASET)
@@ -49,6 +54,7 @@ TEST_NAME = DEFAULT_TEST_NAME
 EVAL_DECIMALS = DEFAULT_EVAL_DECIMALS
 CLUSTER_TYPE = DEFAULT_CLUSTER_TYPE
 CLUSTER_SIZE_MODE = DEFAULT_CLUSTER_SIZE_MODE
+CALIBRATE_SHAPE_OFFSET = DEFAULT_CALIBRATE_SHAPE_OFFSET
 BG_MODE = DEFAULT_BG_MODE
 REGENERATE_BASE_MAP = DEFAULT_REGENERATE_BASE_MAP
 WIDTH_PX = DEFAULT_WIDTH_PX
@@ -65,17 +71,21 @@ MAX_LAT = DEFAULT_MAX_LAT
 MAP_ZOOM = DEFAULT_MAP_ZOOM
 MAX_LON = MIN_LON + PIXEL_SIZE * WIDTH_PX
 MIN_LAT = MAX_LAT - PIXEL_SIZE * HEIGHT_PX
-DOT_COLOR = (255, 0, 0)
+DOT_COLOR = DEFAULT_DOT_COLOR
 BACKGROUND_COLOR = (255, 255, 255)
 PRIMARY_TILE_SOURCE = None
 SHIFTED_TILE_SOURCE = None
 DOT_SHAPE = DEFAULT_DOT_SHAPE
 LOG_LEVEL = DEFAULT_LOG_LEVEL
 SHAPE_OFFSET_PX = DEFAULT_SHAPE_OFFSET_PX
-CALIBRATE_SHAPE_OFFSET = DEFAULT_CALIBRATE_SHAPE_OFFSET
 USE_GEOMETRIC_CIRCLE_INIT = DEFAULT_USE_GEOMETRIC_CIRCLE_INIT
 IMAGE_FORMAT = DEFAULT_IMAGE_FORMAT
 JPEG_QUALITY = DEFAULT_JPEG_QUALITY
+INPUT_IMAGE = DEFAULT_INPUT_IMAGE
+OUTPUT = DEFAULT_OUTPUT
+RANDOM_SEED = DEFAULT_RANDOM_SEED
+SAVE_DEBUG_ARTIFACTS = DEFAULT_SAVE_DEBUG_ARTIFACTS
+QUIET = DEFAULT_QUIET
 DIRS = [
     (-1, -1), (-1, 0), (-1, 1),
     (0, -1),           (0, 1),
@@ -91,7 +101,6 @@ RUN_SUFFIX = None
 RESULTS_RUN_DIR = None
 AUGMENTED_RUN_DIR = None
 FILENAME = None
-EVAL_JSON = None
 MANUAL_DOT_QUERIES_FILE = None
 CLUSTER_QUERY_IMAGE_PREFIX = None
 CLUSTER_QUERY_IMAGE_PATH = None
@@ -119,13 +128,9 @@ DOWN_LEFT_IMG = None
 DOWN_RIGHT_IMG = None
 NOCHANGE_IMG = None
 BOUNDARY_PIXELS_IMG = None
-GEO_PLOT_FILE = None
-GEO_BOX_PDF_FILE = None
-DOT_RESULTS_FILE = None
-SUMMARY_RESULTS_FILE = None
-RUN_LOG_FILE = None
-RESULTS_RUN_LOG_FILE = None
 DESCENT_TRACE_FILE = None
+RECOVERED_GEOJSON = None
+TEMP_WORK_ROOT = None
 
 
 def build_parser():
@@ -138,8 +143,18 @@ def build_parser():
         choices=tuple(DEFAULT_RUN_DATASET.keys()),
         help="Optional subset of datasets to run. Omit to run all configured datasets.",
     )
+    parser.add_argument(
+        "--input-image",
+        type=Path,
+        help="Rendered dot-map image to attack. When supplied, no source coordinates are loaded or rendered.",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        help="Recovered point locations as GeoJSON (default: Results/<run>/input/recovered_locations.geojson).",
+    )
     parser.add_argument("--test-name", default=DEFAULT_TEST_NAME)
-    parser.add_argument("--eval-decimals", type=int, default=DEFAULT_EVAL_DECIMALS)
+    parser.add_argument("--eval-decimals", type=int, default=DEFAULT_EVAL_DECIMALS, help=argparse.SUPPRESS)
     parser.add_argument("--cluster-type", default=DEFAULT_CLUSTER_TYPE)
     parser.add_argument(
         "--cluster-size-mode",
@@ -161,6 +176,14 @@ def build_parser():
     parser.add_argument("--width-px", type=int, default=DEFAULT_WIDTH_PX)
     parser.add_argument("--height-px", type=int, default=DEFAULT_HEIGHT_PX)
     parser.add_argument("--dot-radius-mm", type=float, default=DEFAULT_DOT_RADIUS_MM)
+    parser.add_argument(
+        "--dot-color",
+        nargs=3,
+        type=int,
+        metavar=("R", "G", "B"),
+        default=DEFAULT_DOT_COLOR,
+        help="RGB color of rendered dots. Defaults to 255 0 0.",
+    )
     parser.add_argument("--max-iter", type=int, default=DEFAULT_MAX_ITER)
     parser.add_argument("--tol", type=float, default=DEFAULT_TOL)
     parser.add_argument("--initial-step-size", type=float, default=DEFAULT_INITIAL_STEP_SIZE)
@@ -180,6 +203,24 @@ def build_parser():
         choices=("summary", "verbose"),
         default=DEFAULT_LOG_LEVEL,
         help="Controls how much progress detail is printed during a run.",
+    )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=DEFAULT_RANDOM_SEED,
+        help="Random seed used during overlapping-dot initialization (default: 0).",
+    )
+    parser.add_argument(
+        "--save-debug-artifacts",
+        action="store_true",
+        default=DEFAULT_SAVE_DEBUG_ARTIFACTS,
+        help="Keep intermediate renders and the optimization trace under AugmentedFiles/.",
+    )
+    parser.add_argument(
+        "--quiet",
+        action="store_true",
+        default=DEFAULT_QUIET,
+        help="Suppress normal progress messages; errors are still reported.",
     )
     parser.add_argument(
         "--image-format",
@@ -205,13 +246,13 @@ def build_parser():
         "--calibrate-shape-offset",
         action="store_true",
         default=DEFAULT_CALIBRATE_SHAPE_OFFSET,
-        help="Estimate a triangle marker offset from evaluation truth for diagnostics.",
+        help=argparse.SUPPRESS,
     )
     parser.add_argument(
         "--use-geometric-circle-init",
         action="store_true",
         default=DEFAULT_USE_GEOMETRIC_CIRCLE_INIT,
-        help="Initialize isolated circle-dot runs from the refined geometric estimator instead of the modified-method boundary initializer.",
+        help="Deprecated compatibility flag; isolated circle-dot runs now use the refined geometric initializer automatically.",
     )
     return parser
 
@@ -239,6 +280,13 @@ def parse_dot_shape(value):
     raise ValueError(f"Unsupported dot shape value: {value}")
 
 
+def parse_rgb_color(values):
+    rgb = tuple(int(value) for value in values)
+    if len(rgb) != 3 or any(channel < 0 or channel > 255 for channel in rgb):
+        raise ValueError("RGB colors must have exactly three channel values in [0, 255].")
+    return rgb
+
+
 def select_datasets(mapping, selected_names):
     if not selected_names:
         return dict(mapping)
@@ -253,11 +301,17 @@ def apply_args(args):
     global RUN_DATASET, EVAL_SOURCE_FILES, TEST_NAME, EVAL_DECIMALS, CLUSTER_TYPE, CLUSTER_SIZE_MODE
     global BG_MODE, REGENERATE_BASE_MAP, WIDTH_PX, HEIGHT_PX, DOT_RADIUS_MM, MAX_ITER, TOL
     global INITIAL_STEP_SIZE, STEP_DIVISOR, MIN_STEP_SIZE, PIXEL_SIZE, MIN_LON, MAX_LAT, MAP_ZOOM
-    global MAX_LON, MIN_LAT, DOT_SHAPE, LOG_LEVEL
+    global MAX_LON, MIN_LAT, DOT_SHAPE, DOT_COLOR, LOG_LEVEL
     global SHAPE_OFFSET_PX, CALIBRATE_SHAPE_OFFSET, USE_GEOMETRIC_CIRCLE_INIT, IMAGE_FORMAT, JPEG_QUALITY
+    global INPUT_IMAGE, OUTPUT, RANDOM_SEED, SAVE_DEBUG_ARTIFACTS, QUIET
 
-    RUN_DATASET = select_datasets(DEFAULT_RUN_DATASET, args.datasets)
-    EVAL_SOURCE_FILES = select_datasets(DEFAULT_EVAL_SOURCE_FILES, args.datasets)
+    INPUT_IMAGE = str(args.input_image.resolve()) if args.input_image else None
+    OUTPUT = str(args.output.resolve()) if args.output else None
+    if INPUT_IMAGE:
+        RUN_DATASET = {"input": ""}
+    else:
+        RUN_DATASET = select_datasets(DEFAULT_RUN_DATASET, args.datasets)
+        EVAL_SOURCE_FILES = select_datasets(DEFAULT_EVAL_SOURCE_FILES, args.datasets)
     TEST_NAME = args.test_name
     EVAL_DECIMALS = args.eval_decimals
     CLUSTER_TYPE = args.cluster_type
@@ -277,6 +331,7 @@ def apply_args(args):
     MAX_LAT = args.max_lat
     MAP_ZOOM = args.map_zoom
     DOT_SHAPE = parse_dot_shape(args.dot_shape)
+    DOT_COLOR = parse_rgb_color(args.dot_color)
     LOG_LEVEL = args.log_level
     IMAGE_FORMAT = args.image_format
     if not 1 <= args.jpeg_quality <= 100:
@@ -285,26 +340,33 @@ def apply_args(args):
     SHAPE_OFFSET_PX = tuple(args.shape_offset_px)
     CALIBRATE_SHAPE_OFFSET = args.calibrate_shape_offset
     USE_GEOMETRIC_CIRCLE_INIT = args.use_geometric_circle_init
+    RANDOM_SEED = args.seed
+    SAVE_DEBUG_ARTIFACTS = args.save_debug_artifacts
+    QUIET = args.quiet
     MAX_LON = MIN_LON + PIXEL_SIZE * WIDTH_PX
     MIN_LAT = MAX_LAT - PIXEL_SIZE * HEIGHT_PX
 
 
 def configure_dataset(dataset_key):
     global CURRENT_DATASET_KEY, JSON_FILE, EVAL_SOURCE_FILE, RESULTS_ROOT, AUGMENTED_ROOT, RUN_SUFFIX
-    global RESULTS_RUN_DIR, AUGMENTED_RUN_DIR, FILENAME, EVAL_JSON, MANUAL_DOT_QUERIES_FILE
+    global RESULTS_RUN_DIR, AUGMENTED_RUN_DIR, FILENAME, MANUAL_DOT_QUERIES_FILE
     global CLUSTER_QUERY_IMAGE_PREFIX, CLUSTER_QUERY_IMAGE_PATH, BACKGROUND_REFERENCE_GEOJSON
     global BASE_BACKGROUND_IMG, SHIFTED_BACKGROUND_IMG, CLUSTER_TYPE_ROOT, CLUSTER_TYPE_GEOJSON
     global LEFT_GEOJSON, RIGHT_GEOJSON, UP_GEOJSON, DOWN_GEOJSON, NOCHANGE_GEOJSON
     global UP_LEFT_GEOJSON, UP_RIGHT_GEOJSON, DOWN_LEFT_GEOJSON, DOWN_RIGHT_GEOJSON
     global LEFT_IMG, RIGHT_IMG, UP_IMG, DOWN_IMG, NOCHANGE_IMG, BOUNDARY_PIXELS_IMG
     global UP_LEFT_IMG, UP_RIGHT_IMG, DOWN_LEFT_IMG, DOWN_RIGHT_IMG
-    global GEO_PLOT_FILE, GEO_BOX_PDF_FILE, DOT_RESULTS_FILE, SUMMARY_RESULTS_FILE
-    global RUN_LOG_FILE, RESULTS_RUN_LOG_FILE, DESCENT_TRACE_FILE
+    global DESCENT_TRACE_FILE, RECOVERED_GEOJSON, TEMP_WORK_ROOT
 
     CURRENT_DATASET_KEY = dataset_key
     RUN_SUFFIX = f"_{TEST_NAME}" if TEST_NAME else ""
     RESULTS_ROOT = os.path.join(BASE_DIR, "Results")
-    AUGMENTED_ROOT = os.path.join(BASE_DIR, "AugmentedFiles")
+    if SAVE_DEBUG_ARTIFACTS:
+        AUGMENTED_ROOT = os.path.join(BASE_DIR, "AugmentedFiles")
+        TEMP_WORK_ROOT = None
+    else:
+        TEMP_WORK_ROOT = tempfile.mkdtemp(prefix="autolocate-")
+        AUGMENTED_ROOT = TEMP_WORK_ROOT
     CLUSTER_TYPE_ROOT = os.path.join(AUGMENTED_ROOT, "cluster_types")
     os.makedirs(CLUSTER_TYPE_ROOT, exist_ok=True)
 
@@ -317,17 +379,15 @@ def configure_dataset(dataset_key):
                 return candidate
         return candidates[0]
 
-    JSON_FILE = resolve(RUN_DATASET[dataset_key])
-    EVAL_SOURCE_FILE = resolve(EVAL_SOURCE_FILES.get(dataset_key, RUN_DATASET[dataset_key]))
+    JSON_FILE = resolve(RUN_DATASET[dataset_key]) if RUN_DATASET[dataset_key] else None
+    EVAL_SOURCE_FILE = resolve(EVAL_SOURCE_FILES.get(dataset_key, RUN_DATASET[dataset_key])) if EVAL_SOURCE_FILES.get(dataset_key, RUN_DATASET[dataset_key]) else None
     RESULTS_RUN_DIR = os.path.join(RESULTS_ROOT, TEST_NAME or "default", dataset_key)
     AUGMENTED_RUN_DIR = os.path.join(AUGMENTED_ROOT, TEST_NAME or "default", dataset_key)
-    os.makedirs(RESULTS_RUN_DIR, exist_ok=True)
     os.makedirs(AUGMENTED_RUN_DIR, exist_ok=True)
 
     dataset_suffix = f"{RUN_SUFFIX}_{dataset_key}" if RUN_SUFFIX else f"_{dataset_key}"
     image_extension = "jpeg" if IMAGE_FORMAT == "jpeg" else "png"
-    FILENAME = os.path.join(RESULTS_RUN_DIR, f"map{dataset_suffix}.{image_extension}")
-    EVAL_JSON = os.path.join(RESULTS_RUN_DIR, f"eval_{EVAL_DECIMALS}decimals{dataset_suffix}.geojson")
+    FILENAME = INPUT_IMAGE or os.path.join(AUGMENTED_RUN_DIR, f"map{dataset_suffix}.{image_extension}")
     MANUAL_DOT_QUERIES_FILE = os.path.join(AUGMENTED_RUN_DIR, f"manual_dot_queries{dataset_suffix}.txt")
     CLUSTER_QUERY_IMAGE_PREFIX = f"cluster_query_blob{dataset_suffix}"
     CLUSTER_QUERY_IMAGE_PATH = os.path.join(AUGMENTED_RUN_DIR, f"cluster_size{dataset_suffix}.png")
@@ -353,11 +413,6 @@ def configure_dataset(dataset_key):
     DOWN_RIGHT_IMG = os.path.join(AUGMENTED_RUN_DIR, f"down_right_img{dataset_suffix}.{image_extension}")
     NOCHANGE_IMG = os.path.join(AUGMENTED_RUN_DIR, f"no_change_img{dataset_suffix}.{image_extension}")
     BOUNDARY_PIXELS_IMG = os.path.join(AUGMENTED_RUN_DIR, f"BoundaryPixels{dataset_suffix}.{image_extension}")
-    GEO_PLOT_FILE = os.path.join(RESULTS_RUN_DIR, f"geo_error_histogram_boxplot{dataset_suffix}.{image_extension}")
-    GEO_BOX_PDF_FILE = os.path.join(RESULTS_RUN_DIR, f"geo_error_boxplot{dataset_suffix}.pdf")
-    DOT_RESULTS_FILE = os.path.join(RESULTS_RUN_DIR, f"dot_center_results{dataset_suffix}.txt")
-    SUMMARY_RESULTS_FILE = os.path.join(RESULTS_RUN_DIR, f"summary_results{dataset_suffix}.txt")
-    RUN_LOG_FILE = os.path.join(AUGMENTED_RUN_DIR, f"run_log{dataset_suffix}.txt")
-    RESULTS_RUN_LOG_FILE = os.path.join(RESULTS_RUN_DIR, f"run_log{dataset_suffix}.txt")
-    DESCENT_TRACE_FILE = os.path.join(RESULTS_RUN_DIR, f"descent_trace{dataset_suffix}.csv")
+    DESCENT_TRACE_FILE = os.path.join(AUGMENTED_RUN_DIR, f"descent_trace{dataset_suffix}.csv")
+    RECOVERED_GEOJSON = OUTPUT or os.path.join(RESULTS_RUN_DIR, "recovered_locations.geojson")
     CLUSTER_TYPE_GEOJSON = os.path.join(CLUSTER_TYPE_ROOT, f"{CLUSTER_TYPE}.geojson")

@@ -4,10 +4,14 @@ import math
 from decimal import Decimal, ROUND_DOWN
 from pathlib import Path
 
-import rasterio
-from rasterio.windows import from_bounds
 
 def get_local_population_density(lat, lon, raster_path, radius_m=1000):
+    try:
+        import rasterio
+        from rasterio.windows import from_bounds
+    except ImportError as exc:
+        raise RuntimeError("Rasterio is required to read the population GeoTIFF; install requirements.txt.") from exc
+
     with rasterio.open(raster_path) as src:
         degree_buffer = radius_m / 111_000
         minx, maxx = lon - degree_buffer, lon + degree_buffer
@@ -77,18 +81,22 @@ def process_geojson_quantize(
     k_protection=40,
     radius_m=1000,
     max_decimals=6,
+    verbose=False,
 ):
     with open(input_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     quantized_features = []
+    skipped = 0
     for feature in data["features"]:
         lon, lat = feature["geometry"]["coordinates"]
 
         try:
             density = get_local_population_density(lat, lon, raster_path, radius_m)
         except Exception as e:
-            print(f"Skipping point {lat},{lon}: {e}")
+            skipped += 1
+            if verbose:
+                print(f"Skipping point {lat},{lon}: {e}")
             continue
 
         decimals = choose_decimal_precision(lat, density, k_protection, max_decimals=max_decimals)
@@ -96,11 +104,12 @@ def process_geojson_quantize(
         new_lon = truncate_to_decimals(lon, decimals)
         expected_people = expected_people_in_decimal_cell(lat, density, decimals)
 
-        print(f"density: {density:.2f} ppl/km^2")
-        print(f"old coord: ({lat}, {lon})")
-        print(f"decimals kept: {decimals}")
-        print(f"expected people in cell: ~{expected_people:.2f}")
-        print(f"new coord: ({new_lat}, {new_lon})\n")
+        if verbose:
+            print(
+                f"({lat}, {lon}) -> ({new_lat}, {new_lon}); "
+                f"density={density:.2f} people/km^2, decimals={decimals}, "
+                f"expected_people={expected_people:.2f}"
+            )
 
         quantized_features.append({
             "type": "Feature",
@@ -109,8 +118,11 @@ def process_geojson_quantize(
         })
 
     quantized_data = {"type": "FeatureCollection", "features": quantized_features}
+    output_file = Path(output_file)
+    output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(quantized_data, f, indent=2)
+    return {"processed": len(quantized_features), "skipped": skipped, "output": str(output_file)}
 
 
 def parse_args():
@@ -156,20 +168,23 @@ def parse_args():
         default=6,
         help="Maximum number of decimals to preserve (default: 6)",
     )
+    parser.add_argument("--verbose", action="store_true", help="Print one diagnostic line per input point.")
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
     args.raster = resolve_raster_path(args.raster)
-    process_geojson_quantize(
+    result = process_geojson_quantize(
         args.input,
         args.raster,
         args.output,
         k_protection=args.k,
         radius_m=args.radius_m,
         max_decimals=args.max_decimals,
+        verbose=args.verbose,
     )
+    print(f"Wrote {result['processed']} assessed locations to {result['output']} ({result['skipped']} skipped).")
 
 
 if __name__ == "__main__":

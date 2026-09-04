@@ -1,0 +1,2205 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "227f170ffba70feb",
+        "number": "95",
+        "street": "PORTLAND STREET",
+        "unit": "",
+        "city": "CROYDON PARK",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2133",
+        "id": "GANSW704538245",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0935968,
+          -33.89620873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ccb397baeb94bfce",
+        "number": "5",
+        "street": "WYLDE PLACE",
+        "unit": "UNIT 3",
+        "city": "MACQUARIE",
+        "district": "",
+        "region": "ACT",
+        "postcode": "2614",
+        "id": "GAACT719443332",
+        "accuracy": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.06118273,
+          -35.24746877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8daeb960d342248d",
+        "number": "12",
+        "street": "GLADIOLI AVENUE",
+        "unit": "",
+        "city": "HAMLYN TERRACE",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2259",
+        "id": "GANSW719689594",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.481299,
+          -33.25749871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e91e3b334728b3b7",
+        "number": "34",
+        "street": "WARATAH STREET",
+        "unit": "",
+        "city": "BOWEN MOUNTAIN",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2753",
+        "id": "GANSW718694626",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.62445971,
+          -33.57990773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4c436f262874bf32",
+        "number": "301",
+        "street": "SCENIC HIGHWAY",
+        "unit": "",
+        "city": "TERRIGAL",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2260",
+        "id": "GANSW716354770",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.41975669,
+          -33.45810318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f9ac4b5d2713cf53",
+        "number": "24",
+        "street": "PAPWORTH PLACE",
+        "unit": "",
+        "city": "MEADOW HEIGHTS",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3048",
+        "id": "GAVIC421467788",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.918305,
+          -37.651084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "190fa566d5330d56",
+        "number": "11",
+        "street": "FLEMINGTON PARKWAY",
+        "unit": "",
+        "city": "BOX HILL",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2765",
+        "id": "GANSW720082247",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.88449929,
+          -33.64469562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0d540a55e3e1d05b",
+        "number": "11",
+        "street": "COOPER STREET",
+        "unit": "",
+        "city": "BARRABA",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2347",
+        "id": "GANSW704023642",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.61252089,
+          -30.38981191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f135d2b512569e32",
+        "number": "13",
+        "street": "RICKARD STREET",
+        "unit": "",
+        "city": "GUILDFORD",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2161",
+        "id": "GANSW704911477",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.99296551,
+          -33.85405385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "05a8da22c0b9c265",
+        "number": "35",
+        "street": "CLEMENTINE BOULEVARD",
+        "unit": "",
+        "city": "TARNEIT",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3029",
+        "id": "GAVIC719622342",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.67890949,
+          -37.81483947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "60975396288ac8c7",
+        "number": "1A",
+        "street": "PHEASANT POINT DRIVE",
+        "unit": "",
+        "city": "KIAMA",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2533",
+        "id": "GANSW705083241",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85619221,
+          -34.6684342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3534c713ae891159",
+        "number": "5",
+        "street": "DEVANEY STREET",
+        "unit": "",
+        "city": "BLACKETT",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2770",
+        "id": "GANSW704133643",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.82043972,
+          -33.7373539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9e49d84d04c0691c",
+        "number": "37",
+        "street": "MCNALLY STREET",
+        "unit": "",
+        "city": "YARRAWONGA",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3730",
+        "id": "GAVIC421837080",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0080328,
+          -36.01519882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a693a2cefaab7fbd",
+        "number": "37",
+        "street": "MCGLYNN AVENUE",
+        "unit": "",
+        "city": "SOUTH MORANG",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3752",
+        "id": "GAVIC421175334",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.08973,
+          -37.655095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c869b1629247f70b",
+        "number": "121C",
+        "street": "JERRALONG DRIVE",
+        "unit": "UNIT 130",
+        "city": "SCHOFIELDS",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2762",
+        "id": "GANSW720624115",
+        "accuracy": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.88246008,
+          -33.70403159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1f79b4df0f5e6869",
+        "number": "8",
+        "street": "CORRIEDALE ROAD",
+        "unit": "",
+        "city": "MELTON WEST",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3337",
+        "id": "GAVIC420823828",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.558149,
+          -37.678486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "865f7292de7ee3b0",
+        "number": "5",
+        "street": "FINCHLEY COURT",
+        "unit": "",
+        "city": "HAWTHORN",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3122",
+        "id": "GAVIC419592232",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.03415196,
+          -37.82493493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a98e666251703778",
+        "number": "397",
+        "street": "ST KILDA ROAD",
+        "unit": "SHOP 7A",
+        "city": "MELBOURNE",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3004",
+        "id": "GAVIC720298610",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.97575111,
+          -37.83568658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1d961c4c7c30ea80",
+        "number": "33A",
+        "street": "OURIMBAH ROAD",
+        "unit": "",
+        "city": "MOSMAN",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2088",
+        "id": "GANSW710754562",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.24045603,
+          -33.82194854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f35db2f95b4451a9",
+        "number": "22",
+        "street": "CATHEDRAL APPROACH",
+        "unit": "",
+        "city": "SECRET HARBOUR",
+        "district": "",
+        "region": "WA",
+        "postcode": "6173",
+        "id": "GAWA_719680495",
+        "accuracy": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.76188422,
+          -32.40131578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "46b9cf784f301d93",
+        "number": "33",
+        "street": "LAWSON ROAD",
+        "unit": "",
+        "city": "MOOROOLBARK",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3138",
+        "id": "GAVIC421900468",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.327452,
+          -37.795304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1db0016732ddb2bf",
+        "number": "2-12",
+        "street": "CROWS NEST ROAD",
+        "unit": "",
+        "city": "WAVERTON",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2060",
+        "id": "GANSW707615231",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.19788965,
+          -33.83681791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "938b1796bf91f827",
+        "number": "LOT 10",
+        "street": "PEAK DOWNS STREET",
+        "unit": "",
+        "city": "CAPELLA",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4723",
+        "id": "GAQLD161273938",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.01911902,
+          -23.07734477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b85b3b11b58dda0a",
+        "number": "21",
+        "street": "POSEIDON WAY",
+        "unit": "",
+        "city": "GLENFIELD",
+        "district": "",
+        "region": "WA",
+        "postcode": "6532",
+        "id": "GAWA_721720091",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.61095615,
+          -28.68218779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cda1927a8a884006",
+        "number": "28-30",
+        "street": "YALLAMBEE ROAD",
+        "unit": "",
+        "city": "BEROWRA",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2081",
+        "id": "GANSW717682079",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.14227783,
+          -33.62887193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f8bef1d7e70da5f2",
+        "number": "28",
+        "street": "FREDERICK STREET",
+        "unit": "UNIT 5",
+        "city": "SANCTUARY POINT",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2540",
+        "id": "GANSW720317592",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.62529626,
+          -35.11221674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "76d1c70af37cc433",
+        "number": "12",
+        "street": "LEON PLACE",
+        "unit": "",
+        "city": "CORAL COVE",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4670",
+        "id": "GAQLD161443900",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.47925269,
+          -24.88199887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "305b2d2314be982a",
+        "number": "300",
+        "street": "PLUMMER STREET",
+        "unit": "FLAT 903",
+        "city": "PORT MELBOURNE",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3207",
+        "id": "GAVIC720470660",
+        "accuracy": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.91950385,
+          -37.83389807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dc678c72406b9d7d",
+        "number": "15",
+        "street": "STANLEY ROAD",
+        "unit": "",
+        "city": "GRANTVILLE",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3984",
+        "id": "GAVIC421271069",
+        "accuracy": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.52314091,
+          -38.41821817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "50df8e20ca11a5ab",
+        "number": "196",
+        "street": "SOUTHPORT - NERANG ROAD",
+        "unit": "",
+        "city": "SOUTHPORT",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4215",
+        "id": "GAQLD157117893",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.3996141,
+          -27.97586014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "133126e308acedbf",
+        "number": "9",
+        "street": "BRIGGS STREET",
+        "unit": "",
+        "city": "MONT ALBERT NORTH",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3129",
+        "id": "GAVIC421322329",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.107802,
+          -37.798039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cd0bad2e17d9e2d5",
+        "number": "18",
+        "street": "MONTSERRAT CRESCENT",
+        "unit": "",
+        "city": "CALOUNDRA WEST",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4551",
+        "id": "GAQLD160717646",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.09056601,
+          -26.79459986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1e27f69b35705a20",
+        "number": "32",
+        "street": "PLATFORM LOOP",
+        "unit": "",
+        "city": "BRABHAM",
+        "district": "",
+        "region": "WA",
+        "postcode": "6055",
+        "id": "GAWA_721281203",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.97624951,
+          -31.83108425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c094098c644830fe",
+        "number": "194",
+        "street": "ARCOONA ROAD",
+        "unit": "",
+        "city": "YANDINA CREEK",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4561",
+        "id": "GAQLD156006410",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.03958936,
+          -26.52266632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6e7ceacf76a28c53",
+        "number": "7",
+        "street": "WIDE VIEW AVENUE",
+        "unit": "",
+        "city": "LAWSON",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2783",
+        "id": "GANSW709512852",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.44260525,
+          -33.71389342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "65eda4d2591988bc",
+        "number": "1-3",
+        "street": "KENNON STREET",
+        "unit": "UNIT 4",
+        "city": "DONCASTER EAST",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3109",
+        "id": "GAVIC419789693",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.155154,
+          -37.787685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3fe34a7edf3999a6",
+        "number": "10",
+        "street": "JOHNSTONS ROAD",
+        "unit": "",
+        "city": "HILLWOOD",
+        "district": "",
+        "region": "TAS",
+        "postcode": "7252",
+        "id": "GATAS721343220",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.97089547,
+          -41.21987768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "18cb9dd92f6f69ab",
+        "number": "33-35",
+        "street": "BARKLY STREET",
+        "unit": "UNIT 2",
+        "city": "MORNINGTON",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3931",
+        "id": "GAVIC414808659",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.036489,
+          -38.222628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f426e938f76ad9df",
+        "number": "21",
+        "street": "CAPRICORN CRESCENT",
+        "unit": "",
+        "city": "NORMAN GARDENS",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4701",
+        "id": "GAQLD155651925",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.52550178,
+          -23.33756869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2446b5dff1316073",
+        "number": "12",
+        "street": "FRAZER STREET",
+        "unit": "UNIT 2",
+        "city": "COLLAROY",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2097",
+        "id": "GANSW704449610",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.2984676,
+          -33.72869409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dcef5d00af24964a",
+        "number": "64",
+        "street": "AGINCOURT ROAD",
+        "unit": "UNIT 1",
+        "city": "MARSFIELD",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2122",
+        "id": "GANSW718553860",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.10336199,
+          -33.7820714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fe1d4664891c7594",
+        "number": "16",
+        "street": "LAWTON STREET",
+        "unit": "",
+        "city": "BROKEN HILL",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2880",
+        "id": "GANSW704230383",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.47804244,
+          -31.97768707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "878bd4a7f1485d37",
+        "number": "71",
+        "street": "OLD BELMONT ROAD",
+        "unit": "UNIT 7",
+        "city": "BELMONT NORTH",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2280",
+        "id": "GANSW718811043",
+        "accuracy": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.67152498,
+          -33.01744928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f693e55e0dc6444a",
+        "number": "9",
+        "street": "LENNON RISE",
+        "unit": "",
+        "city": "NEWSTEAD",
+        "district": "",
+        "region": "TAS",
+        "postcode": "7250",
+        "id": "GATAS717239575",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.15750828,
+          -41.45265459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "61e88a5f2878b32e",
+        "number": "72",
+        "street": "EGGLESTON STREET",
+        "unit": "",
+        "city": "OCEAN GROVE",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3226",
+        "id": "GAVIC420557657",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.52691142,
+          -38.26343424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0324531bd3d225d7",
+        "number": "7",
+        "street": "DIGGORA ROAD",
+        "unit": "",
+        "city": "ROCHESTER",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3561",
+        "id": "GAVIC412199330",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.69518994,
+          -36.35229045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c952d80eb4cb18d1",
+        "number": "LOT 33",
+        "street": "BRAESIDE ROAD",
+        "unit": "",
+        "city": "FINNISS",
+        "district": "",
+        "region": "SA",
+        "postcode": "5255",
+        "id": "GASA_424150891",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.7715585,
+          -35.34986792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e9ee86e25fcead1d",
+        "number": "43",
+        "street": "FORBES STREET",
+        "unit": "UNIT 1406",
+        "city": "WEST END",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4101",
+        "id": "GAQLD719092681",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.9991629,
+          -27.48656063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "43649fc0c4c75818",
+        "number": "31",
+        "street": "ABEL STREET",
+        "unit": "",
+        "city": "BOYUP BROOK",
+        "district": "",
+        "region": "WA",
+        "postcode": "6244",
+        "id": "GAWA_149019823",
+        "accuracy": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3846328,
+          -33.82984307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "989144b6216ffbd0",
+        "number": "35",
+        "street": "CHURCH STREET",
+        "unit": "",
+        "city": "EAGLEHAWK",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3556",
+        "id": "GAVIC419672911",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.2562945,
+          -36.7184392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "50adf31d57238270",
+        "number": "14",
+        "street": "FEDERATION DRIVE",
+        "unit": "",
+        "city": "HILLCREST",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4118",
+        "id": "GAQLD155389649",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.02487411,
+          -27.67470949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1a96796d087f2c2b",
+        "number": "3",
+        "street": "COLT STREET",
+        "unit": "",
+        "city": "AUSTRAL",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2179",
+        "id": "GANSW721124968",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.81005838,
+          -33.93990554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f13d988338e59d56",
+        "number": "21",
+        "street": "MACKENZIE DRIVE",
+        "unit": "",
+        "city": "MAROOCHYDORE",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4558",
+        "id": "GAQLD720670260",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0749834,
+          -26.6638157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "03629f091a93b1fe",
+        "number": "136",
+        "street": "GEORGE STREET",
+        "unit": "UNIT 9",
+        "city": "BUNDABERG WEST",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4670",
+        "id": "GAQLD157626066",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.34484224,
+          -24.87407678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8c65a5e410e6fb74",
+        "number": "182A",
+        "street": "PROSPECT ROAD",
+        "unit": "",
+        "city": "PROSPECT",
+        "district": "",
+        "region": "SA",
+        "postcode": "5082",
+        "id": "GASA_416745022",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5933906,
+          -34.88223244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c6029769aa2c635e",
+        "number": "18",
+        "street": "BOURTON STREET",
+        "unit": "",
+        "city": "JAMESTOWN",
+        "district": "",
+        "region": "SA",
+        "postcode": "5491",
+        "id": "GASA_721783049",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.61312611,
+          -33.20262631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e706ac4c80656e16",
+        "number": "95",
+        "street": "DAWES LANE",
+        "unit": "",
+        "city": "BOYNE VALLEY",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4680",
+        "id": "GAQLD162741391",
+        "accuracy": "4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.30167948,
+          -24.35573199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9eef4ca38f204d3b",
+        "number": "15",
+        "street": "HIGH STREET",
+        "unit": "UNIT 502",
+        "city": "LUTWYCHE",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4030",
+        "id": "GAQLD720987008",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.03417336,
+          -27.42494255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1338e0f7201c9543",
+        "number": "98",
+        "street": "HIGH STREET",
+        "unit": "",
+        "city": "ROSEWORTHY",
+        "district": "",
+        "region": "SA",
+        "postcode": "5371",
+        "id": "GASA_721411060",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.74566589,
+          -34.55266348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7a918fc2c6066619",
+        "number": "11",
+        "street": "GLANVILLE COURT",
+        "unit": "",
+        "city": "GROPER CREEK",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4806",
+        "id": "GAQLD425639928",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.52869568,
+          -19.69269138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d420d90662316fce",
+        "number": "11",
+        "street": "RIVERLANDS DRIVE",
+        "unit": "",
+        "city": "MAREEBA",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4880",
+        "id": "GAQLD163173570",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.4421723,
+          -17.00527741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "023c41e9a269054f",
+        "number": "626",
+        "street": "PICCANINNY LANE",
+        "unit": "",
+        "city": "THORNLEA",
+        "district": "",
+        "region": "SA",
+        "postcode": "5280",
+        "id": "GASA_424959700",
+        "accuracy": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.183123,
+          -37.447877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f1b53bc29b548ced",
+        "number": "4",
+        "street": "JORDAN CLOSE",
+        "unit": "",
+        "city": "MOOROOBOOL",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4870",
+        "id": "GAQLD156884187",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.73370904,
+          -16.93076257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0e0561344b4f8b23",
+        "number": "3",
+        "street": "NICOLLE DRIVE",
+        "unit": "",
+        "city": "MORPHETT VALE",
+        "district": "",
+        "region": "SA",
+        "postcode": "5162",
+        "id": "GASA_414904575",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.51481301,
+          -35.1274142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cf6b7a0bb27d6b08",
+        "number": "LOT 5",
+        "street": "CAPTAIN COOK HIGHWAY",
+        "unit": "",
+        "city": "PALM COVE",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4879",
+        "id": "GAQLD161094455",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.66222136,
+          -16.74879963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0e4e97411bf22220",
+        "number": "15",
+        "street": "AVONHURST DRIVE",
+        "unit": "",
+        "city": "GLEN WAVERLEY",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3150",
+        "id": "GAVIC420594871",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.145843,
+          -37.89673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5fb145e56f2fc5f3",
+        "number": "22",
+        "street": "HATFIELD STREET",
+        "unit": "",
+        "city": "STRATHTULLOH",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3338",
+        "id": "GAVIC719787956",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.59436582,
+          -37.724049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0032468ef9bb2747",
+        "number": "13",
+        "street": "HARMONY STREET",
+        "unit": "",
+        "city": "MORAYFIELD",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4506",
+        "id": "GAQLD721933652",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.92623939,
+          -27.13160952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "302876ecee644db7",
+        "number": "438",
+        "street": "TAGGERTY-THORNTON ROAD",
+        "unit": "",
+        "city": "TAGGERTY",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3714",
+        "id": "GAVIC421479854",
+        "accuracy": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.74705284,
+          -37.31099605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "41c662f52fb2bde4",
+        "number": "2",
+        "street": "LEANNE CLOSE",
+        "unit": "",
+        "city": "MCDOWALL",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4053",
+        "id": "GAQLD155555532",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.98680429,
+          -27.39118811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b4129049401252c0",
+        "number": "193",
+        "street": "ROCKY POINT ROAD",
+        "unit": "",
+        "city": "FINGAL BAY",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2315",
+        "id": "GANSW704782712",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.16450677,
+          -32.75109926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0924781d0b2c5ea6",
+        "number": "LOT 18",
+        "street": "REDMARLEY ROAD",
+        "unit": "",
+        "city": "CONDAMINE",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4416",
+        "id": "GAQLD161287807",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.12538191,
+          -26.9365913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f949616be06b51b8",
+        "number": "50",
+        "street": "WEDGE TAIL DRIVE",
+        "unit": "",
+        "city": "WINTER VALLEY",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3358",
+        "id": "GAVIC720212698",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.78586694,
+          -37.57196102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2a551944e595be3e",
+        "number": "23",
+        "street": "JANSZ CRESCENT",
+        "unit": "",
+        "city": "GRIFFITH",
+        "district": "",
+        "region": "ACT",
+        "postcode": "2603",
+        "id": "GAACT714888492",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.13056032,
+          -35.3302931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3b8d1a52fac415b0",
+        "number": "58",
+        "street": "GRIFFITH STREET",
+        "unit": "",
+        "city": "MANNERING PARK",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2259",
+        "id": "GANSW705286677",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.53889911,
+          -33.15656743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d939ee7973003121",
+        "number": "9",
+        "street": "CHARLOTTE STREET",
+        "unit": "UNIT 2",
+        "city": "FANNIE BAY",
+        "district": "",
+        "region": "NT",
+        "postcode": "0820",
+        "id": "GANT_702936995",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.83968353,
+          -12.4348586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "587232632d4951d3",
+        "number": "8",
+        "street": "WATERSIDE LANE",
+        "unit": "",
+        "city": "MILLINGANDI",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2549",
+        "id": "GANSW717540943",
+        "accuracy": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.87525671,
+          -36.89229839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "887eb3c8249ca408",
+        "number": "19",
+        "street": "FERNBANK PARADE",
+        "unit": "",
+        "city": "IDALIA",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4811",
+        "id": "GAQLD162538906",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.81567536,
+          -19.30266277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f2233a31659df0e3",
+        "number": "143",
+        "street": "HALSEY ROAD",
+        "unit": "",
+        "city": "AIRPORT WEST",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3042",
+        "id": "GAVIC421380965",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.87885,
+          -37.71833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7610f1c4599b18e1",
+        "number": "34",
+        "street": "STIRLING BOULEVARD",
+        "unit": "UNIT 2",
+        "city": "TATTON",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2650",
+        "id": "GANSW718693625",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.35938613,
+          -35.16124555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4e73ebb37be9837e",
+        "number": "21",
+        "street": "STANLEY STREET",
+        "unit": "",
+        "city": "WARRNAMBOOL",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3280",
+        "id": "GAVIC420326788",
+        "accuracy": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4707702,
+          -38.3958314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7e582b3535bf4b55",
+        "number": "26A",
+        "street": "LEFROY PLACE",
+        "unit": "",
+        "city": "USHER",
+        "district": "",
+        "region": "WA",
+        "postcode": "6230",
+        "id": "GAWA_148162246",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.62072528,
+          -33.37590504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dda38f67c11af904",
+        "number": "12",
+        "street": "LITTLE REEF STREET",
+        "unit": "",
+        "city": "WEDDERBURN",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3518",
+        "id": "GAVIC421443896",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.60790181,
+          -36.41719758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4a6132f30ab701ec",
+        "number": "97",
+        "street": "BASS HIGHWAY",
+        "unit": "",
+        "city": "PARKLANDS",
+        "district": "",
+        "region": "TAS",
+        "postcode": "7320",
+        "id": "GATAS702188281",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.88431624,
+          -41.04513904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0776be052b2d0969",
+        "number": "13",
+        "street": "CAROLINE WAY",
+        "unit": "",
+        "city": "NARRABRI",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2390",
+        "id": "GANSW719805045",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.78232619,
+          -30.30723452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "67e4c3f95060f843",
+        "number": "1",
+        "street": "BAYSIDE DRIVE",
+        "unit": "",
+        "city": "LAUDERDALE",
+        "district": "",
+        "region": "TAS",
+        "postcode": "7021",
+        "id": "GATAS702195871",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.50495031,
+          -42.91862172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "68914d0d0a35eca1",
+        "number": "13",
+        "street": "BARKALA STREET",
+        "unit": "",
+        "city": "DALMENY",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2546",
+        "id": "GANSW704544567",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.12976621,
+          -36.17689257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7a73602ac1b1a997",
+        "number": "13",
+        "street": "CAMERON STREET",
+        "unit": "",
+        "city": "PORTLAND",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3305",
+        "id": "GAVIC419700414",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.59670165,
+          -38.35006335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "25e6e3e74b8bd6f1",
+        "number": "4A",
+        "street": "DUFFY STREET",
+        "unit": "",
+        "city": "WHYALLA NORRIE",
+        "district": "",
+        "region": "SA",
+        "postcode": "5608",
+        "id": "GASA_425856028",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.54799097,
+          -33.02309291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0b4f7d67ba29c9af",
+        "number": "160",
+        "street": "MCGUFFICKES ROAD",
+        "unit": "",
+        "city": "JINDABYNE",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2627",
+        "id": "GANSW718646495",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.66578658,
+          -36.47638714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fc6550b57ebac41e",
+        "number": "42",
+        "street": "MORGAN ROAD",
+        "unit": "",
+        "city": "MOYSTON",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3377",
+        "id": "GAVIC423226808",
+        "accuracy": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.74636521,
+          -37.32148559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "763cf211bd19f506",
+        "number": "18-20",
+        "street": "MACINTYRE STREET",
+        "unit": "",
+        "city": "LEYBURN",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4365",
+        "id": "GAQLD161377789",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58295259,
+          -28.01710151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b74ede462af186ca",
+        "number": "46",
+        "street": "WEST TERRACE",
+        "unit": "",
+        "city": "KIMBA",
+        "district": "",
+        "region": "SA",
+        "postcode": "5641",
+        "id": "GASA_415703870",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.41967263,
+          -33.138138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "be2ff9273f9d0e7c",
+        "number": "46",
+        "street": "FAULKNER ROAD",
+        "unit": "",
+        "city": "SPEED",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3488",
+        "id": "GAVIC422393606",
+        "accuracy": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.4562675,
+          -35.39030009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1a8a06271d7d0141",
+        "number": "46",
+        "street": "GEORGE STREET",
+        "unit": "",
+        "city": "MOE",
+        "district": "",
+        "region": "VIC",
+        "postcode": "3825",
+        "id": "GAVIC420349352",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.26060225,
+          -38.17619683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8fde26c0b999871a",
+        "number": "4",
+        "street": "CONVENT PARADE",
+        "unit": "",
+        "city": "CASINO",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2470",
+        "id": "GANSW704345524",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.03793339,
+          -28.85982721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b2c34342d00a5403",
+        "number": "239",
+        "street": "WOODHOUSELEE ROAD",
+        "unit": "",
+        "city": "WAYO",
+        "district": "",
+        "region": "NSW",
+        "postcode": "2580",
+        "id": "GANSW706232646",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.62306364,
+          -34.60505124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "da7b45a978402a09",
+        "number": "4",
+        "street": "WEST VIEW COURT",
+        "unit": "",
+        "city": "GLENCOE",
+        "district": "",
+        "region": "QLD",
+        "postcode": "4352",
+        "id": "GAQLD162206271",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.84816313,
+          -27.4580057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dceb3aa3a66e75ab",
+        "number": "48",
+        "street": "MADIGAN STREET",
+        "unit": "",
+        "city": "BRAITLING",
+        "district": "",
+        "region": "NT",
+        "postcode": "0870",
+        "id": "GANT_717247960",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.87386207,
+          -23.67601047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "aae5bafb23887cfa",
+        "number": "56",
+        "street": "NORSEMAN ROAD",
+        "unit": "UNIT 2",
+        "city": "CHADWICK",
+        "district": "",
+        "region": "WA",
+        "postcode": "6450",
+        "id": "GAWA_718572910",
+        "accuracy": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.8961,
+          -33.83355
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "54d14d4ab9e15715",
+        "number": "1004",
+        "street": "CALLE 2 DE ABR.",
+        "unit": "",
+        "city": "Juárez",
+        "district": "NINGUNO",
+        "region": "Chihuahua",
+        "postcode": "32040",
+        "id": "5133348"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.47495981926916,
+          31.731269375803933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "976c7a1a46098f30",
+        "number": "SN",
+        "street": "CALLE GENERAL ANAYA",
+        "unit": "",
+        "city": "Chiconcuac",
+        "district": "ND",
+        "region": "México",
+        "postcode": "56272",
+        "id": "13937155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.902287901,
+          19.56194426600013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "28d4bbd89e18a558",
+        "number": "SN",
+        "street": "CALLE IGNACIO RAMÍREZ 30 ORIENTE",
+        "unit": "",
+        "city": "Tapachula",
+        "district": "BENITO JUAREZ",
+        "region": "Chiapas",
+        "postcode": "30790",
+        "id": "3706878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.265461191454,
+          14.889100705461248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "60129b3cd97ae744",
+        "number": "401",
+        "street": "CALLE DURANGO",
+        "unit": "",
+        "city": "Nuevo Casas Grandes",
+        "district": "OBRERA",
+        "region": "Chihuahua",
+        "postcode": "31750",
+        "id": "5356554"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.91012645,
+          30.397882111000108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "52596525952cfa38",
+        "number": "47",
+        "street": "AVENIDA EMILIO M. GONZÁLEZ",
+        "unit": "",
+        "city": "Ixtlán del Río",
+        "district": "LA ZARCA",
+        "region": "Nayarit",
+        "postcode": "63953",
+        "id": "18443807"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.367463197,
+          21.0438188900001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "46607a4586c71eb5",
+        "number": "409",
+        "street": "ANDADOR CANARIO",
+        "unit": "",
+        "city": "Mazatlán",
+        "district": "FRANCISCO ALARCÓN F.",
+        "region": "Sinaloa",
+        "postcode": "82132",
+        "id": "25096021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.41025626891874,
+          23.269675121585742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5f1da1bce4072e8e",
+        "number": "517A",
+        "street": "PRIVADA CONJUNTO IRIS",
+        "unit": "",
+        "city": "Torreón",
+        "district": "LOS LAURELES",
+        "region": "Coahuila de Zaragoza",
+        "postcode": "27053",
+        "id": "2823539"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.37583326848218,
+          25.57059189585842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "83ad518d9b92f9d6",
+        "number": "207",
+        "street": "CALLE JARA",
+        "unit": "",
+        "city": "Santa Catarina",
+        "district": "MÁRTIRES DE CANANEA",
+        "region": "Nuevo León",
+        "postcode": "66365",
+        "id": "20435692"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.44295065644417,
+          25.687976344488362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9f6155d56c9dff98",
+        "number": "17",
+        "street": "CALLE CALLE DEL BERRO",
+        "unit": "",
+        "city": "Agua Prieta",
+        "district": "SANTA FE I",
+        "region": "Sonora",
+        "postcode": "84213",
+        "id": "25327082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.58228242727418,
+          31.321529469337865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "49c3b245bce5756d",
+        "number": "SN",
+        "street": "CALLE MIGUEL  HIDALGO",
+        "unit": "",
+        "city": "Emiliano Zapata",
+        "district": "NINGUNO",
+        "region": "Morelos",
+        "postcode": "62768",
+        "id": "18061395"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.17647542381046,
+          18.785346383365212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ea00967b84827531",
+        "number": "SN",
+        "street": "AVENIDA MARIANO MATAMOROS",
+        "unit": "",
+        "city": "Culiacán",
+        "district": "LOMBARDO TOLEDANO",
+        "region": "Sinaloa",
+        "postcode": "80010",
+        "id": "24595757"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.39067173408525,
+          24.848356557479466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7f6dd6ab37fee7c0",
+        "number": "24A",
+        "street": "CALLE RT24",
+        "unit": "",
+        "city": "Ixtapaluca",
+        "district": "NINGUNO",
+        "region": "México",
+        "postcode": "56589",
+        "id": "14682026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.83888037882505,
+          19.293318214324305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0270f9815eeb703b",
+        "number": "312",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Solidaridad",
+        "district": "PLAYA DEL SOL II EL CANTIL",
+        "region": "Quintana Roo",
+        "postcode": "77726",
+        "id": "23595723"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.047605362,
+          20.68481692900011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6316e2019c778f7b",
+        "number": "SN",
+        "street": "AVENIDA FERROCARRIL",
+        "unit": "",
+        "city": "Nogales",
+        "district": "AURORA",
+        "region": "Veracruz de Ignacio de la Llave",
+        "postcode": "94720",
+        "id": "29238082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.15797134392545,
+          18.822454659869436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "76bf575a4bec697b",
+        "number": "SN",
+        "street": "CALLE LOMA BONITA",
+        "unit": "",
+        "city": "Zumpango",
+        "district": "NINGUNO",
+        "region": "México",
+        "postcode": "55620",
+        "id": "16232004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.15724711536305,
+          19.811160869110978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f50220e2156a0801",
+        "number": "SN",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Veracruz",
+        "district": "NINGUNO",
+        "region": "Veracruz de Ignacio de la Llave",
+        "postcode": "91690",
+        "id": "29921410"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.27158816220118,
+          19.213609706395786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5c1bd5cfb2d03706",
+        "number": "701",
+        "street": "CALLE FRANCISCO INDELECIO MADERO",
+        "unit": "",
+        "city": "Guadalajara",
+        "district": "NINGUNO",
+        "region": "Jalisco",
+        "postcode": "44160",
+        "id": "11431951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.35585468729097,
+          20.673351293440927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4a0e7204a41225ff",
+        "number": "SN",
+        "street": "AVENIDA ANDRÉS QUINTANA ROO",
+        "unit": "",
+        "city": "Othón P. Blanco",
+        "district": "NINGUNO",
+        "region": "Quintana Roo",
+        "postcode": "77980",
+        "id": "23333068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.67721316858324,
+          18.273830265145218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c3df218b582cebb9",
+        "number": "137",
+        "street": "CALLE SINALOA",
+        "unit": "",
+        "city": "Playas de Rosarito",
+        "district": "AMPL. LUCIO BLANCO",
+        "region": "Baja California",
+        "postcode": "22706",
+        "id": "1322697"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0452098163863,
+          32.376254392955026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "91547f2a9d028729",
+        "number": "SN",
+        "street": "CALLE SIERRA DE JUÁREZ",
+        "unit": "",
+        "city": "Santa María Huatulco",
+        "district": "I",
+        "region": "Oaxaca",
+        "postcode": "70987",
+        "id": "21165366"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.13230883334722,
+          15.767757994366583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7164b1202482889c",
+        "number": "SN",
+        "street": "CALLE BELISARIO DOMÍNGUEZ",
+        "unit": "",
+        "city": "Jilotepec",
+        "district": "NINGUNO",
+        "region": "Veracruz de Ignacio de la Llave",
+        "postcode": "91380",
+        "id": "29103062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.95067335077886,
+          19.605399054709128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9c825469d36294d4",
+        "number": "SN",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Rioverde",
+        "district": "NINGUNO",
+        "region": "San Luis Potosí",
+        "postcode": "79600",
+        "id": "23880888"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.9608940308223,
+          21.77684315449532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9aca055a0750a83a",
+        "number": "SN",
+        "street": "CERRADA GUADALUPE VICTORIA",
+        "unit": "",
+        "city": "Tlalpujahua",
+        "district": "ND",
+        "region": "Michoacán de Ocampo",
+        "postcode": "61060",
+        "id": "17500011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.16817196762952,
+          19.80888512528626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4cd1cd209e240016",
+        "number": "SN",
+        "street": "CALLE CORONA ORIENTE",
+        "unit": "",
+        "city": "Villa de Arriaga",
+        "district": "ND",
+        "region": "San Luis Potosí",
+        "postcode": "78490",
+        "id": "24350878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.380799979,
+          21.905534307000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5e1a4a6c6b780ef3",
+        "number": "SN",
+        "street": "CALLE ESTUDIANTES UNIVERSITARIOS",
+        "unit": "",
+        "city": "Lázaro Cárdenas",
+        "district": "COMUNAL MORELOS",
+        "region": "Michoacán de Ocampo",
+        "postcode": "60995",
+        "id": "16833699"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.2224987171515,
+          17.992692864549525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ff718dcfe741d28e",
+        "number": "SN",
+        "street": "BOULEVARD EJERCITO MEXICANO",
+        "unit": "",
+        "city": "Monclova",
+        "district": "TECNOLÓGICO",
+        "region": "Coahuila de Zaragoza",
+        "postcode": "25734",
+        "id": "2014896"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.39443027719248,
+          26.96026549499437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d8515347731dc9f1",
+        "number": "136",
+        "street": "CALLE CAPILLA DE SAN RAFAEL",
+        "unit": "",
+        "city": "Ixtlahuacán de los Membrillos",
+        "district": "NINGUNO",
+        "region": "Jalisco",
+        "postcode": "45870",
+        "id": "11706919"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.21143618570966,
+          20.43652855482127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2137b8f13f18e16f",
+        "number": "1130",
+        "street": "CALLE QUINTA CECILIA",
+        "unit": "",
+        "city": "Cuauhtémoc",
+        "district": "EX-AGRÍCOLA SAN ANTONIO",
+        "region": "Chihuahua",
+        "postcode": "31533",
+        "id": "4191539"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.86546022307738,
+          28.42191851387024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5bc4fb13e178e636",
+        "number": "SN",
+        "street": "AVENIDA VENUSTIANO CARRANZA",
+        "unit": "",
+        "city": "Pichucalco",
+        "district": "ND",
+        "region": "Chiapas",
+        "postcode": "29524",
+        "id": "3555137"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.15902639799998,
+          17.44600195000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0ab6f9525d01c7a3",
+        "number": "17",
+        "street": "CALLE GENERAL FRANCISCO MURGUÍA",
+        "unit": "",
+        "city": "Cuauhtémoc",
+        "district": "HIPÓDROMO CONDESA",
+        "region": "Ciudad de México",
+        "postcode": "06170",
+        "id": "6618466"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.18037323200001,
+          19.407770287000123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6adb43f74a203981",
+        "number": "SN",
+        "street": "CALLE AGUSTÍN MILLÁN",
+        "unit": "",
+        "city": "Toluca",
+        "district": "SAN PABLO AUTOPAN",
+        "region": "México",
+        "postcode": "50290",
+        "id": "16004149"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.6656826857326,
+          19.361529797580484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2588785eba644c3d",
+        "number": "2467",
+        "street": "CIRCUITO COLIBRI",
+        "unit": "",
+        "city": "Ahome",
+        "district": "NINGUNO",
+        "region": "Sinaloa",
+        "postcode": "81270",
+        "id": "24430222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.01109439133836,
+          25.769356484786325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "80331281739e42d0",
+        "number": "505",
+        "street": "CALLE NUEVO LEÓN",
+        "unit": "",
+        "city": "Xicoténcatl",
+        "district": "NINGUNO",
+        "region": "Tamaulipas",
+        "postcode": "89758",
+        "id": "27922028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.94625825453613,
+          22.959695285412526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4aa194525267c6b5",
+        "number": "SN",
+        "street": "CALLE ADOLFO LÓPEZ MATEOS",
+        "unit": "",
+        "city": "Piedras Negras",
+        "district": "VENUSTIANO CARRANZA SUR",
+        "region": "Coahuila de Zaragoza",
+        "postcode": "26094",
+        "id": "2134409"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.56349647963354,
+          28.629767875227255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0b05f75ded7ba77d",
+        "number": "SN",
+        "street": "CALLE MORELOS",
+        "unit": "",
+        "city": "Durango",
+        "district": "JARDINES DE CANCÚN",
+        "region": "Durango",
+        "postcode": "34167",
+        "id": "6824319"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.62704223957816,
+          24.01724815101076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9b3afa188abb98f2",
+        "number": "45",
+        "street": "CALLE DRESDE",
+        "unit": "",
+        "city": "San Luis Potosí",
+        "district": "NINGUNO",
+        "region": "San Luis Potosí",
+        "postcode": "78117",
+        "id": "23961952"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.00018249526843,
+          22.20509139400171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "aba488b584c9e4f4",
+        "number": "SN",
+        "street": "CALLE VENUSTIANO CARRANZA",
+        "unit": "",
+        "city": "Tangamandapio",
+        "district": "DEL CENTRO",
+        "region": "Michoacán de Ocampo",
+        "postcode": "59931",
+        "id": "17440373"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.41083936971975,
+          19.86280146063695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1a807333ad11cabc",
+        "number": "520",
+        "street": "CALLE GUADALUPE",
+        "unit": "",
+        "city": "Guadalupe",
+        "district": "FERROCARRILEROS",
+        "region": "Zacatecas",
+        "postcode": "98607",
+        "id": "30876529"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.52448960293403,
+          22.73917066611807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f66b20442c0e57f4",
+        "number": "22",
+        "street": "CALLE MIGUEL MÉNDEZ",
+        "unit": "",
+        "city": "Oaxaca de Juárez",
+        "district": "I.V.O. MONTOYA",
+        "region": "Oaxaca",
+        "postcode": "68143",
+        "id": "20716133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.75977383482733,
+          17.068881324863924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9e10e34846e8b159",
+        "number": "SN",
+        "street": "CALLE COMISIÓN DEL BALSAS",
+        "unit": "",
+        "city": "Tlapehuala",
+        "district": "NINGUNO",
+        "region": "Guerrero",
+        "postcode": "40607",
+        "id": "10187993"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.38888770552283,
+          18.27047459039289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dfb3f77c46b1e4d8",
+        "number": "1315",
+        "street": "AVENIDA ROBERTO ROMERO",
+        "unit": "",
+        "city": "Hermosillo",
+        "district": "SAHUARO",
+        "region": "Sonora",
+        "postcode": "83178",
+        "id": "25695220"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.01121055477232,
+          29.107229050076626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5cac312e7625251e",
+        "number": "141",
+        "street": "CALLE VALLE DEL MIRADOR",
+        "unit": "",
+        "city": "Guadalupe",
+        "district": "VALLE SOLEADO",
+        "region": "Nuevo León",
+        "postcode": "67130",
+        "id": "19570702"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.165495747,
+          25.703770149000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7b663ddffa5af0d3",
+        "number": "SN",
+        "street": "PRIVADA NINGUNO",
+        "unit": "",
+        "city": "General Felipe Ángeles",
+        "district": "SANTA URSULA CHICONQUIAC",
+        "region": "Puebla",
+        "postcode": "75175",
+        "id": "21671446"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.67574023655261,
+          19.01249820888344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "48f47a60243b7f06",
+        "number": "60",
+        "street": "PROLONGACIÓN JOSÉ DE SAN MARTÍN",
+        "unit": "",
+        "city": "Hidalgo del Parral",
+        "district": "KENNEDY",
+        "region": "Chihuahua",
+        "postcode": "33880",
+        "id": "4757921"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.655759258,
+          26.92312890700001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "da93dfb27f590868",
+        "number": "215",
+        "street": "CALLE GENERAL FRANCISCO J. MÚGICA",
+        "unit": "",
+        "city": "Morelia",
+        "district": "FELÍCITAS DEL RÍO",
+        "region": "Michoacán de Ocampo",
+        "postcode": "58040",
+        "id": "17084685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.1977526578998,
+          19.690159544627427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "50cfb431cef445c1",
+        "number": "SN",
+        "street": "AVENIDA SILVERIO TRUEBA",
+        "unit": "",
+        "city": "Salvador Alvarado",
+        "district": "ZONA CENTRO",
+        "region": "Sinaloa",
+        "postcode": "81400",
+        "id": "25212674"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.08526108255407,
+          25.462531887174517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "070fd3d177b735b1",
+        "number": "SN",
+        "street": "PRIVADA TAMAZUNCHALE",
+        "unit": "",
+        "city": "Ciudad Valles",
+        "district": "TANTOCOB",
+        "region": "San Luis Potosí",
+        "postcode": "79063",
+        "id": "23735883"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.99623320268519,
+          21.982147533491553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "748c6268950d503b",
+        "number": "SN",
+        "street": "CALLE SIN NOMBRE",
+        "unit": "",
+        "city": "Tepatitlán de Morelos",
+        "district": "NINGUNO",
+        "region": "Jalisco",
+        "postcode": "47684",
+        "id": "12302674"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.7912207294007,
+          20.791083063865912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b88648ec36a47ee1",
+        "number": "2110",
+        "street": "CALLE AVENIDA 10 PONIENTE",
+        "unit": "",
+        "city": "Puebla",
+        "district": "JESÚS GARCÍA",
+        "region": "Puebla",
+        "postcode": "72090",
+        "id": "21906466"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.21218515190976,
+          19.056382310548614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b79e660911cf8b1c",
+        "number": "SN",
+        "street": "CALLE JUAN C. DORIA",
+        "unit": "",
+        "city": "Linares",
+        "district": "VILLEGAS",
+        "region": "Nuevo León",
+        "postcode": "67740",
+        "id": "19706533"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.5577002251556,
+          24.857500517425628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "702976ef531468e0",
+        "number": "166",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Querétaro",
+        "district": "EL CAMPANARIO",
+        "region": "Querétaro",
+        "postcode": "76146",
+        "id": "23082429"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.34635121569927,
+          20.61258442257452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2a081fed0df9299a",
+        "number": "SN",
+        "street": "CALLE DOCTOR JOSÉ ADOLFO LUQUE",
+        "unit": "",
+        "city": "Tepic",
+        "district": "DOCTOR IGNACIO CUESTA BARRIOS",
+        "region": "Nayarit",
+        "postcode": "63175",
+        "id": "18583628"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.87293080835373,
+          21.491427065644203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "aea1d84bf120637a",
+        "number": "SN",
+        "street": "CALLE ZIRANDARO",
+        "unit": "",
+        "city": "Acapulco de Juárez",
+        "district": "PASO LIMONERO",
+        "region": "Guerrero",
+        "postcode": "39713",
+        "id": "9501142"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.82121467891737,
+          16.909691231103576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4a18238c6a607306",
+        "number": "SN",
+        "street": "CALLE CUAUHTÉMOC PONIENTE",
+        "unit": "",
+        "city": "Concepción de Buenos Aires",
+        "district": "ND",
+        "region": "Jalisco",
+        "postcode": "49170",
+        "id": "11112817"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.264716687,
+          19.98018420100014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "33cad4e1da9a3445",
+        "number": "SN",
+        "street": "CALLE MELCHOR OCAMPO",
+        "unit": "",
+        "city": "Chilchota",
+        "district": "CENTRO",
+        "region": "Michoacán de Ocampo",
+        "postcode": "59780",
+        "id": "16587529"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.1192220267612,
+          19.846947211438348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "62680950ee3fbce3",
+        "number": "1395",
+        "street": "CALLE RHIN",
+        "unit": "",
+        "city": "Irapuato",
+        "district": "NIÑOS HEROES",
+        "region": "Guanajuato",
+        "postcode": "36668",
+        "id": "7736029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.35094035570172,
+          20.68577306440113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "eb01c739efa63b8e",
+        "number": "SN",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Santiago Zacatepec",
+        "district": "ND",
+        "region": "Oaxaca",
+        "postcode": "70200",
+        "id": "21254179"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.921082551,
+          17.163086356000118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0cff96c0a58cd835",
+        "number": "125",
+        "street": "CALLE RÍO PÁNUCO",
+        "unit": "",
+        "city": "Coatzacoalcos",
+        "district": "EL TESORO",
+        "region": "Veracruz de Ignacio de la Llave",
+        "postcode": "96536",
+        "id": "28525664"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.49144771002325,
+          18.140368691313004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "93082653865467ca",
+        "number": "SN",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Buenavista de Cuéllar",
+        "district": "LAS PALMAS",
+        "region": "Guerrero",
+        "postcode": "40333",
+        "id": "9719515"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.41485573123317,
+          18.46486871243805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2e8cbaa1c22ab630",
+        "number": "SN",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Huimanguillo",
+        "district": "ESTACION CHONTALPA",
+        "region": "Tabasco",
+        "postcode": "86440",
+        "id": "26627488"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.47917369543765,
+          17.66926159976325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f3f9b4d093c95d68",
+        "number": "108",
+        "street": "CALLE PRIV. DE JOSE MARIA MORELOS",
+        "unit": "",
+        "city": "Apatzingán",
+        "district": "PALMIRA",
+        "region": "Michoacán de Ocampo",
+        "postcode": "60630",
+        "id": "16457632"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.356540178,
+          19.09667493799999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c4424d8bebc0241b",
+        "number": "3001",
+        "street": "AVENIDA RÍO CHAMPOTÓN",
+        "unit": "",
+        "city": "Mexicali",
+        "district": "HARO BARNET",
+        "region": "Baja California",
+        "postcode": "21390",
+        "id": "682037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.39004538411348,
+          32.59504145210614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6bfdf399cdd0252c",
+        "number": "SN",
+        "street": "CALLE 41 A",
+        "unit": "",
+        "city": "Kanasín",
+        "district": "LA JOYA",
+        "region": "Yucatán",
+        "postcode": "97370",
+        "id": "30127427"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.555009458,
+          20.924699476000075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "91f91962447dfba3",
+        "number": "SN",
+        "street": "CALLE 21 A",
+        "unit": "",
+        "city": "Opichén",
+        "district": "SEIS CALLES",
+        "region": "Yucatán",
+        "postcode": "97813",
+        "id": "30506895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8626757869999,
+          20.548737255999963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "aa58f181a9ac415f",
+        "number": "734",
+        "street": "AVENIDA MALECÓN DEL RÍO DE LOS GÓMEZ",
+        "unit": "",
+        "city": "León",
+        "district": "EL COECILLO",
+        "region": "Guanajuato",
+        "postcode": "37260",
+        "id": "8614694"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.67475234882185,
+          21.126035779938498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8e70fb7f2e2314ae",
+        "number": "SN",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "La Paz",
+        "district": "NINGUNO",
+        "region": "Baja California Sur",
+        "postcode": "23050",
+        "id": "1404853"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.29533263035655,
+          24.12376750824971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d3ef284c76c4639c",
+        "number": "6120",
+        "street": "CALLE PEDRO CASTERA",
+        "unit": "",
+        "city": "Chihuahua",
+        "district": "EL SAUCITO",
+        "region": "Chihuahua",
+        "postcode": "31110",
+        "id": "4539362"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.124834446,
+          28.667459825000016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d6fbe9f12a145fe2",
+        "number": "SN",
+        "street": "CALLE TODOS SANTOS",
+        "unit": "",
+        "city": "Los Cabos",
+        "district": "NINGUNO",
+        "region": "Baja California Sur",
+        "postcode": "23444",
+        "id": "1502719"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.72575606186699,
+          23.082057602252203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4827bc364d33d890",
+        "number": "458-B",
+        "street": "CALLE IGNACIO SANDOVAL",
+        "unit": "",
+        "city": "Colima",
+        "district": "CENTRO",
+        "region": "Colima",
+        "postcode": "28000",
+        "id": "2919605"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.718178092,
+          19.2459311060001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "121a36e0eba62a02",
+        "number": "SN",
+        "street": "PRIVADA NINGUNO",
+        "unit": "",
+        "city": "Montemorelos",
+        "district": "NINGUNO",
+        "region": "Nuevo León",
+        "postcode": "67615",
+        "id": "19753446"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.79336578538621,
+          25.21135430319586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "41d5538014d40ee0",
+        "number": "SN",
+        "street": "CALLE TAMAULIPAS",
+        "unit": "",
+        "city": "Dolores Hidalgo Cuna de la Independencia Nacional",
+        "district": "CENTRO",
+        "region": "Guanajuato",
+        "postcode": "37800",
+        "id": "7641412"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.93074840446626,
+          21.15524797477331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fc60a90c17b14f4e",
+        "number": "270",
+        "street": "CALLE CARRANZA",
+        "unit": "",
+        "city": "Acuña",
+        "district": "AEROPUERTO",
+        "region": "Coahuila de Zaragoza",
+        "postcode": "26230",
+        "id": "1827546"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.970175433,
+          29.333596736000093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "19179c38577e8688",
+        "number": "SN",
+        "street": "CALLE GUANAJUATO",
+        "unit": "",
+        "city": "Santa Cruz de Juventino Rosas",
+        "district": "MAGISTERIAL",
+        "region": "Guanajuato",
+        "postcode": "38244",
+        "id": "9218261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.98388659532716,
+          20.64162746291006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dec325f7d68e5603",
+        "number": "9",
+        "street": "ANDADOR NINGUNO",
+        "unit": "",
+        "city": "Aguascalientes",
+        "district": "NINGUNO",
+        "region": "Aguascalientes",
+        "postcode": "20299",
+        "id": "227866"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.25251009737498,
+          21.83602112682804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9f09aa92906dca8c",
+        "number": "143",
+        "street": "CALLE MANUEL ORTÍZ VÁSQUEZ",
+        "unit": "",
+        "city": "Heroica Ciudad de Juchitán de Zaragoza",
+        "district": "NINGUNO",
+        "region": "Oaxaca",
+        "postcode": "70014",
+        "id": "20588172"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.01927325914039,
+          16.448823368252675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a446eaf4a5bc94d7",
+        "number": "SN",
+        "street": "PROLONGACIÓN BENITO JUÁREZ SUR",
+        "unit": "",
+        "city": "Terrenate",
+        "district": "CENTRO",
+        "region": "Tlaxcala",
+        "postcode": "90540",
+        "id": "28127387"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.91962230150372,
+          19.47522986371714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "52f2e5d32946a0c7",
+        "number": "SN",
+        "street": "CALLE JUAN HERNÁNDEZ LOERA",
+        "unit": "",
+        "city": "San José de Gracia",
+        "district": "SAN ANTONIO DE LOS RÍOS",
+        "region": "Aguascalientes",
+        "postcode": "20545",
+        "id": "370895"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.47132709299996,
+          22.160843427000025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f5eee3b49f2ade49",
+        "number": "S/N",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Guasave",
+        "district": "NINGUNO",
+        "region": "Sinaloa",
+        "postcode": "81133",
+        "id": "24976923"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.47069975198171,
+          25.635982092799274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "db8525139f59fa42",
+        "number": "SN",
+        "street": "AVENIDA LÁZARO CÁRDENAS DEL RÍO B",
+        "unit": "",
+        "city": "San Luis Río Colorado",
+        "district": "DEL BOSQUE",
+        "region": "Sonora",
+        "postcode": "83480",
+        "id": "26277525"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.78383859224478,
+          32.44152133457485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d69b8815b7bc95db",
+        "number": "SN",
+        "street": "CALLE TIBURCIO LÓPEZ",
+        "unit": "",
+        "city": "General Pánfilo Natera",
+        "district": "NINGUNO",
+        "region": "Zacatecas",
+        "postcode": "98730",
+        "id": "30840495"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.10712880683923,
+          22.661812698273064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9daf55af4053f47b",
+        "number": "SN",
+        "street": "AVENIDA INDEPENDENCIA",
+        "unit": "",
+        "city": "San Bartolomé Yucuañe",
+        "district": "ND",
+        "region": "Oaxaca",
+        "postcode": "69850",
+        "id": "20808796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.447769382,
+          17.237850817999988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a6b92b219e829e8c",
+        "number": "SN",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Xochitlán de Vicente Suárez",
+        "district": "Primera Sección",
+        "region": "Puebla",
+        "postcode": "73466",
+        "id": "22712839"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.62294524274992,
+          19.931637918845087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "00b86529ad910cee",
+        "number": "SN",
+        "street": "ANDADOR J. SILVA HERRERA",
+        "unit": "",
+        "city": "Uruapan",
+        "district": "CONSTITUYENTES",
+        "region": "Michoacán de Ocampo",
+        "postcode": "60155",
+        "id": "17613229"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.02794467070525,
+          19.4014822108289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "73ccb2a129d92a19",
+        "number": "SN",
+        "street": "CALLE VICTORIANO HUERTA",
+        "unit": "",
+        "city": "Acámbaro",
+        "district": "NINGUNO",
+        "region": "Guanajuato",
+        "postcode": "38750",
+        "id": "7293559"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.68640868227001,
+          20.066325504398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b8ce4dcd8b12e618",
+        "number": "SN",
+        "street": "PRIVADA 2 C.A.G.",
+        "unit": "",
+        "city": "San Juan del Río",
+        "district": "SAN CAYETANO 3a. SECCION",
+        "region": "Querétaro",
+        "postcode": "76806",
+        "id": "23132585"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.97863880834916,
+          20.39141560167704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "25ea4ac19bc4d3d8",
+        "number": "SN",
+        "street": "CALLE SANTA LUISA",
+        "unit": "",
+        "city": "Mineral de la Reforma",
+        "district": "LA PROVIDENCIA",
+        "region": "Hidalgo",
+        "postcode": "42186",
+        "id": "10550959"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7210943966367,
+          20.052296189701043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "55c818a9bb658624",
+        "number": "SN",
+        "street": "CALLE NINGUNO",
+        "unit": "",
+        "city": "Benito Juárez",
+        "district": "NINGUNO",
+        "region": "Quintana Roo",
+        "postcode": "77539",
+        "id": "23526316"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.9089698140361,
+          21.14913353455604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5d983bae2b82c4b1",
+        "number": "SN",
+        "street": "CALLE ALLENDE",
+        "unit": "",
+        "city": "Súchil",
+        "district": "FRANCISCO I. MADERO",
+        "region": "Durango",
+        "postcode": "34903",
+        "id": "7214636"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.9205815595415,
+          23.627099494691805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8aad148af252d5e8",
+        "number": "406",
+        "street": "CALLE VENUSTIANO CARRANZA",
+        "unit": "",
+        "city": "Martínez de la Torre",
+        "district": "PREDIO VISTA HERMOSA",
+        "region": "Veracruz de Ignacio de la Llave",
+        "postcode": "93608",
+        "id": "29134564"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.07037501226947,
+          20.075762903254528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cd04900b8f6746fd",
+        "number": "SN",
+        "street": "CALLE SEGUNDA",
+        "unit": "",
+        "city": "San Pedro",
+        "district": "EL ANCORA",
+        "region": "Coahuila de Zaragoza",
+        "postcode": "27810",
+        "id": "2584978"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.98183242168334,
+          25.769102386684025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b5e6c01e4a48303a",
+        "number": "52",
+        "street": "CALLEJÓN IGNACIO PESQUEIRA",
+        "unit": "",
+        "city": "Cananea",
+        "district": "ND",
+        "region": "Sonora",
+        "postcode": "84624",
+        "id": "25557412"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.306812366,
+          30.9806310870001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7410ca09956bebdc",
+        "number": "SN",
+        "street": "CALLE CHAMIZAL",
+        "unit": "",
+        "city": "Tilapa",
+        "district": "NINGUNO",
+        "region": "Puebla",
+        "postcode": "74566",
+        "id": "22612842"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.50690239525667,
+          18.62085658831591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "356b38e344c82703",
+        "number": "SN",
+        "street": "CALLE 20 DE MARZO",
+        "unit": "",
+        "city": "Valle de Santiago",
+        "district": "LA LOMA",
+        "region": "Guanajuato",
+        "postcode": "38405",
+        "id": "9346688"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.2003043996297,
+          20.380522116371512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "343d5a5e3d56874c",
+        "number": "SN",
+        "street": "CALLE FRANCISCO SARABIA",
+        "unit": "",
+        "city": "Chapulhuacán",
+        "district": "CENTRO",
+        "region": "Hidalgo",
+        "postcode": "42280",
+        "id": "10321588"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.904146264,
+          21.155626320000096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9aca31fb492178e5",
+        "number": "SN",
+        "street": "CALLE LEÓNIDES AGUIRRE",
+        "unit": "",
+        "city": "Reynosa",
+        "district": "ND",
+        "region": "Tamaulipas",
+        "postcode": "88680",
+        "id": "27398773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.263945555,
+          26.067376051000107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e1e411527c7c6ec1",
+        "number": "26",
+        "street": "CALLE IGNACIO ALLENDE",
+        "unit": "",
+        "city": "Ixtapan de la Sal",
+        "district": "IXTAPAN DE LA SAL",
+        "region": "México",
+        "postcode": "51905",
+        "id": "14698853"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.67606109459295,
+          18.841981851866223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d3f109cf844988e4",
+        "number": "SN",
+        "street": "CALLE 21",
+        "unit": "",
+        "city": "Tetiz",
+        "district": "SAN LUCAS",
+        "region": "Yucatán",
+        "postcode": "97364",
+        "id": "30610285"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.939571792,
+          20.963333708000118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c273740a607f07f7",
+        "number": "8",
+        "street": "CALLE JUAN DE LA BARRERA",
+        "unit": "",
+        "city": "Quiroga",
+        "district": "PRIMERO",
+        "region": "Michoacán de Ocampo",
+        "postcode": "58420",
+        "id": "17335974"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.51959228537862,
+          19.66567536009346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "80b03c6b39e3d2fd",
+        "number": "SN",
+        "street": "CALLE FRESNO",
+        "unit": "",
+        "city": "Buenaventura",
+        "district": "PROGRESO",
+        "region": "Chihuahua",
+        "postcode": "31898",
+        "id": "4154579"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.45246028123412,
+          29.836090501567156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6585066508e6a74f",
+        "number": "SN",
+        "street": "CALLE 20 DE NOVIEMBRE",
+        "unit": "",
+        "city": "Cintalapa de Figueroa",
+        "district": "URBANA NORTE",
+        "region": "Chiapas",
+        "postcode": "30400",
+        "id": "3254706"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7364366087995,
+          16.67938295563823
+        ]
+      }
+    }
+  ]
+}

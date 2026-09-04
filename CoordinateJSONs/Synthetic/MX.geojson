@@ -1,0 +1,2105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "384c5e44683ef525",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.52319025945911,
+          22.15423703284017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6ea6f286a30ea3b1",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.81961271666256,
+          23.294404356079085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9b7114ce760b6e5a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.76408318570921,
+          17.805615341021205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0ac25707cb0101f9",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.08466679659111,
+          26.04499556446629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "113484cbd02c49f2",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.53868700542586,
+          30.558048790407796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "959f493fd6cdc59a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.37044990493979,
+          20.452579046652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f19f83c7ddddd3cf",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.41080295175695,
+          29.75302159212841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c5641917628bb169",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.0289169481322,
+          23.499002574693154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3a8b6f8fee7e0e1e",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.78853254869803,
+          28.81048790881536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b8226802793ace10",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.08924365369478,
+          29.93320375261535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5481a0b4db4144d3",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.21329901442247,
+          29.096338008699615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "83a23e7330fce544",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.59142173085226,
+          16.503514827552625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a32efe7fcbc6935a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.94988963353975,
+          23.601121946111704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2c6e0a0bd225dba2",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.45747317771574,
+          27.11285651335943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a5ba8464eaf355dd",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.08765109353624,
+          29.319340958252305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "caa3f59a3356e0bb",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.73634404620717,
+          22.875191932201925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0fab4b53b9fce843",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.24170630870874,
+          25.202034631415266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0145e5c3685d5eb6",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.12280421989867,
+          19.23317771201454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "50d75ea2b3003111",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.02131463956485,
+          19.950919397490985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1b71deefd1e790c2",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.18845620213786,
+          24.991209068535056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ac5ac72c77a0876f",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.53561204056271,
+          18.770173456986882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5184c35eca97092c",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.99625635353307,
+          31.378060292484204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e08f35cdfdc8683a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.33400308208655,
+          29.406093893657822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fca1820b9c1374e2",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.64963994149363,
+          27.137912975949668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "481930a822b851b1",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.24931760987852,
+          29.66669565169135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "73bc74c67034b2d4",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.00869152769059,
+          15.890502782647086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "54259ce5bc03c842",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.77891445071151,
+          16.777555919520427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8bccc87dc966bfef",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.45310048855555,
+          25.389587031781915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a2667b6ced25f614",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.52508020848569,
+          19.855300430857554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5d7a33390511e608",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.92475636104604,
+          25.81806080908906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b76d4a393dcfc0ff",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.24842803315619,
+          29.207487461057323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "19a9f8506a0150b4",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.54023391121264,
+          27.239858024590795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "73cce37b3c989159",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.06284338189235,
+          27.912067481885877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "29ae3be2fb424966",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.10973188325194,
+          23.971227251367566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "17caf6ad15138997",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.45096826785068,
+          22.239399920546838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "211a6a7ea1a63095",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-036"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.21864154075803,
+          22.580653925686164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "17d0c8548272735b",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.78596277173195,
+          26.132988192208472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "259fc1932864d1cc",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.2752688943311,
+          21.18848660225589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f38533347a8ce247",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.55951525247292,
+          16.74215745911551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e4a3a99348bcaced",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-040"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.398643513915,
+          28.539282015119053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f06e588aae9cb222",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.38202757750916,
+          26.770530966205953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5acf260d32e495fd",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.14221779489218,
+          21.718721277042956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9c5dbecd00de3ca1",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.99730445612346,
+          29.226381945298236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "74dc040841bcac48",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.01521638110206,
+          16.337436914312633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3dfe7d86cb305097",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.09184119030063,
+          26.936327151534655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e68a8e8b69c8412c",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-046"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.36728059514766,
+          32.54854007324123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ee296ecd9554df22",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.28966448183203,
+          24.52672484538389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9834f44eb915e013",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.84499351583179,
+          21.831711585045714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a09b12c7b316a9a5",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.79610665475673,
+          31.704375357551513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3f7ac5a78bd10618",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.92742187342427,
+          26.10105975225231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a19579f7611923ca",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.22541824789214,
+          29.170505279218126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "451cc77561170fcf",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.5381359745345,
+          20.29828649274544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cdada691e9ae7501",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-053"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.53851122285803,
+          24.503636029453872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "65cf9c6e3c018d05",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.76998630963669,
+          26.058453433736105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4a81380876bec76a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.88058212553862,
+          19.37173850869649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e66e4eb4194f733f",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.52947933941729,
+          16.526176697877712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "202e1421ebaba257",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.96615678620213,
+          31.739516869749107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "30b97766db63b3a7",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.28992928551693,
+          22.12500369297529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4bbd0c441de1127e",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-059"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.34243085484164,
+          16.992470100229454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3817a64e05e847ff",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.16485628530823,
+          27.135296490127374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e5bb4b37973ad0be",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.24924757873698,
+          17.731006179327885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f43a171864eb7f34",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.169963178946,
+          17.781789396045376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cb733c4d40ff1265",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.32117485921644,
+          20.89032046531546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7b5e1da9acbbc876",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.47967922943099,
+          27.30705731818075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "295c7655835daae7",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.894493519124,
+          27.280783286314247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d02b97d6e6cc084c",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-066"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.69558763277828,
+          17.09580550964658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b3443e4760df377b",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.13201042605081,
+          22.75684345219843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3e6c70f1194770ca",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.76333964084647,
+          29.149868192083925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "87dbc467cae319a4",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-069"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.58474578590632,
+          27.28283030871731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "17e0051de41c5c54",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.44647407745067,
+          15.780480081022796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5eee27e4ad8642fc",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-071"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.28220147178679,
+          29.604547901473197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6c4e89b6cd226bf2",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.33551923473692,
+          16.26736964850369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3533be324a5e410e",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-073"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.83462813517464,
+          27.778234709377706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b7d3f08c95f90a59",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.16801345289939,
+          30.276086911764885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0940f55b5d90e9bc",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.19535575784438,
+          21.390127158542732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "76aacb73403eaffb",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19819140915922,
+          18.023171979054773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e4041978f982be9b",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.37277763886027,
+          31.13414354185019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a4e359075f46ad6d",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-078"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.35612675566149,
+          18.56616753492895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "63e8448c133e524e",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.45762120875719,
+          28.777165896035918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "66c7d4591ee47d44",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-080"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.81179702701048,
+          23.87255110418792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5ca003c879c41455",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.887132631734,
+          32.04198408083133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8caf0433c1586d27",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.4765708153961,
+          27.338689624565127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d0da8273ade4e9af",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.12970011380214,
+          19.549701050632056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b559d9b12d87b5c2",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-084"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.32028967639019,
+          20.90284059306165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "28b90065aa6f3fad",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.829406838172,
+          27.249334311043015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b98c0e8025d437ae",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.15708636982107,
+          29.766538314868797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "453cedad47fe744b",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.9906930935462,
+          28.708624174115585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9a3f0a2dfd5130b2",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.20223416171557,
+          17.013947785625575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "afea312a7c7db292",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-089"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.02430246361783,
+          18.66640700404499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c81ce9fc9a19e023",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.19573344809608,
+          23.48890297247115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6ddf67c23a84fc8d",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.15314489376958,
+          21.724504726654374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a8d3811a848e952f",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-092"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.93637784524934,
+          24.142969670559104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dc004ca2a3361f56",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.88308558710685,
+          21.615771431952716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2e17607d47365ce8",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.7891399581529,
+          24.891355925371226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e73574d7d999fc71",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.04762973002686,
+          19.731115884549013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9b5557a1f4c50a22",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-096"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.31812815132095,
+          22.918408166091876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1af703c5f6b33b97",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-097"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.10249498909218,
+          32.15593880412118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c13665fe68d6074b",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.33504700156283,
+          23.897475616333807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "25e951bcf92cdebe",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.82438030211432,
+          23.71180986044284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9b13bb2db63ee80b",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "MX",
+        "postcode": "",
+        "id": "synthetic-mx-100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.4871328131426,
+          19.500916842935865
+        ]
+      }
+    }
+  ]
+}

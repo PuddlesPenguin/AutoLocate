@@ -1,0 +1,2105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3c9db734fa12cb13",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08515704610238,
+          -19.91029858299859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dc6afa3f692cc66b",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.98366719103865,
+          -12.596539479983285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4b7a22e238fd4f70",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.61076445304172,
+          -14.686492769343733
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0161b8d792cafa92",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-004"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.23359043761883,
+          -25.027278148224713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cab9619d279427ab",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-005"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.96412012380833,
+          -28.359603189352455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "70c0889b73d7a718",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.13998419498407,
+          -35.557940870339564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a71c1cec8a44f8a7",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-007"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.85654173559527,
+          -21.233414013664184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3ba3050faae2ecf9",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.08689802684603,
+          -26.334238473320447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6e2347aac8976531",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.58029457729074,
+          -29.041286391427327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "59c7e6afde1cea58",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.0999750354512,
+          -20.247568483985706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6bcac77cf3498712",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.87768475813031,
+          -15.480450287420023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a18703d250837878",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-012"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.657226606675,
+          -31.272084253266144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "3a05d72eafc566be",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-013"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.93082919208568,
+          -16.787242116554594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "55df4b9140f02238",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-014"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.51550214116705,
+          -18.542550418869563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5d7f8d9db9318e0c",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-015"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.34976446554693,
+          -22.23816389361055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "83b9efcf1339867e",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8633607849207,
+          -19.050604091972104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6e5ad3cdf5409d02",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.87096339137113,
+          -32.28402146821789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "f2c6e956e4bf5695",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-018"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.2222947588155,
+          -22.92021036868168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ac9c6c837f73eba8",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.48170582438752,
+          -26.355188203268014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5ba9b81e30411203",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.92757529127854,
+          -33.435553310011215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5beb38a73e009f3f",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-021"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          131.79085194364342,
+          -15.360975420235537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8334a0e9ced38190",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.0282445189797,
+          -15.956939490362537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a1ccfa5b6a097244",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.73362513337247,
+          -16.83294445722317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a86533cbd365f0a1",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-024"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.64987273541183,
+          -22.897026217345818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "66d728f5d199c36c",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-025"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.35825851963597,
+          -35.69606371743491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "fccf78768fe098ff",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-026"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.03240392348334,
+          -31.527955170853943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b6aa9e86ee099a4d",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2563864215121,
+          -25.279060569758197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "af176a082000f907",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.58062669008592,
+          -19.198720464124133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "81b57cc3f2a3aac5",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.97889760596487,
+          -34.945132125383346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "24b9edc40d642697",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-030"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.92538058371497,
+          -13.491206848642346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "732da202b0131a9f",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-031"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.2642874127165,
+          -17.18102397054882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "15795d024895db3e",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-032"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.81921337260069,
+          -23.49772646627153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4af4f663c6517475",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-033"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.66264092780938,
+          -29.150527759309007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e6e08e7a3e7cbcf7",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-034"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.88583575792522,
+          -21.769042537080903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e63a0d60006c5e44",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-035"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0829804592619,
+          -16.40189984271271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6b26e058baf460a5",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-036"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.69309366195324,
+          -29.558698594591554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "27aed90c5813da97",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-037"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.68153151630983,
+          -30.961604111957264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c1cf501880c01259",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.472901943304,
+          -15.19628304769348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7dec940d0a213942",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-039"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.04393487307655,
+          -25.60931177844342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "eb80c51390118630",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-040"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.63901124523213,
+          -19.397728452690448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ac68205313d0ef53",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-041"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.34742367489778,
+          -31.449257536004605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d1d5280023d02570",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-042"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.76807003007168,
+          -24.1426314676612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b1309272cd908428",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-043"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.12807805931853,
+          -23.30299721648294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6e468c7d89d3c252",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.05920530164191,
+          -21.872191512993833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "85581910b5bb4b78",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-045"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.8243715396449,
+          -27.192237128876883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "090d6847c518c5c4",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-046"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.19739180205434,
+          -26.813565220244527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9775f8324dcabfaa",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.36986780062014,
+          -33.76968464172438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "59ba68dfd10f407e",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-048"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.10575066344177,
+          -26.57412038172761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "7abfd17137895c2d",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-049"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.50259960203638,
+          -24.194857488020162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e7388406feabbfd5",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9755207343067,
+          -32.74135284100586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ed62af72671c6952",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-051"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.93225135831298,
+          -25.99202383755146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d54ab03c07e6df02",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-052"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.72999287298074,
+          -25.00554756345199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9635df41e1203b09",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-053"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.1630104268845,
+          -28.920979799713816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "af817b14025da068",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-054"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.30071408767046,
+          -37.12483674554352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4ad1b0b2453b711a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-055"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.75689025243244,
+          -24.286313888592517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "98c23a00a8d162ad",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.69192783038557,
+          -33.77736552064448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9b4d863e1f45ebce",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.18779820433625,
+          -16.640728456419975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4685b807a11b50b7",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-058"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.1720948434086,
+          -27.1683258100144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "dffb237d3817d656",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-059"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.58194564876743,
+          -18.39144049583396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "038339ad4e00e549",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-060"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.75167680475647,
+          -20.20767510746096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "ae31d04a854201c5",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-061"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.37170667314933,
+          -22.56313589676865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "6dbffdae7b1ebc83",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-062"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.46438739600742,
+          -36.367604451787706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d6767693ff7428a5",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-063"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.0136972943602,
+          -20.780774432939154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "0354d619d1160df4",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-064"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.42765710550077,
+          -18.354944818364277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cf2e1890f4b483ae",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.90618921558587,
+          -31.15154253455081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d172e81c8d37c4e3",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-066"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.42486365188773,
+          -15.300301324648235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b6bf9e748227ee01",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-067"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.36522117407145,
+          -21.448194845081193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "b1f618fee6d6ce07",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-068"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.94124870754985,
+          -32.97222913455223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "00263c686e7b6f7b",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-069"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.95237141308556,
+          -35.0450505623199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d4a491ff0b90ef98",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.42098203890868,
+          -16.96927947987998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "4138362bbdb13476",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-071"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.13963848889705,
+          -17.892079052016513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "83f4af939f441a37",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-072"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.01092063924085,
+          -17.882398115775548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "952f81de2a23eb29",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-073"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.14718888672047,
+          -20.68851004662609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "bac45413d1223772",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-074"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.68142023284797,
+          -32.69609306261455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "62f58eafdf7a4e7f",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-075"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.11235226431326,
+          -24.40015130144515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "acfdbbd448dafb5c",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-076"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.65388159720544,
+          -26.200236154221106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2f00f9bac76bd942",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-077"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.1505048249858,
+          -32.88134239403236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5b32e8e072313396",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-078"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7516758082346,
+          -32.747951700919344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "14e1fec910e50934",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.24859041071127,
+          -34.50100138647724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "cc5259b087bc6441",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-080"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.9215227788406,
+          -36.00288802370847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "9f9309f236dc9669",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.92835979843352,
+          -26.498272307768417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "18ee93c122f00f69",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.3866475221925,
+          -27.092195915088908
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a9367da2ed94b129",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-083"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.9364247598332,
+          -35.55299884953769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "80fc07520cb7f5d3",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-084"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.72272170111574,
+          -15.227466058496649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "2bcd812630b61562",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30173003841496,
+          -27.567971014270405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e706408c2cf0dea8",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-086"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.81458844679136,
+          -20.77447045062387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "e8cbd72219e0d12a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-087"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.35074015377802,
+          -23.916535702877493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "a165d3bb3a8ea83a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-088"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.0163831336082,
+          -22.2718464822725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "beb89f6e8474d9e8",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-089"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.7250566590388,
+          -23.569252054947533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "28d8392fec244db1",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.22762805972852,
+          -34.00340345250502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "1656e8cdb9607590",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.32685735267063,
+          -23.939648950704324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "711f0d81aee8df38",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-092"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.26377465154552,
+          -26.57632626639304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "54395da13d797697",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-093"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.7345349123182,
+          -21.65298564850831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "c68a4699cd5d2a26",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.64530687520093,
+          -28.905428521229254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "8971ce0b4f70da4a",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-095"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.4479739865742,
+          -31.523329360847924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "5514e00f828f0922",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-096"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.96781805430595,
+          -19.85087895826443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "47aa000036a88fa6",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-097"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.72234993875125,
+          -17.49922117582923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "d6b4a6b140b622d8",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-098"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.64416105501358,
+          -22.728468920098017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "125d971fc05c82a4",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.29609016303857,
+          -24.210557511319774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hash": "db9736d371484f58",
+        "number": "",
+        "street": "",
+        "unit": "",
+        "city": "",
+        "district": "",
+        "region": "",
+        "postcode": "",
+        "id": "synthetic-au-100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.25317943214698,
+          -30.025903148349016
+        ]
+      }
+    }
+  ]
+}

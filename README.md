@@ -1,8 +1,10 @@
 # AutoLocate
 
-Code and data for **Privacy Leakage from a Thousand Words: Millipixel Location Recovery from Dot Maps** (ACM CCS 2026).
+Code and data for [**Privacy Leakage from a Thousand Words: Millipixel Location Recovery from Dot Maps**](https://arxiv.org/abs/2609.07623), accepted to ACM CCS 2026.
 
-AutoLocate recovers the geographic coordinates represented by dots in a rendered map. The public artifact deliberately separates three use cases:
+AutoLocate is an automated framework for recovering the geographic coordinates represented by dots in a rendered map. It exploits anti-aliasing artifacts introduced during map rendering and treats recovery as a black-box optimization problem. The paper shows that these artifacts can leak sub-pixel location information, and introduces mitigation strategies plus a privacy-risk assessment tool for map publishers.
+
+The public artifact deliberately separates three use cases:
 
 - **Attack:** a map image goes in; predicted locations come out.
 - **Assessment:** coordinates and a population raster go in; density-adaptive coordinate recommendations come out.
@@ -30,6 +32,8 @@ attack/                 Map-to-location attack implementation
 assessment/             Standalone privacy assessment/quantization tool
 evaluation/             Standalone all-point evaluation
 CoordinateJSONs/        Small research datasets and overlap fixtures
+attack.py               Attack command-line entry point
+assessment_tool.py      Assessment command-line entry point
 requirements.txt        Python dependencies
 ```
 
@@ -62,7 +66,7 @@ rendered map image + map bounds/style -> recovered Point GeoJSON
 Example for a georeferenced PNG:
 
 ```bash
-python -m attack \
+python attack.py \
   --input-image path/to/map.png \
   --output recovered_locations.geojson \
   --width-px 2284 \
@@ -80,14 +84,14 @@ The normal run writes exactly one result: the file passed to `--output`. Candida
 For a bundled end-to-end demonstration that first renders the included source data:
 
 ```bash
-python -m attack --datasets Synthetic --test-name demo
+python attack.py --datasets Synthetic --test-name demo
 ```
 
 This writes `Results/demo/Synthetic/recovered_locations.geojson`. The generated target image and optimizer work files remain temporary.
 
 ### Attack options
 
-Run `python -m attack --help` for the parser-generated list. The complete reference is below.
+Run `python attack.py --help` for the parser-generated list. The complete reference is below.
 
 | Option | Purpose |
 | --- | --- |
@@ -151,7 +155,7 @@ The assessment tool is independent of the attack. It recommends the finest decim
 Download an appropriate WorldPop GeoTIFF, then run:
 
 ```bash
-python -m assessment \
+python assessment_tool.py \
   --input CoordinateJSONs/Synthetic/US.geojson \
   --raster path/to/worldpop_population.tif \
   --output assessed_locations.geojson \
@@ -190,3 +194,18 @@ The default end-to-end example uses [`Synthetic/US.geojson`](CoordinateJSONs/Syn
 ## Responsible use
 
 AutoLocate demonstrates a location-privacy risk in rendered aggregate maps. Use it only on maps and data you are authorized to analyze. The assessment tool is provided to help map publishers test and reduce this leakage.
+
+## Citation
+
+If you use AutoLocate in your research, please cite:
+
+```bibtex
+@article{du2026privacy,
+  title={Privacy Leakage from a Thousand Words: Millipixel Location Recovery from Dot Maps},
+  author={Du, Yuntao and Pauskar, Tanishq and Wang, Hao and Su, Jing and Li, Ninghui},
+  journal={arXiv preprint arXiv:2609.07623},
+  year={2026},
+  doi={10.48550/arXiv.2609.07623},
+  url={https://arxiv.org/abs/2609.07623}
+}
+```

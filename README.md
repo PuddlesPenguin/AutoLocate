@@ -200,12 +200,10 @@ AutoLocate demonstrates a location-privacy risk in rendered aggregate maps. Use 
 If you use AutoLocate in your research, please cite:
 
 ```bibtex
-@article{du2026privacy,
+@inproceedings{du2025systematic,
   title={Privacy Leakage from a Thousand Words: Millipixel Location Recovery from Dot Maps},
   author={Du, Yuntao and Pauskar, Tanishq and Wang, Hao and Su, Jing and Li, Ninghui},
-  journal={arXiv preprint arXiv:2609.07623},
-  year={2026},
-  doi={10.48550/arXiv.2609.07623},
-  url={https://arxiv.org/abs/2609.07623}
+  booktitle={Proceedings of the 33rd ACM SIGSAC Conference on Computer and Communications Security (CCS 2026)},
+  year={2026}
 }
 ```
